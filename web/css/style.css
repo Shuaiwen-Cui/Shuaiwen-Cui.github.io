@@ -168,9 +168,9 @@ body { background: var(--smoky-black); }
 .sidebar,
 article {
   background: var(--eerie-black-2);
-  border: 1px solid var(--jet);
-  border-radius: 20px;
-  padding: 15px;
+  border: 2px solid var(--jet);
+  border-radius: 10px;
+  padding: 10px;
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -292,6 +292,15 @@ article.active {
   z-index: -1;
 }
 
+.link {
+  color: lightblue; /* Set the color of the link */
+  text-decoration: underline; /* Add an underline to the link */
+}
+
+.link:hover {
+  color: mediumseagreen; /* Change the color of the link on hover */
+  text-decoration: none; /* Remove the underline on hover */
+}
 
 
 
@@ -317,11 +326,11 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  overflow: scroll;
+  overflow: auto;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 2000px; }
 
 .sidebar-info {
   position: relative;
@@ -506,15 +515,6 @@ main {
 }
 
 .about-text p { margin-bottom: 15px; }
-.link {
-  color: lightblue; /* Set the color of the link */
-  text-decoration: underline; /* Add an underline to the link */
-}
-
-.link:hover {
-  color: purple; /* Change the color of the link on hover */
-  text-decoration: none; /* Remove the underline on hover */
-}
 
 
 /**
