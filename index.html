@@ -10,12 +10,12 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="./web/images/logo.jpg" type="image/x-icon">
 
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./web/css/style.css">
 
   <!--
     - google font link
@@ -47,7 +47,8 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Shuaiwen Cui">Shuaiwen Cui</h1>
+          <h1 class="name" title="Shuaiwen Cui">SHUAIWEN CUI</h1>
+          <h1 class="name" title="Shuaiwen Cui">崔帅文</h1>
           <p class="title">Maker | Civil Engineer</p>
           <div class="separator"></div>
           <p class="title">IOT | DT | AI | SHM</p>
@@ -177,10 +178,6 @@
 
     </aside>
 
-
-
-
-
     <!--
       - #main-content
     -->
@@ -208,6 +205,10 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
@@ -219,10 +220,6 @@
 
       </nav>
 
-
-
-
-
       <!--
         - #ABOUT
       -->
@@ -230,22 +227,29 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            Hi! I'm <b>Shuaiwen Cui</b>, a 2nd-year Ph.D. student in the School of Civil and Environmental Engineering
+            at Nanyang Technological University (NTU), Singapore.
+            I am supervised by Asst Prof <b>Yuguang Fu</b>, head of the Laboratory for Intelligent Infrastructure
+            Technology (LIFT) at NTU. My research interests include <b>Internet of Things (IoT)</b>,
+            <b>Artificial Intelligence (AI)</b>, <b>Digital Twin (DT)</b>, <b>Robotic Inspection & Construction</b>, and
+            <b>Structural Health Monitoring (SHM)</b>.
           </p>
-
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            To be short, as a civil engineer, I have strong passion for the <b>digitalization and automatization</b>
+            technologies in Architecture, Engineering and Construction (AEC) industry.
+            Apart from civil engineer, I also recognize myself as a maker, who has a strong passion for <b>DIY</b> and
+            <b>crafting</b>.
+          </p>
+          <p>
+            Links you may be interested in:
+            <a href="https://www.ntu.edu.sg/" class="link" target="_blank">Nanyang Technological University (NTU)</a>
+            <a href="https://www.yfulift.org/" class="link" target="_blank">Laboratory for Intelligent Infrastructure
+              Technology (LIFT)</a>
           </p>
         </section>
 
@@ -256,22 +260,23 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I Do</h3>
 
           <ul class="service-list">
-
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./web/images/icons/icon-sensor.png" alt="sensor icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Hardware Development</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  MEMS-based Sensor and Wireless Sensor Network development
+                </p>
+                <p class="service-item-text">
+                  Arduino | STM32 | ESP32 | Raspberry Pi | Jetson Nano | Xnode
                 </p>
               </div>
 
@@ -280,14 +285,20 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./web/images/icons/icon-chip.png" alt="chip icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Embedded Programming</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  <b>Languages:</b> C | C ++ | Python
+                </p>
+                <p class="service-item-text">
+                  <b>Operating System:</b> FreeRTOS | RT-Thread | Linux
+                </p>
+                <p class="service-item-text">
+                  <b>IDEs:</b> Arduino IDE | STM32CubeIDE | Keil | VSCode + PlatformIO 
                 </p>
               </div>
 
@@ -296,14 +307,36 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./web/images/icons/icon-link.png" alt="link icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Internet of Things</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  <b>Device Simulation:</b> Renode | MQTTX | Postman
+                </p>
+                <p class="service-item-text">
+                  <b>Platforms:</b> EMQX | Mosquitto | AWS IoT Core | Azure IoT Hub
+                </p>  
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./web/images/icons/icon-building.png" alt="building icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Twin - Built Environment</h4>
+
+                <p class="service-item-text">
+                  <b>Theory Development:</b> Schema Theory | Ontology | Semantic Web | Linked Data
+                </p>
+                <p class="service-item-text">
+                  <b>Software Development:</b> Bimface | Forge | Unity | Unreal Engine | Blender | Three.js | Cesium.js
                 </p>
               </div>
 
@@ -312,14 +345,53 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./web/images/icons/icon-intelligence.png" alt="intelligence icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
 
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  <b>Languages:</b> C | C ++ | Python
+                </p>
+                <p class="service-item-text">
+                  <b>Frameworks:</b> Tensor Flow | Pytorch | Keras | Scikit-learn | OpenCV 
+                </p>
+                <p class="service-item-text">
+                  <b>Edge AI:</b> TinyML | Tensor Flow Lite | Pytorch Lite
+                </p>           
+
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./web/images/icons/icon-eye.png" alt="eye icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Structural Health Monitoring</h4>
+                <p class="service-item-text">
+                  <b>Measurement:</b> Acceleration | Displacement | Strain | Temperature | Humidity | Light | Sound
+                  <b>System Identification:</b>  Modal frequency | Damping | Shape | Mass | Stiffness
+                  <b>Damage Evaluation</b> Detection | Localization | Quantification
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./web/images/icons/icon-rocket.png" alt="rocket icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DIY Crafting</h4>
+                <p class="service-item-text">
+                  Drones | Micro Tunnel Boring Machine | Smart Home | Robots
                 </p>
               </div>
 
@@ -329,11 +401,11 @@
 
         </section>
 
-
+        
         <!--
           - testimonials
         -->
-
+        <!--
         <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
@@ -344,7 +416,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./web/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
@@ -366,7 +438,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  <img src="./web/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
@@ -388,7 +460,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  <img src="./web/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
@@ -410,7 +482,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                  <img src="./web/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
@@ -431,12 +503,12 @@
           </ul>
 
         </section>
-
+        -->
 
         <!--
           - testimonials modal
         -->
-
+        <!--
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
@@ -449,10 +521,10 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./web/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              <img src="./web/images/icon-quote.svg" alt="quote icon">
             </div>
 
             <div class="modal-content">
@@ -476,12 +548,12 @@
           </section>
 
         </div>
-
+        -->
 
         <!--
           - clients
         -->
-
+        <!--
         <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
@@ -490,43 +562,44 @@
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./web/images/logo-1-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                <img src="./web/images/logo-2-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                <img src="./web/images/logo-3-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                <img src="./web/images/logo-4-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                <img src="./web/images/logo-5-color.png" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                <img src="./web/images/logo-6-color.png" alt="client logo">
               </a>
             </li>
 
           </ul>
 
         </section>
+        -->
 
       </article>
 
@@ -803,7 +876,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./web/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Finance</h3>
@@ -821,7 +894,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./web/images/project-2.png" alt="orizon" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Orizon</h3>
@@ -839,7 +912,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./web/images/project-3.jpg" alt="fundo" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Fundo</h3>
@@ -857,7 +930,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./web/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Brawlhalla</h3>
@@ -875,7 +948,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./web/images/project-5.png" alt="dsm." loading="lazy">
                 </figure>
 
                 <h3 class="project-title">DSM.</h3>
@@ -893,7 +966,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./web/images/project-6.png" alt="metaspark" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">MetaSpark</h3>
@@ -911,7 +984,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./web/images/project-7.png" alt="summary" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Summary</h3>
@@ -929,7 +1002,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./web/images/project-8.jpg" alt="task manager" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Task Manager</h3>
@@ -947,7 +1020,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./web/images/project-9.png" alt="arrival" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Arrival</h3>
@@ -985,7 +1058,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./web/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1013,7 +1086,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./web/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1041,7 +1114,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./web/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1069,7 +1142,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./web/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1097,7 +1170,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                  <img src="./web/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1125,7 +1198,7 @@
               <a href="#">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                  <img src="./web/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1214,7 +1287,7 @@
   <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <script src="./web/js/script.js"></script>
 
   <!--
     - ionicon link
