@@ -4,7 +4,7 @@
 
 
 /**
- * copyright 2023 @Shuaiwen Cui
+ * copyright 2022 @codewithsadee
  */
 
 
@@ -317,7 +317,7 @@ main {
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  overflow: hidden;
+  overflow: scroll;
   transition: var(--transition-2);
 }
 
@@ -350,9 +350,8 @@ main {
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
-  padding: 5px 12px;
+  padding: 3px 12px;
   border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 .info_more-btn {
@@ -436,12 +435,12 @@ main {
   align-items: center;
   gap: 15px;
   padding-bottom: 4px;
-  padding-left: 0px;
+  padding-left: 7px;
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 26px;
+  font-size: 18px;
 }
 
 
