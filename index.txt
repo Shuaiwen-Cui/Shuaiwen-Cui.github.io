@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = SHUAIWEN CUI
+SHUAIWEN CUI
 Web developer
 
 Show Contacts
