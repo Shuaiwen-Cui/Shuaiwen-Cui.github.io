@@ -881,7 +881,7 @@ main {
 
 
 /*-----------------------------------*\
-  #PORTFOLIO
+  #RESEARCH
 \*-----------------------------------*/
 
 .filter-list { display: none; }
@@ -1253,7 +1253,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG 
+   * #RESEARCH, BLOG 
    */
 
   .project-img,
@@ -1512,7 +1512,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #PORTFOLIO, BLOG
+   * #RESEARCH, BLOG
    */
 
   .project-img, .blog-banner-box { border-radius: 16px; }
@@ -1605,7 +1605,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * RESEARCH
    */
 
   .article-title { padding-bottom: 20px; }
@@ -1631,7 +1631,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button.active { color: var(--orange-yellow-crayola); }
 
-  /* portfolio and blog grid */
+  /* research and blog grid */
 
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
@@ -1750,7 +1750,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * PORTFOLIO
+   * RESEARCH
    */
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
