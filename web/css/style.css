@@ -225,7 +225,7 @@ article.active {
 .h4,
 .h5 {
   color: var(--white-2);
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .h2 { font-size: var(--fs-1); }
