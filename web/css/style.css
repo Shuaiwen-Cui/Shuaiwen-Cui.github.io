@@ -1029,10 +1029,13 @@ main {
   line-height: 1.3;
 }
 
+.project-title:hover { color: var(--orange-yellow-crayola); }
+
 .project-category {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  text-align:left;
 }
 
 
@@ -1257,7 +1260,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-img,
-  .blog-banner-box { height: auto; }
+  .blog-banner-box { height: 200px; } /* or auto */
 
 }
 
