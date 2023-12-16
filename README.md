@@ -5,3 +5,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Shuaiwen-Cui.github.io?style=social)
 
 Welcome to my personal website!
+
+> folder web hosts the website files.
+
+> folder mkdocs hosts the blog files.
