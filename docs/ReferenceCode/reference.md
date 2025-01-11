@@ -115,4 +115,4 @@ http://www.cuishuaiwen.com:7500/
 
 
 ## PICTURE
-![BO](func.png){: width="100%"}
+![CSW](./static/images/csw-photo.jpeg){: width="30%"}
