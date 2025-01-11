@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://www.cuishuaiwen.com/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/ReferenceCode/browser-support/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/browser-support/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/ReferenceCode/reference/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/reference/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/blog/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/blog/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/browser-support/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/ReferenceCode/reference/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/blog/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/blog/"/>
+    </url>
+</urlset>

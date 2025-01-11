@@ -115,4 +115,4 @@ http://www.cuishuaiwen.com:7500/
 
 
 ## PICTURE
-![CSW](./static/images/csw-photo.jpeg){: width="30%"}
+![CSW](../static/images/csw-photo.jpeg){: width="30%"}
