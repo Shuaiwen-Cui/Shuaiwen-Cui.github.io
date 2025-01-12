@@ -12,7 +12,7 @@ git status
 git commit -m 'auto update'
 echo '--------commit successfully--------'
 
-git push -f https://github.com/Shuaiwen-Cui/Shuaiwen-Cui.github.io.git main
+git push https://github.com/Shuaiwen-Cui/Shuaiwen-Cui.github.io.git main
 # git push -u https://github.com/Shuaiwen-Cui/Shuaiwen-Cui.github.io.git main
 # git remote add origin https://github.com/Shuaiwen-Cui/Shuaiwen-Cui.github.io.git
 # git push -u origin main
