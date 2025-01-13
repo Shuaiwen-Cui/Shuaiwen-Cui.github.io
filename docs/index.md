@@ -13,7 +13,7 @@ comments: flase
 
 Edge Intelligence | AIoT | Structural Health Monitoring
 
-## 🔬 __SPECIALTIES__
+## 🚀 __SPECIALTIES__
 
 Hardware Development ｜ Embedded Programming ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
 
