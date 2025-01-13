@@ -12,7 +12,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> Portal </a>](#)
 
 -   :simple-iota:{ .lg .middle } __INTERNET OF THINGS__
 

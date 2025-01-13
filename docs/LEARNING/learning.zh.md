@@ -12,7 +12,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> 传送门 </a>](#)
 
 -   :simple-iota:{ .lg .middle } __物联网__
 
