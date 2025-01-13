@@ -30,6 +30,12 @@
 
     [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> Portal </a>](#)
 
+-   :simple-espressif:{ .lg .middle } __ESP-IDF Programming Guide 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/index.html" target="_blank"> Portal </a>](#)
+
 </div>
 
 ## __REAL TIME OPERATING SYSTEM__
@@ -86,5 +92,13 @@
     ---
 
     [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> Portal </a>](#)
+
+-  :material-book:{ .lg .middle } __Linux101 🎯🏆✅__
+
+    ---
+
+    From USTC China (In Chinese)
+
+    [:octicons-arrow-right-24: <a href="https://101.lug.ustc.edu.cn/" target="_blank"> Portal </a>](#)
 
 </div>

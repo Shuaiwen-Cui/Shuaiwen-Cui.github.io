@@ -30,6 +30,12 @@
 
     [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> 传送门 </a>](#)
 
+-   :simple-espressif:{ .lg .middle } __ESP-IDF 编程指南 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/index.html" target="_blank"> 传送门 </a>](#)
+
 </div>
 
 ## __实时操作系统__
@@ -86,5 +92,11 @@
     ---
 
     [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> 传送门 </a>](#)
+
+-  :material-book:{ .lg .middle } __鸟哥的LINUX私房菜 🎯🏆✅__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank"> 传送门 </a>](#)
 
 </div>
