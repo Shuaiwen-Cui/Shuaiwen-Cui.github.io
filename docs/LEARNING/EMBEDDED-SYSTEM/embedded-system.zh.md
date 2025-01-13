@@ -32,6 +32,20 @@
 
 </div>
 
+## __实时操作系统__
+
+### FreeRTOS
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-aws:{ .lg .middle } __FreeRTOS 官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 !!! note "第二部分：微处理器"
     这部分是关于微处理器级别的嵌入式系统。
 
@@ -41,7 +55,7 @@
 
 <div class="grid cards" markdown>
 
--   :simple-raspberrypi:{ .lg .middle } __Raspberry Pi 官方网站__
+-   :material-raspberry-pi:{ .lg .middle } __Raspberry Pi 官方网站__
 
     ---
 
@@ -58,5 +72,19 @@
     ---
 
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+## __LINUX__
+
+### Ubuntu
+
+<div class="grid cards" markdown>
+
+-   :material-ubuntu:{ .lg .middle } __Ubuntu Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> 传送门 </a>](#)
 
 </div>

@@ -32,6 +32,20 @@
 
 </div>
 
+## __REAL TIME OPERATING SYSTEM__
+
+### FreeRTOS
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-aws:{ .lg .middle } __FreeRTOS Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> Portal </a>](#)
+
+</div>
+
 !!! note "PART B: MICRO-PROCESSOR"
     This part is dedicated for micro-processor level embedded systems.
 
@@ -58,5 +72,19 @@
     ---
 
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> Portal </a>](#)
+
+</div>
+
+## __LINUX__
+
+### Ubuntu
+
+<div class="grid cards" markdown>
+
+-   :material-ubuntu:{ .lg .middle } __Ubuntu Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> Portal </a>](#)
 
 </div>
