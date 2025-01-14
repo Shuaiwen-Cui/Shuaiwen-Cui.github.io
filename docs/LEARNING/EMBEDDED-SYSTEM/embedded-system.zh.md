@@ -52,6 +52,18 @@
 
 </div>
 
+## __社区__
+
+<div class="grid cards" markdown>
+
+-   :simple-hackster:{ .lg .middle } __HACKSTER IO__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.hackster.io/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 !!! note "第二部分：微处理器"
     这部分是关于微处理器级别的嵌入式系统。
 

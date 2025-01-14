@@ -52,6 +52,19 @@
 
 </div>
 
+## __COMMUNITY__
+
+<div class="grid cards" markdown>
+
+-   :simple-hackster:{ .lg .middle } __HACKSTER IO__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.hackster.io/" target="_blank"> Portal </a>](#)
+
+</div>
+
+
 !!! note "PART B: MICRO-PROCESSOR"
     This part is dedicated for micro-processor level embedded systems.
 
