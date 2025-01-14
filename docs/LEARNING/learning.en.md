@@ -18,7 +18,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/IOT/iot/" target="_blank"> Portal </a>](#)
 
 -   :material-cube:{ .lg .middle } __DIGITAL TWIN__
 

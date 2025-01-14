@@ -18,7 +18,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/IOT/iot/" target="_blank"> 传送门 </a>](#)
 
 -   :material-cube:{ .lg .middle } __数字孪生__
 
