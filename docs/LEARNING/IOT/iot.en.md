@@ -29,3 +29,25 @@
     [:octicons-arrow-right-24: <a href="https://nodered.org/" target="_blank"> Portal </a>](#)
 
 </div>
+
+## __BACKEND__
+
+<div class="grid cards" markdown>
+
+-   :simple-flask:{ .lg .middle } __Flask Official Website__
+
+    ---
+
+    Flask Official Website
+
+    [:octicons-arrow-right-24: <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank"> Portal </a>](#)
+
+-   :simple-django:{ .lg .middle } __Django Official Website__
+
+    ---
+
+    Django Official Website
+
+    [:octicons-arrow-right-24: <a href="https://www.djangoproject.com/" target="_blank"> Portal </a>](#)
+
+</div>

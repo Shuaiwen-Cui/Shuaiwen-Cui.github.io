@@ -1,9 +1,12 @@
 # __LEARNING__
 
-!!!info "Introduction"
+!!! quote "Minimalism"
+    Less is more.
+    
+!!! info "Introduction"
     This column is a showcase of the domains I focus on or am actively learning, serving as a simplified version of my technical blog which can be found [here](http://www.cuishuaiwen.com:8000/). I divide this column into two parts: “Engineering & Practice” and “Theory & Algorithms”.
 
-!!!note "PART A: ENGINEERING & PRACTICE"
+!!! note "PART A: ENGINEERING & PRACTICE"
     This part serves as the foundation.
 
 <div class="grid cards" markdown>
@@ -24,7 +27,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/DT/dt/" target="_blank"> Portal </a>](#)
 
 </div>
 
