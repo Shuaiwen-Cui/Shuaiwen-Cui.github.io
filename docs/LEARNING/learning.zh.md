@@ -40,18 +40,18 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/" target="_blank"> 传送门 </a>](#)
 
 -   :material-robot-vacuum:{ .lg .middle } __人工智能__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/AI/ai/" target="_blank"> 传送门 </a>](#)
 
 -   :material-router-wireless:{ .lg .middle } __结构健康监测__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/learning/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/shm/" target="_blank"> 传送门 </a>](#)
 
 </div>
