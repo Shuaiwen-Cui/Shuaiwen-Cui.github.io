@@ -124,6 +124,9 @@ plugins:
             DISTRIBUTED-EDGE-COMPUTING: 分布式边缘计算
             AI: 人工智能
             STRUCTURAL-HEALTH-MONITORING: 结构健康监测
+            RESEARCH: 研究
+            PhD STUDIES: 攻博期间研究
+            MEng STUDIES: 读硕期间研究
 
 
 # # Hooks
@@ -260,6 +263,9 @@ nav:
     - DISTRIBUTED-EDGE-COMPUTING: "LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing.md"
     - AI: "LEARNING/AI/ai.md"
     - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"
+  - RESEARCH: 
+    - PhD STUDIES: "RESEARCH/PhD/phd.md"
+    - MEng STUDIES: "RESEARCH/MEng/meng.md"
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
