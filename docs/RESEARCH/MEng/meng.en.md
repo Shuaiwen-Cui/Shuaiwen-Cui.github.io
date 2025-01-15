@@ -16,7 +16,7 @@
 
     ---
 
-    Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix.
+    Cui, S., Tan, Y., & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588.
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.tust.2020.103588" target="_blank"> Portal </a>](#)
 
