@@ -38,11 +38,12 @@
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_ESP32.git" target="_blank"> Portal </a>](#)
 
 
+</div>
+
 ### __Back End__
 
 Coming Soon... 🏗️
 
-</div>
 
 ## __Distributed Edge Intelligence Enabling Framework__
 
@@ -75,6 +76,10 @@ Coming Soon ... 🏗️
 Coming Soon ... 🏗️
 
 ### __Damage Detection__
+
+#### Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
+
+![PAPER1](PAPER1.png){width=100%}
 
 <div class="grid cards" markdown>
 

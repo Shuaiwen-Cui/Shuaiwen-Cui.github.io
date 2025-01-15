@@ -71,6 +71,10 @@ Coming Soon ... 🏗️
 
 ### __损伤检测__
 
+#### 基于无线智能传感网络的自适应边缘智能用于结构快速状况评估
+
+![PAPER1](PAPER1.png){width=100%}
+
 <div class="grid cards" markdown>
 
 -   :material-file:{ .lg .middle } __期刊论文 - Engineering Structures__
@@ -79,7 +83,9 @@ Coming Soon ... 🏗️
 
     Cui, S., Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 
-    [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> DOI </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://mp.weixin.qq.com/s/KHquagqxXvckCuE57ua8YA" target="_blank"> 公众号推送 </a>](#)
 
 </div>
 
