@@ -19,8 +19,13 @@
 
     [:octicons-arrow-right-24: <a href="https://d2l.ai/" target="_blank"> Portal </a>](#) 
 
-</div>
+-   :simple-keras:{ .lg .middle } __KERAS 🏆__
 
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> Portal </a>](#) 
+
+</div>
 
 
 !!! note "PART B: ADVANCED TOPICS"

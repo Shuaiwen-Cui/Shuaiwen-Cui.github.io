@@ -19,6 +19,12 @@
 
     [:octicons-arrow-right-24: <a href="https://zh.d2l.ai/" target="_blank"> 传送门 </a>](#)
 
+-   :simple-keras:{ .lg .middle } __KERAS 🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> 传送门 </a>](#)
+
 </div>
 
 
