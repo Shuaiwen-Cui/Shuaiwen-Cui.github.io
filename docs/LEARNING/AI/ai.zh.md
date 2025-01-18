@@ -19,11 +19,23 @@
 
     [:octicons-arrow-right-24: <a href="https://zh.d2l.ai/" target="_blank"> 传送门 </a>](#)
 
+</div>
+
+## __实践__
+
+<div class="grid cards" markdown>
+
+-   :simple-nvidia:{ .lg .middle } __NVIDA CUDA🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/" target="_blank"> 传送门 </a>](#) 
+
 -   :simple-keras:{ .lg .middle } __KERAS 🏆__
 
     --- 
 
-    [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> 传送门 </a>](#) 
 
 </div>
 

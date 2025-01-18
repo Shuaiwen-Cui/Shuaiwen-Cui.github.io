@@ -27,6 +27,23 @@
 
 </div>
 
+## __HANDS-ON__
+
+<div class="grid cards" markdown>
+
+-   :simple-nvidia:{ .lg .middle } __NVIDA CUDA🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/" target="_blank"> Portal </a>](#) 
+
+-   :simple-keras:{ .lg .middle } __KERAS 🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> Portal </a>](#) 
+
+</div>
 
 !!! note "PART B: ADVANCED TOPICS"
     This part is the advanced content.
