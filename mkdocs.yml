@@ -127,6 +127,8 @@ plugins:
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
+            ROADMAP: 路线图
+            TRANSFORMER: TRANSFORMER
 
 
 # # Hooks
@@ -261,7 +263,9 @@ nav:
     - IOT: "LEARNING/IOT/iot.md"
     - DIGITAL-TWIN: "LEARNING/DT/dt.md"
     - DISTRIBUTED-EDGE-COMPUTING: "LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing.md"
-    - AI: "LEARNING/AI/ai.md"
+    - AI: 
+        - ROADMAP: "LEARNING/AI/ai.md"
+        - TRANSFORMER: "LEARNING/AI/TRANSFORMER/transformer.md"
     - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"

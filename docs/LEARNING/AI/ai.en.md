@@ -21,18 +21,7 @@
 
 </div>
 
-## __CLASSICS__
 
-<div class="grid cards" markdown>
-
--   :material-youtube:{ .lg .middle } __Attention is all you need__ 
-
-    ---
-
-
-    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=nzqlFIcCSWQ" target="_blank"> Portal </a>](#)
-
-</div>
 
 !!! note "PART B: ADVANCED TOPICS"
     This part is the advanced content.

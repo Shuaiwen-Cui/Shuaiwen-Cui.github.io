@@ -19,7 +19,7 @@ Hardware Development ｜ Embedded Programming ｜ Internet of Things ｜ Digital
 
 ## 🎓 __EDUCATION__
 
-| Degree       | Field                | Institution                        | Duration               |
+| Degree       | Major               | Institution                        | Duration               |
 |--------------|----------------------|------------------------------------|------------------------|
 | Ph.D.        | Civil Engineering    | Nanyang Technological University   | Aug, 2022 - Present    |
 | M.Eng.       | Civil Engineering    | Tongji University                  | Sep, 2018 - Jun, 2021  |
