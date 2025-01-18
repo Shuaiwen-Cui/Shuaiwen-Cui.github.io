@@ -11,7 +11,7 @@
 
     [:octicons-arrow-right-24: <a href="https://arxiv.org/abs/1706.03762" target="_blank"> 传送门 </a>](#)
 
--   :material-youtube:{ .lg .middle } __Attention is all you need 解读__ 
+-   :material-youtube:{ .lg .middle } __Attention is all you need 解读✅__ 
 
     ---
 

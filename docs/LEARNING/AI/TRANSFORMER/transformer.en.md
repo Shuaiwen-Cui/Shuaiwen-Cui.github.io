@@ -9,9 +9,9 @@
     ---
 
 
-    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=nzqlFIcCSWQ" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://arxiv.org/abs/1706.03762" target="_blank"> Portal </a>](#)
 
--   :material-youtube:{ .lg .middle } __Attention is all you need (Video)__ 
+-   :material-youtube:{ .lg .middle } __Attention is all you need (Video)✅__ 
 
     ---
 
