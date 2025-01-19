@@ -6,6 +6,8 @@
 
     ---
 
+    Progress: [1/23]
+
     [:octicons-arrow-right-24: <a href="https://hanlab.mit.edu/courses/2024-fall-65940/" target="_blank"> Portal </a>](#)
 
 </div>
