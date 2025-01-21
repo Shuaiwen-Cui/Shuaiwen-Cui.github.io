@@ -74,7 +74,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: static/images/logo.png
+  favicon: static/images/rocket.png
   icon:
     logo: logo
     previous: fontawesome/solid/angle-left
