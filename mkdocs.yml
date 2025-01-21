@@ -129,6 +129,7 @@ plugins:
             MEng STUDIES: 读硕期间研究
             ROADMAP: 路线图
             TRANSFORMER: TRANSFORMER
+            PROJECT: 项目
 
 
 # # Hooks
@@ -270,6 +271,8 @@ nav:
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
     - MEng STUDIES: "RESEARCH/MEng/meng.md"
+  - PROJECT: 
+    - "PROJECT/project.md"
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
