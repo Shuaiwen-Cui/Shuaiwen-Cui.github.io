@@ -19,7 +19,7 @@ copyright: Copyright &copy; 2023 ~ now | 🚀 Shuaiwen Cui (Shaun) | 海纳百�
 theme:
   custom_dir: material/overrides
   name: material
-  logo: static/images/logo.png
+  logo: static/images/rocket.png
   language: en
   features:
     - announce.dismiss
