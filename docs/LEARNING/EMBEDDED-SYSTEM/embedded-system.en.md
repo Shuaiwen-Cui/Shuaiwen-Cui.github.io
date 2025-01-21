@@ -1,7 +1,7 @@
 # __EMBEDDED SYSTEMS__
 
 !!! tip "Tips"
-    The philosophy for embedded systems is to be just enough to get the job done.
+    The philosophy for embedded systems is to be "just enough to get the job done".
 
 !!! note "PART A: MICRO-CONTROLLER"
     This part is dedicated for micro-controller level embedded systems.
