@@ -37,6 +37,12 @@
 
     [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> Portal </a>](#) 
 
+-   :hugging:{ .lg .middle } __HUGGING FACE 🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://huggingface.co/" target="_blank"> Portal </a>](#)
+
 </div>
 
 !!! note "PART B: ADVANCED TOPICS"

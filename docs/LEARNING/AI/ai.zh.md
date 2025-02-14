@@ -37,6 +37,12 @@
 
     [:octicons-arrow-right-24: <a href="https://keras.io/" target="_blank"> 传送门 </a>](#) 
 
+-   :hugging:{ .lg .middle } __HUGGING FACE 🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://huggingface.co/" target="_blank"> 传送门 </a>](#)
+
 </div>
 
 
