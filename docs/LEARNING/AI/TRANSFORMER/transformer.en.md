@@ -21,3 +21,16 @@
 </div>
 
 
+## __DIVING DEEPER__
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Attention is all you need (Explanation CN)__ 
+
+    ---
+
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV14m421u7EM/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+
+</div>
