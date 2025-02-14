@@ -24,6 +24,13 @@
 
 <div class="grid cards" markdown>
 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __超强动画，一步一步深入浅出解释Transformer原理！__ 
+
+    ---
+
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=4Bdc55j80l8" target="_blank"> 传送门 </a>](#)
+
 -   :fontawesome-brands-bilibili:{ .lg .middle } __Attention is all you need 解读 (中文)__ 
 
     并不很严谨，但是有助于感性认知。
