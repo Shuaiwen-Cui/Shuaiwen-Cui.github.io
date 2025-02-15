@@ -25,6 +25,39 @@
 
 <div class="grid cards" markdown>
 
+-   :material-youtube:{ .lg .middle } __Illustrated Guide to Transformers Neural Network: A step by step explanation🏆__ 
+
+    ---
+
+    A really good one, concise and clear!
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=4Bdc55j80l8" target="_blank"> Portal </a>](#)
+
+-   :material-youtube:{ .lg .middle } __Transformers (how LLMs work) explained visually | DL5🏆__ 
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=wjZofJX0v4M" target="_blank"> Portal </a>](#)
+
+-   :material-youtube:{ .lg .middle } __Attention in transformers, step-by-step | DL6🏆__ 
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=eMlx5fFNoYc" target="_blank"> Portal </a>](#)
+
+-   :material-youtube:{ .lg .middle } __How might LLMs store facts | DL7🏆__ 
+
+    ---
+
+    
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=9-Jl0dxWQs8" target="_blank"> Portal </a>](#)
+
+
 -   :fontawesome-brands-bilibili:{ .lg .middle } __Attention is all you need (Explanation CN)__ 
 
     ---
@@ -34,3 +67,5 @@
 
 
 </div>
+
+## __PRACTICE__
