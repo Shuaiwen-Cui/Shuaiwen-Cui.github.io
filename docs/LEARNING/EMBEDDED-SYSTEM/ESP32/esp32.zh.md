@@ -19,6 +19,20 @@
 
 </div>  
 
+## 我自己的教程
+
+<div class="grid cards" markdown>
+
+-   :simple-espressif:{ .lg .middle } __ESP_STUDY 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> 项目 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> 在线文档 </a>](#)
+
+</div>
+
 ## 第三方教程
 
 <div class="grid cards" markdown>

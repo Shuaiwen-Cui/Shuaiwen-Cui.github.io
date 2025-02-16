@@ -7,8 +7,6 @@
 
 ## OFFICIAL GUIDE
 
-### Online Documentation
-
 <div class="grid cards" markdown>
 
 -   :simple-espressif:{ .lg .middle } __ESP-IDF Programming Guide 🎯🏆__
@@ -19,3 +17,16 @@
 
 </div>
 
+## MY OWN TUTORIAL
+
+<div class="grid cards" markdown>
+
+-   :simple-espressif:{ .lg .middle } __ESP_STUDY 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> Repo </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/ESP_STUDY/" target="_blank"> Online Doc </a>](#)
+
+</div>
