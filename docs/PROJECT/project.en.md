@@ -18,14 +18,14 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexNode.git" target="_blank"> Portal </a>](#)
 
--   :simple-github:{ .lg .middle } __TinyAgent__
+-   :simple-github:{ .lg .middle } __TinyAuton__
 
     ---
 
     Library for building intelligent agents on MCU devices, coving mathematics, DSP, and AI.
 
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinyAgent.git" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinyAuton.git" target="_blank"> Portal </a>](#)
 
 </div>
 
