@@ -119,6 +119,8 @@ plugins:
             ABOUT: 关于
             LEARNING: 求索
             EMBEDDED-SYSTEM: 嵌入式系统
+            ROADMAP: 路线图
+            ESP32: ESP32
             IOT: 物联网
             DIGITAL-TWIN: 数字孪生
             DISTRIBUTED-EDGE-COMPUTING: 分布式边缘计算
@@ -127,7 +129,6 @@ plugins:
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
-            ROADMAP: 路线图
             TRANSFORMER: TRANSFORMER
             PROJECT: 项目
 
@@ -260,7 +261,9 @@ nav:
   - ABOUT: "index.md"
   - LEARNING: 
     - "LEARNING/learning.md"
-    - EMBEDDED-SYSTEM: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
+    - EMBEDDED-SYSTEM: 
+        - ROADMAP: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
+        - ESP32: "LEARNING/EMBEDDED-SYSTEM/ESP32/esp32.md"
     - IOT: "LEARNING/IOT/iot.md"
     - DIGITAL-TWIN: "LEARNING/DT/dt.md"
     - DISTRIBUTED-EDGE-COMPUTING: "LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing.md"
