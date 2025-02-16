@@ -7,8 +7,6 @@
 
 ## 官方指南
 
-### 在线文档
-
 <div class="grid cards" markdown>
 
 -   :simple-espressif:{ .lg .middle } __ESP-IDF 编程指南 🎯🏆__
@@ -29,7 +27,7 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> 项目 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> 在线文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/ESP_STUDY/" target="_blank"> 在线文档 </a>](#)
 
 </div>
 
