@@ -43,6 +43,6 @@
 
 </div>
 
-## AUTOMATA
+## AUTORA
 
 In Planning...
