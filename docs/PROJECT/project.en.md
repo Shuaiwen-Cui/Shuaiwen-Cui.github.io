@@ -3,7 +3,7 @@
 !!! quote
     Knowledge broadens the mind, but experience deepens the soul.
 
-## NEXUSIUM
+## NEXUSIA
 
 ### FRONTEND/EDGE
 
