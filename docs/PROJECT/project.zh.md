@@ -5,6 +5,8 @@
 
 ## NEXUSIA - 互联之境
 
+![NEXUSIA](NEXUSIA.png)
+
 ### 前端部分/边缘部分
 
 <div class="grid cards" markdown>

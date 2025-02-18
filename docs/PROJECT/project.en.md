@@ -5,6 +5,8 @@
 
 ## NEXUSIA
 
+![NEXUSIA](NEXUSIA.png)
+
 ### FRONTEND/EDGE
 
 <div class="grid cards" markdown>
