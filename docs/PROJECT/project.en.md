@@ -7,18 +7,34 @@
 
 ![NEXUSIA](NEXUSIA.png)
 
-### FRONTEND/EDGE
-
 <div class="grid cards" markdown>
 
 -   :simple-github:{ .lg .middle } __NexNode__
 
     ---
 
+    **FRONTEND/EDGE** 
+    
     General Purpose MCU AIoT Node.
 
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexNode.git" target="_blank"> Portal </a>](#)
+
+-   :simple-github:{ .lg .middle } __NexHub__
+
+    ---
+
+    **BACKEND/CLOUD** 
+    
+    AI-Powered IoT Cloud Platform.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexHub.git" target="_blank"> Portal </a>](#)
+
+</div>
+
+## AUTORA
+
+<div class="grid cards" markdown>
 
 -   :simple-github:{ .lg .middle } __TinyAuton__
 
@@ -30,21 +46,3 @@
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinyAuton.git" target="_blank"> Portal </a>](#)
 
 </div>
-
-### BACKEND/CLOUD
-
-<div class="grid cards" markdown>
-
--   :simple-github:{ .lg .middle } __NexHub__
-
-    ---
-
-    AI-Powered IoT Cloud Platform.
-
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexHub.git" target="_blank"> Portal </a>](#)
-
-</div>
-
-## AUTORA
-
-In Planning...
