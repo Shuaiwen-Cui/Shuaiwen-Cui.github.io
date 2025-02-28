@@ -69,3 +69,16 @@
 </div>
 
 ## __PRACTICE__
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __annotated-transformer__ 
+
+    ---
+
+
+    [:octicons-arrow-right-24: <a href="http://nlp.seas.harvard.edu/annotated-transformer" target="_blank"> Notes </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://github.com/harvardnlp/annotated-transformer" target="_blank"> Codes </a>](#)
+
+</div>
