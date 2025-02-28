@@ -81,7 +81,7 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/harvardnlp/annotated-transformer" target="_blank"> Codes </a>](#)
 
--   :material-file:{ .lg .middle } __transformer tutorial__ 
+-   :material-file:{ .lg .middle } __transformer tutorial🎯🏆__ 
 
     ---
 
