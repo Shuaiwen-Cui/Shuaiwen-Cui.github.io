@@ -81,4 +81,16 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/harvardnlp/annotated-transformer" target="_blank"> Codes </a>](#)
 
+-   :material-file:{ .lg .middle } __transformer tutorial__ 
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://medium.com/towards-data-science/all-you-need-to-know-about-attention-and-transformers-in-depth-understanding-part-1-552f0b41d021" target="_blank"> Theory 1 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://medium.com/towards-data-science/all-you-need-to-know-about-attention-and-transformers-in-depth-understanding-part-2-bf2403804ada" target="_blank"> Theory 2 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://medium.com/towards-data-science/build-your-own-transformer-from-scratch-using-pytorch-84c850470dcb" target="_blank"> Code Tutorial </a>](#)
+
 </div>
+
+
