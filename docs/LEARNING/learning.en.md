@@ -17,6 +17,12 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> Portal </a>](#)
 
+-   :material-sine-wave:{ .lg .middle } __DIGITAL SIGNAL PROCESSING__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/DSP/dsp/" target="_blank"> Portal </a>](#)
+
 -   :simple-iota:{ .lg .middle } __INTERNET OF THINGS__
 
     ---

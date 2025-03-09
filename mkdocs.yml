@@ -121,6 +121,7 @@ plugins:
             EMBEDDED-SYSTEM: 嵌入式系统
             ROADMAP: 路线图
             ESP32: ESP32
+            DSP: 数字信号处理
             IOT: 物联网
             DIGITAL-TWIN: 数字孪生
             DISTRIBUTED-EDGE-COMPUTING: 分布式边缘计算
@@ -264,6 +265,7 @@ nav:
     - EMBEDDED-SYSTEM: 
         - ROADMAP: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
         - ESP32: "LEARNING/EMBEDDED-SYSTEM/ESP32/esp32.md"
+    - DSP: "LEARNING/DSP/dsp.md"
     - IOT: "LEARNING/IOT/iot.md"
     - DIGITAL-TWIN: "LEARNING/DT/dt.md"
     - DISTRIBUTED-EDGE-COMPUTING: "LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing.md"

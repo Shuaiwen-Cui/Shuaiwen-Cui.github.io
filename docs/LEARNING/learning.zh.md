@@ -17,6 +17,12 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> 传送门 </a>](#)
 
+-  :material-sine-wave:{ .lg .middle } __数字信号处理__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/DSP/dsp/" target="_blank"> 传送门 </a>](#)
+
 -   :simple-iota:{ .lg .middle } __物联网__
 
     ---
