@@ -31,6 +31,10 @@ comments: false
 |----------------|----------------------------------|-------------------|------------------------|
 | 产品经理         | 华建数创                          | 中国上海          | 2021年8月 - 2022年6月  |
 
+## 🔬 __研究__
+
+面向高效边缘计算与智能的软硬件基础设施和算法研究与开发（以结构健康监测为应用）
+
 ## 📚 __论文发表__
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.

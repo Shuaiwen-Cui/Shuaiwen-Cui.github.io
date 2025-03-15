@@ -31,6 +31,10 @@ Hardware Development ｜ Embedded Programming ｜Signal Processing |Internet of 
 |-----------------|------------------------------------|-------------------|------------------------|
 | Product Manager | Arcplus Group (Int'l) Co., Limited | Shanghai, China   | Aug, 2021 - Jun, 2022  |
 
+## 🔬 __RESEARCHES__
+
+Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (SHM as the application)
+
 ## 📚 __PUBLICATIONS__
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
