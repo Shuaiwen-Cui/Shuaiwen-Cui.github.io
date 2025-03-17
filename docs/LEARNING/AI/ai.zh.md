@@ -31,6 +31,18 @@
 
     [:octicons-arrow-right-24: <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/" target="_blank"> 传送门 </a>](#) 
 
+-   :simple-pytorch:{ .lg .middle } __PyTorch🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://pytorch.org/" target="_blank"> 传送门 </a>](#)
+
+-   :simple-tensorflow:{ .lg .middle } __TensorFlow🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://www.tensorflow.org/" target="_blank"> 传送门 </a>](#)
+
 -   :simple-keras:{ .lg .middle } __KERAS 🏆__
 
     --- 
