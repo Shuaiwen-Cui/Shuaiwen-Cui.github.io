@@ -33,7 +33,7 @@ Hardware Development ｜ Embedded Programming ｜Signal Processing |Internet of 
 
 ## 🔬 __RESEARCHES__
 
-Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (SHM as the application)
+Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)
 
 ## 📚 __PUBLICATIONS__
 
