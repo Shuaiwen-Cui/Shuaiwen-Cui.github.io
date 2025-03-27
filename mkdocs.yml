@@ -126,11 +126,12 @@ plugins:
             DIGITAL-TWIN: 数字孪生
             DISTRIBUTED-EDGE-COMPUTING: 分布式边缘计算
             AI: 人工智能
+            TRANSFORMER: TRANSFORMER
+            GNN: 图神经网络
             STRUCTURAL-HEALTH-MONITORING: 结构健康监测
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
-            TRANSFORMER: TRANSFORMER
             PROJECT: 项目
 
 
@@ -272,6 +273,7 @@ nav:
     - AI: 
         - ROADMAP: "LEARNING/AI/ai.md"
         - TRANSFORMER: "LEARNING/AI/TRANSFORMER/transformer.md"
+        - GNN: "LEARNING/AI/GNN/gnn.md"
     - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
