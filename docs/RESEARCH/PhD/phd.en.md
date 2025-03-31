@@ -19,30 +19,34 @@
 
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __MCU_NODE_STM32🎯🏆__
-
-    ---
-
-    MCU IoT Node with High Performance Edge Computing, Based on STM32
-
-
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_STM32.git" target="_blank"> Portal </a>](#)
-
--   :simple-github:{ .lg .middle } __MCU_NODE_ESP32🎯🏆__
+-   :simple-github:{ .lg .middle } __LiftNode_ESP32🎯🏆__
 
     ---
 
     MCU IoT Node with High Performance Edge Computing, Based on ESP32
 
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_ESP32.git" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/LiftNode_ESP32.git" target="_blank"> Code </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftNode_ESP32/" target="_blank"> Online Doc </a>](#)
 
 </div>
 
 ### __Back End__
 
-Coming Soon... 🏗️
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __LiftHub 🎯🏆__
+
+    ---
+
+    Acts as the server-side to interact with LiftNode, providing data storage and analysis functions.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/LiftHub.git" target="_blank"> Code </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftHub/" target="_blank"> Online Doc </a>](#)
+
+</div>
 
 
 ## __Distributed Edge Intelligence Enabling Framework__

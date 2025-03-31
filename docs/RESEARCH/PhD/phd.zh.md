@@ -16,29 +16,35 @@
 
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __MCU_NODE_STM32🎯🏆__
-
-    ---
-
-    基于 STM32 的 MCU IoT 节点，具有高性能边缘计算
-
-
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_STM32.git" target="_blank"> 传送门 </a>](#)
-
--   :simple-github:{ .lg .middle } __MCU_NODE_ESP32🎯🏆__
+-   :simple-github:{ .lg .middle } __LiftNode_ESP32🎯🏆__
 
     ---
 
     基于 ESP32 的 MCU IoT 节点，具有高性能边缘计算
 
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_ESP32.git" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/LiftNode_ESP32.git" target="_blank"> 代码 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftNode_ESP32/" target="_blank"> 在线文档 </a>](#)
 
 </div>
 
 ### __后端__
 
-Coming Soon... 🏗️
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __LiftHub 🎯🏆__
+
+    ---
+
+    作为服务器端与LiftNode交互，提供数据存储和分析等功能。
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/LiftHub.git" target="_blank"> 代码 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftHub/" target="_blank"> 在线文档 </a>](#)
+
+</div>
+
 
 ## __分布式边缘智能使能框架__
 

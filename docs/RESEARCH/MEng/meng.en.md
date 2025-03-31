@@ -30,7 +30,7 @@
 
 ![TUNNELING](TUNNELING.jpg){width=100%}
 
-## __EXPERIMENTAL VALIDATION__
+## __Experimental Validation__
 
 ![miniTBM](miniTBM.jpg){width=100%}
 
