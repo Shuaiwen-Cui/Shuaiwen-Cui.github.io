@@ -56,12 +56,11 @@
 
     当前支持平台：
 
-    - STM32
-
     - ESP32
 
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinySHM.git" target="_blank"> 代码 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinySHM.git" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinySHM/" target="_blank"> 在线文档 </a>](#)
 
 </div>
 
@@ -78,6 +77,9 @@ Coming Soon ... 🏗️
 ### __损伤检测__
 
 #### 基于无线智能传感网络的自适应边缘智能用于结构快速状况评估
+
+- 高斯过程回归
+- 随机过程控制
 
 ![PAPER1](PAPER1.png){width=100%}
 

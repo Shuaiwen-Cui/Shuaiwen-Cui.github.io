@@ -59,13 +59,11 @@
 
     Currently Supported Platforms:
 
-    - STM32
-
     - ESP32
 
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinySHM.git" target="_blank"> Code </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinySHM.git" target="_blank"> Portal </a>](#)
-
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinySHM/" target="_blank"> Online Doc </a>](#)
 
 </div>
 
@@ -82,6 +80,9 @@ Coming Soon ... 🏗️
 ### __Damage Detection__
 
 #### Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
+
+- Gaussian Process Regression (GPR)
+- Stochastic Process Control (SPC)
 
 ![PAPER1](PAPER1.png){width=100%}
 
