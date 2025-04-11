@@ -46,3 +46,4 @@
 
 </div>
 
+[MCU AI](https://space.bilibili.com/635929440/lists/4184155?type=series)
