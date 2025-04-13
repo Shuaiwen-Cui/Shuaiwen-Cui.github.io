@@ -44,6 +44,9 @@
 
     [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> Portal </a>](#)
 
-</div>
+-   :fontawesome-brands-youtube:{ .lg .middle} __MCU AI__
 
-[MCU AI](https://space.bilibili.com/635929440/lists/4184155?type=series)
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/635929440/lists/4184155?type=series" target="_blank"> Portal </a>](#)
+</div>
