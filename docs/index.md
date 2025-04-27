@@ -29,6 +29,7 @@ Hardware Development ｜ Embedded Programming ｜Signal Processing |Internet of 
 
 | Position        | Company                            | Location          | Duration               |
 |-----------------|------------------------------------|-------------------|------------------------|
+| Research/Teaching Assistant | Nanyang Technological University | Singapore         | Aug, 2022 - Present    |
 | Product Manager | Arcplus Group (Int'l) Co., Limited | Shanghai, China   | Aug, 2021 - Jun, 2022  |
 
 ## 🔬 __RESEARCHES__
