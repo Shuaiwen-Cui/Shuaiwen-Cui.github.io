@@ -8,7 +8,7 @@
 !!! info "KEY TASKS"
     - IoT Hardware Prototyping: Front-end (MCU level, low-cost & resource-constrained) and back-end development
     - Distributed Edge Intelligence Enabling Framework Development: TinySHM
-    - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection
+    - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
 ## __IoT Hardware Prototyping__
 

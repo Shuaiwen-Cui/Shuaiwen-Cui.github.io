@@ -6,6 +6,21 @@
 !!! note "第一部分：微控制器"
     这部分是关于微控制器级别的嵌入式系统。
 
+## __EDA (电子设计自动化)__
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __PCB设计__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1At421h7Ui?spm_id_from=333.788.videopod.episodes&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 入门篇 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1fFAfeZEBE/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 大师篇 </a>](#)
+
+
+</div>
+
 ## __开发板__
 
 ### STM32

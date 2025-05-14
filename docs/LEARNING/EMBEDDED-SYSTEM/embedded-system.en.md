@@ -6,6 +6,21 @@
 !!! note "PART A: MICRO-CONTROLLER"
     This part is dedicated for micro-controller level embedded systems.
 
+## __PCB DESIGN__
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __PCB Design (In Chinese)__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1At421h7Ui?spm_id_from=333.788.videopod.episodes&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Beginner </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1fFAfeZEBE/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Master </a>](#)
+
+
+</div>
+
 ## __DEVKITS__
 
 ### STM32
