@@ -6,7 +6,7 @@
 !!! note "PART A: MICRO-CONTROLLER"
     This part is dedicated for micro-controller level embedded systems.
 
-## __PCB DESIGN__
+## __ELECTRIC DESIGN AUTOMATION (EDA)__
 
 <div class="grid cards" markdown>
 
