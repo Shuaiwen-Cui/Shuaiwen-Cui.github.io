@@ -83,7 +83,7 @@ Coming Soon ... 🏗️
 
 Coming Soon ... 🏗️
 
-### __Damage Detection__
+### __Damage Assessment__
 
 #### Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
 
