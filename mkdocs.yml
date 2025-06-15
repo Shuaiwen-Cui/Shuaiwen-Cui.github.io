@@ -128,6 +128,7 @@ plugins:
             AI: 人工智能
             TRANSFORMER: TRANSFORMER
             GNN: 图神经网络
+            DECISION-TREE: 决策树
             STRUCTURAL-HEALTH-MONITORING: 结构健康监测
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
@@ -274,6 +275,7 @@ nav:
         - ROADMAP: "LEARNING/AI/ai.md"
         - TRANSFORMER: "LEARNING/AI/TRANSFORMER/transformer.md"
         - GNN: "LEARNING/AI/GNN/gnn.md"
+        - DECISION-TREE: "LEARNING/AI/DECISION-TREE/decision-tree.md"
     - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
