@@ -14,6 +14,9 @@
 
 ### __前端__
 
+!!! note "硬件开发"
+    为实现边缘智能计算，我们开发了两种类型的 MCU 节点，基于 STM32 和 ESP32。这些节点具有高性能的边缘计算能力，可用于物联网、智能家居、智慧城市等应用场景。目前的开发重点是 ESP32。
+
 <div class="grid cards" markdown>
 
 -   :simple-github:{ .lg .middle } __LiftNode_ESP32🎯🏆__
@@ -30,6 +33,8 @@
     [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftNode_ESP32/" target="_blank"> 在线文档 (Github 托管) </a>](#)
 
 </div>
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe>
 
 ### __后端__
 
