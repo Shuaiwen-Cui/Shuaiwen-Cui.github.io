@@ -52,3 +52,15 @@
     [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> Online Doc </a>](#)
 
 </div>
+
+## ARDUINONODE
+
+A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, successfully used in the APESS2025 Summer School held at The Hong Kong Polytechnic University.
+
+![](arduinonode.jpg)
+
+![](teaching.jpg)
+
+![](deployment.jpg)
+
+![](apess2025.jpg)

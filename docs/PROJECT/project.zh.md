@@ -52,3 +52,16 @@
     [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> 在线文档 </a>](#)
 
 </div>
+
+## ARDUINONODE
+
+针对SHM教学开发的简单WSN节点，基于Arduino UNO R4 WIFI， 成功用在香港理工大学举办的APESS2025暑期学校中。
+
+![](arduinonode.jpg)
+
+![](teaching.jpg)
+
+![](deployment.jpg)
+
+![](apess2025.jpg)
+
