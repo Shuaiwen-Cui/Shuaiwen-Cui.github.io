@@ -2,7 +2,7 @@
 
 ![IOT-SHM](IOT-SHM.jpg){width=100%}
 
-!!! info "研究主题"
+!!! info "研究主题 -- 将SHM推向边缘设备"
     我的博士研究课题是 __基于物联网的结构健康监测的分布式边缘智能支持框架：TinySHM__，重点是开发一种分布式边缘智能使能框架，专门为物联网结构健康监测中的低成本和资源受限的边缘设备设计。
 
 !!! info "主要任务"
@@ -30,7 +30,7 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftNode_ESP32/" target="_blank"> 在线文档 (Github 托管) </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftNode_ESP32/" target="_blank"> 在线文档（Github 托管） </a>](#)
 
 </div>
 
@@ -50,7 +50,7 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftHub/" target="_blank"> 在线文档 (Github 托管) </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/LiftHub/" target="_blank"> 在线文档（Github 托管） </a>](#)
 
 </div>
 
@@ -71,7 +71,7 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8300/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinySHM/" target="_blank"> 在线文档 (Github 托管) </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinySHM/" target="_blank"> 在线文档（Github 托管） </a>](#)
 
 </div>
 
