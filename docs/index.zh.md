@@ -69,6 +69,14 @@ comments: false
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui" target="_blank"> 传送门 </a>](#)
 
+-   :fontawesome-brands-google-scholar:{ .lg .middle } __Google学术__
+
+    ---
+
+    Github主页
+
+    [:octicons-arrow-right-24: <a href="https://scholar.google.com/citations?user=hFJ2pbQAAAAJ&hl=en" target="_blank"> 传送门 </a>](#)
+
 -   :fontawesome-brands-researchgate:{ .lg .middle } __Researchgate__
 
     ---

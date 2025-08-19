@@ -135,6 +135,7 @@ plugins:
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
             PROJECT: 项目
+            TOOLS: 工具
 
 
 # # Hooks
@@ -284,7 +285,9 @@ nav:
     - MEng STUDIES: "RESEARCH/MEng/meng.md"
   - PROJECT: 
     - "PROJECT/project.md"
-    
+  - TOOLS:
+    - "TOOLS/tools.md"
+
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
 # example

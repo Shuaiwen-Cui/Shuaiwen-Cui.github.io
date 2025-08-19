@@ -69,6 +69,14 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui" target="_blank"> Portal </a>](#)
 
+-   :fontawesome-brands-google-scholar:{ .lg .middle } __Google Scholar__
+
+    ---
+
+    Shuaiwen Cui's Google Scholar profile
+
+    [:octicons-arrow-right-24: <a href="https://scholar.google.com/citations?user=hFJ2pbQAAAAJ&hl=en" target="_blank"> Portal </a>](#)
+
 -   :fontawesome-brands-researchgate:{ .lg .middle } __Researchgate__
 
     ---
