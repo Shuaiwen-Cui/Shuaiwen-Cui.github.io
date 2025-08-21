@@ -20,7 +20,9 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexNode.git" target="_blank"> Repository </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> Online Doc </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100/" target="_blank"> Online Doc (Hosted on Personal Server) </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> Online Doc (Hosted on Github Pages)  </a>](#)
 
 -   :simple-github:{ .lg .middle } __NexHub__
 
@@ -32,7 +34,9 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexHub.git" target="_blank"> Repository </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> Online Doc </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200/" target="_blank"> Online Doc (Hosted on Personal Server) </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> Online Doc (Hosted on Github Pages) </a>](#)
 
 </div>
 
@@ -49,7 +53,9 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinyAuton.git" target="_blank"> Repository </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> Online Doc </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300/" target="_blank"> Online Doc (Hosted on Personal Server) </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> Online Doc (Hosted on Github Pages) </a>](#)
 
 </div>
 

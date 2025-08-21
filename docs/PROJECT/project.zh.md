@@ -20,7 +20,10 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexNode.git" target="_blank"> 代码 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> 在线文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> 在线文档（Github 托管） </a>](#)
+    
 
 -   :simple-github:{ .lg .middle } __NexHub__
 
@@ -32,7 +35,9 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/NexHub.git" target="_blank"> 代码 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> 在线文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> 在线文档（Github 托管） </a>](#)
 
 </div>
 
@@ -49,7 +54,9 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/TinyAuton.git" target="_blank"> 代码 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> 在线文档 </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300/" target="_blank"> 在线文档（个人服务器 托管） </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> 在线文档（Github 托管） </a>](#)
 
 </div>
 
