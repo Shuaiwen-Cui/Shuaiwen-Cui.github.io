@@ -40,7 +40,7 @@
 
     163
 
-    [:octicons-arrow-right-24: <a href="https://chat.deepseek.com/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://mail.163.com/" target="_blank"> 传送门 </a>](#)
 
 </div>
 
