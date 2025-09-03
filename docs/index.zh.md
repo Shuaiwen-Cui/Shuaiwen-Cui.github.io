@@ -9,6 +9,8 @@ comments: false
 
 >“道法术器，抱元守一”
 
+<a href="CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a>
+
 ## 🏷️ __关键词__
 
 边缘智能 | 智能物联网 | 结构健康监测

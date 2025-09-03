@@ -9,6 +9,8 @@ comments: flase
 
 >“Stay hungry, stay foolish”
 
+<a href="CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a>
+
 ## 🏷️ __KEYWORDS__
 
 Edge Intelligence | AIoT | Structural Health Monitoring
