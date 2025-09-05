@@ -43,6 +43,12 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 - **Cui, S.**, Tan, Y., & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588.
 
+## 🏆 __HONORS__
+
+- **Best Conference Paper Award** (1st), 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure, Graz, Austria, September, 2025.
+- **First Place**, 3-Minute Thesis Competition, School of Civil and Environmental Engineering, Nanyang Technological University, Singapore, March, 2025.
+- **Outstanding Graduate** of Tongji University, Shanghai, China, June, 2021.
+
 ## 🔗 __LINKS__
 
 <div class="grid cards" markdown>

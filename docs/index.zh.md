@@ -43,6 +43,12 @@ comments: false
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 - **Cui, S.**, Tan, Y., & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588.
 
+## 🏆 __荣誉__
+
+- **最佳会议论文奖**（第一名），第13届智能基础设施结构健康监测国际会议，奥地利格拉茨，2025年9月。
+- **第一名**，三分钟论文竞赛，南洋理工大学土木与环境工程学院，新加坡，2025年3月。
+- **同济大学优秀毕业生**，中国上海，2021年6月。
+
 ## 🔗 __链接__
 
 <div class="grid cards" markdown>
