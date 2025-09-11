@@ -43,6 +43,10 @@ comments: false
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 - **Cui, S.**, Tan, Y., & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588.
 
+## 📄 __专利__
+
+- Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, 新加坡临时专利申请号 10202502426R, 2025. 
+
 ## 🏆 __荣誉__
 
 - **最佳会议论文奖**（第一名），第13届智能基础设施结构健康监测国际会议，奥地利格拉茨，2025年9月。
