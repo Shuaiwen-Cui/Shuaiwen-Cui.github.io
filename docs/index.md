@@ -17,7 +17,7 @@ Edge Intelligence | AIoT | Structural Health Monitoring
 
 ## 🚀 __SPECIALTIES__
 
-Hardware Development ｜ Embedded Programming ｜Signal Processing |Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
+Hardware Development ｜ Embedded Programming ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
 
 ## 🎓 __EDUCATION__
 
@@ -40,8 +40,21 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
 ## 📚 __PUBLICATIONS__
 
-- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
-- **Cui, S.**, Tan, Y., & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588.
+**IoT-based Structural Health Monitoring**
+
+<!-- - **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review) -->
+
+<!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics. (Under Review) -->
+
+<!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Major Revision) -->
+
+- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520)
+
+**Geotechnic Engineering**
+
+<!-- - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review) -->
+
+- **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588)
 
 ## 📄 __Patent__
 
