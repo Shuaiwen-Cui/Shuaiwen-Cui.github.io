@@ -13,7 +13,7 @@ comments: false
 
 ## 🏷️ __关键词__
 
-边缘智能 | 智能物联网 | 结构健康监测
+人工智能物联网 | 泛在计算与智能 | 结构健康监测
 
 ## 🚀 __专长__
 
@@ -32,7 +32,7 @@ comments: false
 | 职位            | 公司                             | 地点              | 时间                  |
 |-----------------|----------------------------------|-------------------|------------------------|
 | 科研/教学助理    | 南洋理工大学                      | 新加坡             | 2022年8月 - 至今       |
-| 产品经理         | 华建数创                          | 中国上海          | 2021年8月 - 2022年6月  |
+| 产品研发         | 华建数创                          | 中国上海          | 2021年8月 - 2022年6月  |
 
 ## 🔬 __研究__
 
@@ -42,17 +42,17 @@ comments: false
 
 **物联网结构健康监测**
 
-<!-- - **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review) -->
+- **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review)
 
-<!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics. (Under Review) -->
+- **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics. (Under Review)
 
-<!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Major Revision) -->
+- **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Major Revision)
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520)
 
 **地下工程**
 
-<!-- - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review) -->
+- Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review)
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588)
 
