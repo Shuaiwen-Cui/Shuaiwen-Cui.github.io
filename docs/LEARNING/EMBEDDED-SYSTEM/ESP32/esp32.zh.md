@@ -30,7 +30,9 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 新版 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 旧版 </a>](#)
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __孤独的二进制 ESP-IDF 教程 🎯🏆__
 
