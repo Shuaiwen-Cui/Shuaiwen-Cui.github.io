@@ -35,7 +35,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1SM4y1Q7Lr/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1SM4y1Q7Lr/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
 
@@ -47,7 +47,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
 
