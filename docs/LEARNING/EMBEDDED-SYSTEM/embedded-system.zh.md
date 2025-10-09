@@ -6,6 +6,52 @@
 !!! note "第一部分：微控制器"
     这部分是关于微控制器级别的嵌入式系统。
 
+## __理论基础__
+
+### 电路
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析基础__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Tj411G7z2/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+
+
+</div>
+
+### 模拟电子技术
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1SM4y1Q7Lr/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+
+</div>
+
+### 数字电子技术
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速成 </a>](#)
+
+</div>
+
+
 ## __EDA (电子设计自动化)__
 
 <div class="grid cards" markdown>
