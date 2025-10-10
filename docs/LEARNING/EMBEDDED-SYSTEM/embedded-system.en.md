@@ -35,7 +35,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1SM4y1Q7Lr/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV15d6EYSEKa/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
 
