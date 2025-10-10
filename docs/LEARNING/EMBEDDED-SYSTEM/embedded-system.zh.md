@@ -12,9 +12,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析基础__
-
-    6/9
+-   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析基础✅__
 
     ---
 

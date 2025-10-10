@@ -12,7 +12,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __CIRCUIT ANALYSIS FUNDAMENTALS__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __CIRCUIT ANALYSIS FUNDAMENTALS✅__
 
     ---
 
