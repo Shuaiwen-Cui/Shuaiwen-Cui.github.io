@@ -31,7 +31,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路✅__
 
     ---
 
