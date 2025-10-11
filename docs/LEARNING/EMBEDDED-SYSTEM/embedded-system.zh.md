@@ -26,6 +26,8 @@
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __数字电路__
 
+    1/8
+
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速通 </a>](#)
