@@ -8,8 +8,6 @@
 
 ## __理论基础__
 
-### 电路
-
 <div class="grid cards" markdown>
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析__

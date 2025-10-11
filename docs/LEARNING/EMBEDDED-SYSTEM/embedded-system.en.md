@@ -8,8 +8,6 @@
 
 ## __THEORETICAL FUNDAMENTALS__
 
-### CIRCUITS
-
 <div class="grid cards" markdown>
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __CIRCUIT ANALYSIS__
