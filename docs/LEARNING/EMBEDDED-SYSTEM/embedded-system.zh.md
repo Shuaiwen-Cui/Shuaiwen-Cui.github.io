@@ -12,42 +12,25 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析基础✅__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
 -   :fontawesome-brands-bilibili:{ .lg .middle } __电路分析__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Tj411G7z2/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速通 ✅ </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Tj411G7z2/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 详解 </a>](#)
 
-</div>
-
-### 模拟电子技术
-
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路✅__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV15d6EYSEKa/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
-</div>
-
-### 数字电子技术
-
-<div class="grid cards" markdown>
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV15d6EYSEKa/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速通 ✅ </a>](#)
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __数字电路__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 速通 </a>](#)
 
 </div>
 
