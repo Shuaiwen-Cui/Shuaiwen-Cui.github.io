@@ -43,11 +43,11 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __模拟电路__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __数字电路__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD/?spm_id_from=333.1387.search.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
 
