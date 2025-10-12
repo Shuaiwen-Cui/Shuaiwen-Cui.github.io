@@ -9,15 +9,15 @@ comments: false
 
 >“道法术器，抱元守一”
 
-<a href="CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a>
+<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a>
 
 ## 🏷️ __关键词__
 
-人工智能物联网 | 泛在计算与智能 | 结构健康监测
+泛在计算与智能 | 人工智能物联网 | 结构健康监测
 
 ## 🚀 __专长__
 
-硬件开发 ｜ 嵌入式编程 ｜ 信号处理 ｜ 物联网 ｜ 数字孪生 ｜ 人工智能 ｜ 结构健康监测
+嵌入式系统硬件与软件开发 ｜ 边缘计算与智能 ｜ 信号处理 ｜ 物联网 ｜ 数字孪生 ｜ 人工智能 ｜ 结构健康监测
 
 ## 🎓 __教育背景__
 
@@ -37,6 +37,41 @@ comments: false
 ## 🔬 __研究__
 
 面向高效边缘计算与智能的软硬件基础设施和算法研究与开发（以结构健康监测为应用）
+
+<div class="grid cards" markdown>
+
+-   :material-router-wireless:{ .lg .middle } __智能物联网节点开发__
+
+    ---
+
+    AIoT 系统前端硬件与软件开发
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> 通用物联网节点 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> 专用物联网节点（结构健康监测） </a>](#)
+
+-   :material-cloud:{ .lg .middle } __云后端开发__
+
+    ---
+
+    AIoT 系统后端云服务开发
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用云后端 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> 专用云后端（结构健康监测） </a>](#)
+
+-   :fontawesome-solid-brain:{ .lg .middle } __泛在（嵌入式）智能赋能框架__
+
+    ---
+
+    AIoT 边缘设备计算与智能赋能框架
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用框架 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> 专用框架（结构健康监测） </a>](#)
+
+</div>
+
 
 ## 📚 __论文发表__
 

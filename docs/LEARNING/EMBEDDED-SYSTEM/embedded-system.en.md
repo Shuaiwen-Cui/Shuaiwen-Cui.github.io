@@ -16,7 +16,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1dJ7VzZEXD?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Beginner ✅</a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Tj411G7z2/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Master </a>](#)
+    <!-- [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Tj411G7z2/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Master </a>](#) -->
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __Analog Circuits (In Chinese)__
 
@@ -28,7 +28,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Beginner </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV11JTZzgERu?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Beginner ✅ </a>](#)
 
 </div>
 

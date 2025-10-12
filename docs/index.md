@@ -7,17 +7,17 @@ comments: flase
 
 ![CSW](./static/images/csw-photo.jpeg){: width="30%"}
 
->“Stay hungry, stay foolish”
+>“From the One, To the One”
 
-<a href="CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a>
+<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a>
 
 ## 🏷️ __KEYWORDS__
 
-AIoT | Ubiquitous Computing and Intelligence | Structural Health Monitoring
+Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring
 
 ## 🚀 __SPECIALTIES__
 
-Hardware Development ｜ Embedded Programming ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
+Embedded System Hardware and Software Development ｜ Edge Computing and Intelligence ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
 
 ## 🎓 __EDUCATION__
 
@@ -37,6 +37,40 @@ Hardware Development ｜ Embedded Programming ｜ Signal Processing ｜ Internet
 ## 🔬 __RESEARCHES__
 
 Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)
+
+<div class="grid cards" markdown>
+
+-   :material-router-wireless:{ .lg .middle } __AIoT Node Development__
+
+    ---
+
+    AIoT System Frontend Hardware & Software Development
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> General IoT Node </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> Domain-specific IoT Node (SHM) </a>](#)
+
+-   :material-cloud:{ .lg .middle } __Cloud Backend Development__
+
+    ---
+
+    AIoT System Backend Cloud Service Development
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> General Cloud Backend </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> Domain-specific Cloud Backend (SHM) </a>](#)
+
+-   :fontawesome-solid-brain:{ .lg .middle } __Ubiquitous (Embedded) Intelligence Enabling Framework__
+
+    ---
+
+    AIoT System End-to-End Intelligence Enabling Framework
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300" target="_blank"> General Framework </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8300" target="_blank"> Domain-specific Framework (SHM) </a>](#)
+
+</div>
 
 ## 📚 __PUBLICATIONS__
 
