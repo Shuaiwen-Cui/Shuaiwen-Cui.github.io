@@ -29,10 +29,10 @@ comments: false
 
 ## 🧰 __经历__
 
-| 职位            | 公司                             | 地点              | 时间                  |
-|-----------------|----------------------------------|-------------------|------------------------|
-| 科研/教学助理    | 南洋理工大学                      | 新加坡             | 2022年8月 - 至今       |
-| 产品研发         | 华建数创                          | 中国上海          | 2021年8月 - 2022年6月  |
+| 职位            | 公司                               | 时间                  |
+|-----------------|----------------------------------|------------------------|
+| 科研/教学助理    | 南洋理工大学, 新加坡 | 2022年8月 - 至今       |
+| 产品研发（建筑数字孪生） | 华建数创, 中国上海 | 2021年8月 - 2022年6月  |
 
 ## 🔬 __研究__
 
@@ -50,7 +50,7 @@ comments: false
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> 专用物联网节点（结构健康监测） </a>](#)
 
--   :material-cloud:{ .lg .middle } __云后端开发__
+-   :material-cloud:{ .lg .middle } __智能物联网云端枢纽开发__
 
     ---
 
@@ -83,13 +83,16 @@ comments: false
 
 <!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Major Revision) -->
 
-- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520)
+- **Cui, S.**, Yu, X., & Fu, Y.* (2025). Smart adaptive triggering strategy for edge intelligence enabled energy-efficient sensing. In *Proceedings of the 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-13)*, pp. 609–616. Graz, Austria: Verlag der TU Graz. [https://doi.org/10.3217/978-3-99161-057-1-094](https://doi.org/10.3217/978-3-99161-057-1-094){:target="_blank"} (🏆 **最佳会议论文** 1st/202)
+
+
+- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
 **地下工程**
 
 <!-- - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review) -->
 
-- **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588)
+- **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 
 ## 📄 __专利__
 
@@ -97,8 +100,8 @@ comments: false
 
 ## 🏆 __荣誉__
 
-- **最佳会议论文奖**（第一名），第13届智能基础设施结构健康监测国际会议，奥地利格拉茨，2025年9月。
-- **第一名**，三分钟论文竞赛，南洋理工大学土木与环境工程学院，新加坡，2025年3月。
+- **最佳会议论文奖**（1st/202），第13届智能基础设施结构健康监测国际会议，奥地利格拉茨，2025年9月。
+- **第一名**，三分钟论文演讲展示竞赛，南洋理工大学土木与环境工程学院，新加坡，2025年3月。
 - **同济大学优秀毕业生**，中国上海，2021年6月。
 
 ## 🔗 __链接__

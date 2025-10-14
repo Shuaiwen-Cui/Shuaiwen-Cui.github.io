@@ -29,10 +29,10 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 ## 🧰 __EXPERIENCE__
 
-| Position        | Company                            | Location          | Duration               |
-|-----------------|------------------------------------|-------------------|------------------------|
-| Research/Teaching Assistant | Nanyang Technological University | Singapore         | Aug, 2022 - Present    |
-| R&D | Arcplus Group (Int'l) Co., Limited | Shanghai, China   | Aug, 2021 - Jun, 2022  |
+| Position        | Company                            | Duration               |
+|-----------------|----------------------------------|------------------------|
+| Research/Teaching Assistant | Nanyang Technological University, Singapore         | Aug, 2022 - Present    |
+| R&D (Digital Twin for Buildings) | Arcplus Group (Int'l) Co., Limited, Shanghai, China   | Aug, 2021 - Jun, 2022  |
 
 ## 🔬 __RESEARCHES__
 
@@ -50,7 +50,7 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> Domain-specific IoT Node (SHM) </a>](#)
 
--   :material-cloud:{ .lg .middle } __Cloud Backend Development__
+-   :material-cloud:{ .lg .middle } __AIoT Cloud Hub Development__
 
     ---
 
@@ -82,13 +82,15 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
 <!-- - **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Major Revision) -->
 
-- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520)
+- **Cui, S.**, Yu, X., & Fu, Y.* (2025). Smart adaptive triggering strategy for edge intelligence enabled energy-efficient sensing. In *Proceedings of the 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-13)*, pp. 609–616. Graz, Austria: Verlag der TU Graz. [https://doi.org/10.3217/978-3-99161-057-1-094](https://doi.org/10.3217/978-3-99161-057-1-094){:target="_blank"} (🏆 **Best Conference Paper Award** 1st/202)
+
+- **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
 **Geotechnic Engineering**
 
 <!-- - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review) -->
 
-- **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588)
+- **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 
 ## 📄 __Patent__
 
@@ -96,7 +98,7 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
 ## 🏆 __HONORS__
 
-- **Best Conference Paper Award** (1st), 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure, Graz, Austria, September, 2025.
+- **Best Conference Paper Award** (1st/202), 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure, Graz, Austria, September, 2025.
 - **First Place**, 3-Minute Thesis Competition, School of Civil and Environmental Engineering, Nanyang Technological University, Singapore, March, 2025.
 - **Outstanding Graduate** of Tongji University, Shanghai, China, June, 2021.
 
