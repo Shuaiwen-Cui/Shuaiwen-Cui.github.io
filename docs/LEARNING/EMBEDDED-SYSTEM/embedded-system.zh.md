@@ -163,16 +163,16 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> 传送门 </a>](#)
-
 -   :fontawesome-brands-youtube:{ .lg .middle} __MCU AI__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/635929440/lists/4184155?type=series" target="_blank"> 传送门 </a>](#)
+
+<!-- -   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> 传送门 </a>](#) -->
 
 </div>
