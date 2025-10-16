@@ -266,10 +266,7 @@ nav:
   - ABOUT: "index.md"
   - LEARNING: 
     - "LEARNING/learning.md"
-    - EMBEDDED-SYSTEM: 
-        - ROADMAP: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
-        - STM32: "LEARNING/EMBEDDED-SYSTEM/STM32/stm32.md"
-        - ESP32: "LEARNING/EMBEDDED-SYSTEM/ESP32/esp32.md"
+    - EMBEDDED-SYSTEM: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
     - DSP: "LEARNING/DSP/dsp.md"
     - IOT: "LEARNING/IOT/iot.md"
     - DIGITAL-TWIN: "LEARNING/DT/dt.md"

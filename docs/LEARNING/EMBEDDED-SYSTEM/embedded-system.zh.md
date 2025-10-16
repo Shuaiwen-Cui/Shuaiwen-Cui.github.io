@@ -3,8 +3,8 @@
 !!! tip "提示"
     嵌入式系统的理念是做到"刚好够用"。
 
-!!! note "第一部分：微控制器"
-    这部分是关于微控制器级别的嵌入式系统。
+!!! note "PART A: 理论"
+    这部分是关于嵌入式系统的理论基础。
 
 ## __理论基础__
 
@@ -38,8 +38,10 @@
 
 </div>
 
+!!! note "PART B: 工程"
+    这部分是关于嵌入式系统的工程实践。
 
-## __EDA (电子设计自动化)__
+## __电子设计自动化 EDA__
 
 <div class="grid cards" markdown>
 
@@ -55,114 +57,128 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nzRnYuEpK?spm_id_from=333.788.recommend_more_video.3&trackid=web_related_0.router-related-2206146-bk62g.1760532790603.580&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 小美老师教程 </a>](#)
 
-
-
-
 </div>
 
-## __开发板__
-
-### STM32
+## __微控制器__
 
 <div class="grid cards" markdown>
 
--   :simple-stmicroelectronics:{ .lg .middle } __STM32 官方网站__
+-   :simple-stmicroelectronics:{ .lg .middle } __STM32__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank"> STM32 官方网站 </a>](#)
 
-</div>
-
-### ESP32
-
-<div class="grid cards" markdown>
-
--   :simple-espressif:{ .lg .middle } __ESP32 官方网站__
+-   :simple-stmicroelectronics:{ .lg .middle } __STM_STUDY 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/STM_STUDY.git" target="_blank"> 项目 </a>](#)
 
--   :simple-espressif:{ .lg .middle } __ESP-IDF 编程指南 🎯🏆__
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/STM_STUDY/" target="_blank"> 在线文档 </a>](#)
 
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/index.html" target="_blank"> 传送门 </a>](#)
-
-</div>
-
-## __实时操作系统__
-
-### FreeRTOS
-
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-aws:{ .lg .middle } __FreeRTOS 官方网站__
+-   :simple-espressif:{ .lg .middle } __ESP32__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> ESP32 官方网站 </a>](#)
 
-</div>
+    [:octicons-arrow-right-24: <a href="https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/index.html" target="_blank"> ESP-IDF </a>](#)
 
-## __社区__
+-   :simple-espressif:{ .lg .middle } __ESP_STUDY 🎯🏆__
 
-<div class="grid cards" markdown>
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ESP_STUDY.git" target="_blank"> 项目 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/ESP_STUDY/" target="_blank"> 在线文档 </a>](#)
+
+-   :fontawesome-brands-aws:{ .lg .middle } __实时操作系统FreeRTOS__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> FreeRTOS 官方网站 </a>](#)
 
 -   :simple-hackster:{ .lg .middle } __HACKSTER IO__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.hackster.io/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.hackster.io/" target="_blank"> 社区论坛 </a>](#)
 
 </div>
 
-!!! note "第二部分：微处理器"
-    这部分是关于微处理器级别的嵌入式系统。
-
-## __开发板__
-
-### Raspberry Pi
+## __微处理器__
 
 <div class="grid cards" markdown>
 
--   :material-raspberry-pi:{ .lg .middle } __Raspberry Pi 官方网站__
+-   :material-raspberry-pi:{ .lg .middle } __Raspberry Pi__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> Raspberry Pi 官方网站 </a>](#)
+
+-   :simple-nvidia:{ .lg .middle } __Jetson Nano__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> Jetson Nano 官方网站 </a>](#)
+
+-   :simple-linux:{ .lg .middle } __Linux__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> Ubuntu </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank"> 鸟哥私房菜 </a>](#)
+
 
 </div>
 
-### Jetson Nano
+!!! note "ESP32特辑"
+    这部分是专门针对ESP32学习。
+
+## __ESP32学习资源__
 
 <div class="grid cards" markdown>
 
--   :simple-nvidia:{ .lg .middle } __Jetson Nano 官方网站__
+-   :material-file:{ .lg .middle } __DURUOFU ESP32-教程 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/DuRuofu/ESP32-Guide" target="_blank"> 新版 </a>](#)
 
-</div>
+    [:octicons-arrow-right-24: <a href="https://www.duruofu.top/2024/01/30/4.%E7%A1%AC%E4%BB%B6%E7%9B%B8%E5%85%B3/MCU/ESP32/00.%E7%9B%AE%E5%BD%95/ESP32%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/" target="_blank"> 旧版 </a>](#)
 
-## __LINUX__
-
-### Ubuntu
-
-<div class="grid cards" markdown>
-
--   :material-ubuntu:{ .lg .middle } __Ubuntu Official Website__
+-   :material-file:{ .lg .middle } __宸芯IOT 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://ubuntu.com/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 新版 </a>](#)
 
--  :material-book:{ .lg .middle } __鸟哥的LINUX私房菜 🎯🏆✅__
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 旧版 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __孤独的二进制 ESP-IDF 教程 🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __【2024最新版 ESP32教程（基于ESP-IDF）】ESP32入门级开发课程 更新中 中文字幕 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://learnesp32.com/videos/course-introduction/course-introduction" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-youtube:{ .lg .middle} __MCU AI__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/635929440/lists/4184155?type=series" target="_blank"> 传送门 </a>](#)
 
 </div>
