@@ -198,19 +198,13 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> New Version </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1K3HvzEEDj/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Old Version </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Old Version </a>](#)
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __Lonely Binary ESP-IDF Tutorial 🎯🏆__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1hM411k7zz/?spm_id_from=333.999.0.0" target="_blank"> Portal </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __【2024 Latest ESP32 Tutorial (Based on ESP-IDF)】ESP32 Beginner Development Course Updating with Chinese Subtitles 🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1eRg7exEcT/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 -   :fontawesome-brands-youtube:{ .lg .middle} __LEARNEPS32 🎯🏆__
 
