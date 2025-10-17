@@ -134,6 +134,7 @@
 
 </div>
 
+
 !!! note "ESP32"
     This part is dedicated for ESP32 study.
 
