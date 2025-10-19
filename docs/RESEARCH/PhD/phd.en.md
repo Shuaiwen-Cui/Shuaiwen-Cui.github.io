@@ -10,9 +10,9 @@
     - Distributed Edge Intelligence Enabling Framework Development: TinySHM
     - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
-## __IoT Hardware Prototyping__
+## __I IoT Hardware Prototyping__
 
-### __Front End__
+### __1.1 Front End__
 
 !!! note "Hardware Development"
     To achieve edge intelligence computing, we have developed two types of MCU nodes, based on STM32 and ESP32. These nodes have high-performance edge computing capabilities and can be used in IoT, smart home, smart city, and other application scenarios. The current development focus is on ESP32.
@@ -37,7 +37,7 @@
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe>
 
 
-### __Back End__
+### __1.2 Back End__
 
 <div class="grid cards" markdown>
 
@@ -56,7 +56,7 @@
 </div>
 
 
-## __Distributed Edge Intelligence Enabling Framework__
+## __II Distributed Edge Intelligence Enabling Framework__
 
 <div class="grid cards" markdown>
 
@@ -76,19 +76,31 @@
 
 </div>
 
-## __Structural Health Monitoring Applications__
+## __III Structural Health Monitoring Applications__
 
-### __Measurement__
+### __3.1 Measurement__
+
+#### __3.1.1 Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring__
+
+![](SATM.jpg)
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __期刊论文 - Mechanical System and Signal Processing__
+
+    ---
+
+    **Cui, S.**, Fu, Y.*, Fu, H., & Yu, X. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. (Accepted)
+
+</div>
+
+### __3.2 System Identification__
 
 Coming Soon ... 🏗️
 
-### __System Identification__
+### __3.3 Damage Detection__
 
-Coming Soon ... 🏗️
-
-### __Damage Detection__
-
-#### Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
+#### 3.3.1 Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
 
 - Gaussian Process Regression (GPR)
 - Stochastic Process Control (SPC)
@@ -101,10 +113,8 @@ Coming Soon ... 🏗️
 
     ---
 
-    Cui, S., Hoang, T., Mechitov, K., Fu, Y., & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
+    **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> Portal </a>](#)
 
 </div>
-
-To Be Continued ...
