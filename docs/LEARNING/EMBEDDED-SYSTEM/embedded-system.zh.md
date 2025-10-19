@@ -32,7 +32,7 @@
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __实践课程__
 
-    8/125
+    18/125
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1gHSyY3E6q/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
@@ -56,7 +56,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1fFAfeZEBE/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Expert电子实验室大师篇 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nzRnYuEpK?spm_id_from=333.788.recommend_more_video.3&trackid=web_related_0.router-related-2206146-bk62g.1760532790603.580&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 小美老师教程 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nzRnYuEpK?spm_id_from=333.788.recommend_more_video.3&trackid=web_related_0.router-related-2206146-bk62g.1760532790603.580&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 小美老师教程 1 </a>](#)
 
 </div>
 
