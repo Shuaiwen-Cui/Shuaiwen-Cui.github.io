@@ -78,9 +78,11 @@
 
 ## __III Structural Health Monitoring Applications__
 
-### __3.1 Measurement__
+### __3.1 Single-Node Independent Applications__
 
-#### __3.1.1 Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring__
+**- Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring**
+
+🏷️ SHM Category: **Measurement** / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
 ![](SATM.jpg)
 
@@ -94,13 +96,11 @@
 
 </div>
 
-### __3.2 System Identification__
+### __3.2 Multi-Node Collaborative Applications__
 
-Coming Soon ... 🏗️
+**- Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network**
 
-### __3.3 Damage Detection__
-
-#### 3.3.1 Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network
+🏷️ SHM Category: **Measurement** / System Identification /**Damage Detection** /**Damage Localization** /**Damage Evaluation**
 
 - Gaussian Process Regression (GPR)
 - Stochastic Process Control (SPC)
@@ -118,3 +118,6 @@ Coming Soon ... 🏗️
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> Portal </a>](#)
 
 </div>
+
+<!-- ### __3.3 Damage Detection__ -->
+
