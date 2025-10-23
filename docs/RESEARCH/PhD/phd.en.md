@@ -111,7 +111,7 @@
 
     ---
 
-    **Cui, S.**, Fu, Y.*, Fu, H., Yu, X., & Shen, W. (2026). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. Mechanical Systems and Signal Processing, Volume 241, 2025, 113537.
+    **Cui, S.**, Fu, Y.*, Fu, H., Yu, X., & Shen, W. (2025). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. Mechanical Systems and Signal Processing, Volume 241, 2025, 113537.
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.ymssp.2025.113537" target="_blank"> DOI </a>](#)
 
