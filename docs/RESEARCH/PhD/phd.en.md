@@ -58,6 +58,8 @@
 
 ## __II Distributed Edge Intelligence Enabling Framework__
 
+![](SUMMARY.jpg){width=100%}
+
 <div class="grid cards" markdown>
 
 -   :simple-github:{ .lg .middle } __TinySHM🎯🏆__

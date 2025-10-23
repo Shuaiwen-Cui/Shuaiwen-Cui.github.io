@@ -57,6 +57,8 @@
 
 ## __II 分布式边缘智能使能框架__
 
+![](SUMMARY.jpg){width=100%}
+
 <div class="grid cards" markdown>
 
 -   :simple-github:{ .lg .middle } __TinySHM🎯🏆__
