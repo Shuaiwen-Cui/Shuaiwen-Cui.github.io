@@ -84,6 +84,11 @@
 
 🏷️ SHM Category: **Measurement** / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
+- Trigger Sensing
+- Closed-Loop Feedback Control
+- Edge Intelligence
+- Bayesian Optimization
+
 ![](SATM.jpg)
 
 <div class="grid cards" markdown>
@@ -116,6 +121,7 @@
 
 🏷️ SHM Category: **Measurement** / System Identification /**Damage Detection** /**Damage Localization** /**Damage Evaluation**
 
+- Data-driven Anomaly Detection
 - Gaussian Process Regression (GPR)
 - Stochastic Process Control (SPC)
 
