@@ -95,6 +95,10 @@
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.3217/978-3-99161-057-1-094" target="_blank"> DOI </a>](#)
 
+</div>
+
+<div class="grid cards" markdown>
+
 -   :material-file:{ .lg .middle } __期刊论文 - Mechanical System and Signal Processing__
 
     ---
