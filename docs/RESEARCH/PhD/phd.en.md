@@ -12,6 +12,8 @@
 
 ## __I IoT System Development__
 
+![](platform.png){width=100%}
+
 ### __1.1 Edge Device__
 
 !!! note "Edge Device Development"
