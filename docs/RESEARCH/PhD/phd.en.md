@@ -6,15 +6,15 @@
     My Ph.D. research topic is __Distributed Edge Intelligence Enabling Framework for IoT-based Structural Health Monitoring: TinySHM__, focusing on developing a distributed edge intelligence enabling framework which is specially designed for low-cost and resource-constrained edge devices in IoT-based structural health monitoring. 
 
 !!! info "KEY TASKS"
-    - IoT Hardware Prototyping: Front-end (MCU level, low-cost & resource-constrained) and back-end development
+    - IoT System Development: edge device (MCU level, low-cost & resource-constrained) and cloud platform development
     - Distributed Edge Intelligence Enabling Framework Development: TinySHM
     - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
-## __I IoT Hardware Prototyping__
+## __I IoT System Development__
 
-### __1.1 Front End__
+### __1.1 Edge Device__
 
-!!! note "Hardware Development"
+!!! note "Edge Device Development"
     To achieve edge intelligence computing, we have developed two types of MCU nodes, based on STM32 and ESP32. These nodes have high-performance edge computing capabilities and can be used in IoT, smart home, smart city, and other application scenarios. The current development focus is on ESP32.
 
 <div class="grid cards" markdown>
@@ -37,7 +37,7 @@
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe>
 
 
-### __1.2 Back End__
+### __1.2 Cloud Platform__
 
 <div class="grid cards" markdown>
 
