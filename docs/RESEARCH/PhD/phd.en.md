@@ -7,7 +7,7 @@
 
 !!! info "KEY TASKS"
     - IoT System Development: Edge Device (MCU Level, Low-cost & Resource-constrained) and Cloud Platform Development
-    - Distributed Edge Intelligence Enabling Framework Development: TinySHM
+    - Distributed Edge Intelligence Enabling Framework Development: TinySHM (Vector & Matrix Operations / Digital Signal Processing / Machine Learning & Artificial Intelligence Libraries)
     - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
 ## __I IoT System Development__
