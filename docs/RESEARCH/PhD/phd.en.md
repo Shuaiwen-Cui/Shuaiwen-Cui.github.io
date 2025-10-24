@@ -6,7 +6,7 @@
     My Ph.D. research topic is __Distributed Edge Intelligence Enabling Framework for IoT-based Structural Health Monitoring: TinySHM__, focusing on developing a distributed edge intelligence enabling framework which is specially designed for low-cost and resource-constrained edge devices in IoT-based structural health monitoring. 
 
 !!! info "KEY TASKS"
-    - IoT System Development: edge device (MCU level, low-cost & resource-constrained) and cloud platform development
+    - IoT System Development: Edge Device (MCU Level, Low-cost & Resource-constrained) and Cloud Platform Development
     - Distributed Edge Intelligence Enabling Framework Development: TinySHM
     - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
