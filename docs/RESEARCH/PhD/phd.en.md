@@ -2,7 +2,7 @@
 
 ![IOT-SHM](IOT-SHM.jpg){width=100%}
 
-!!! info "RESEARCH TOPICS -- PUSHING SHM TO THE EDGE DEVICES"
+!!! info "RESEARCH TOPICS -- PUSHING STRUCTURAL HEALTH MONITORING TO THE EDGE DEVICES"
     My Ph.D. research topic is __Distributed Edge Intelligence Enabling Framework for IoT-based Structural Health Monitoring: TinySHM__, focusing on developing a distributed edge intelligence enabling framework which is specially designed for low-cost and resource-constrained edge devices in IoT-based structural health monitoring. 
 
 !!! info "KEY TASKS"
