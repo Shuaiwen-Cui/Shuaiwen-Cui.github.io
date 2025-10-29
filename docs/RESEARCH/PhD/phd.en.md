@@ -117,6 +117,16 @@
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.ymssp.2025.113537" target="_blank"> DOI </a>](#)
 
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Patent - 10202502426R__
+
+    ---
+
+    Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, Singapore provisional patent application number 10202502426R, 2025
+
+</div>
+
 </div>
 
 ### __3.2 Multi-Node Collaborative Applications__

@@ -118,6 +118,16 @@
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __专利 - 10202502426R__
+
+    ---
+
+    Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, 新加坡临时专利申请号 10202502426R, 2025
+
+</div>
+
 ### __3.2 多节点协同应用__
 
 **- 基于无线智能传感网络的自适应边缘智能用于结构快速状况评估**
