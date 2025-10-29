@@ -99,6 +99,9 @@
 
     [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> FreeRTOS Official </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1mhWqzFEzn/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> FreeRTOS Tutorial </a>](#)
+
+
 -   :simple-hackster:{ .lg .middle } __HACKSTER IO__
 
     ---
