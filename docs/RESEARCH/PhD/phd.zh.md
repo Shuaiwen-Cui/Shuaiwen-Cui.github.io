@@ -120,7 +120,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __专利 - 10202502426R__
+-   :material-file:{ .lg .middle } __新加坡专利 - 10202502426R__
 
     ---
 
