@@ -44,6 +44,53 @@
 
 </div>
 
+## NTU
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg .middle } __NTU OFFICIAL__
+
+    ---
+
+    Nanyang Technological University
+
+    [:octicons-arrow-right-24: <a href="https://www.ntu.edu.sg//" target="_blank"> Portal </a>](#)
+
+-   :material-school:{ .lg .middle } __NTU SERVICE NOW__
+
+    ---
+
+    NTU ONESTOP SERVICE PLATFORM
+
+    [:octicons-arrow-right-24: <a href="https://ntuadminonestop.service-now.com/ntussp" target="_blank"> Portal </a>](#)
+
+-   :material-school:{ .lg .middle } __NTU GSLINK__
+
+    ---
+
+    GSLINK
+
+    [:octicons-arrow-right-24: <a href="https://sso.wis.ntu.edu.sg/links/pgstudent.html" target="_blank"> Portal </a>](#)
+
+-   :material-school:{ .lg .middle } __NTULearn__
+
+    ---
+
+    NTLEARN
+
+    [:octicons-arrow-right-24: <a href="https://ntulearn.ntu.edu.sg/ultra/institution-page" target="_blank"> Portal </a>](#)
+
+-   :material-school:{ .lg .middle } __NTU Student Intranet__
+
+    ---
+
+    NTU Student Intranet
+
+    [:octicons-arrow-right-24: <a href="https://entuedu.sharepoint.com/sites/student" target="_blank"> Portal </a>](#)
+
+
+</div>
+
 ## CLOUD
 
 <div class="grid cards" markdown>
