@@ -137,9 +137,25 @@
 
 </div>
 
+!!! note "STM32"
+    This part is dedicated for STM32 study.
+
+## __STM32 STUDY RESOURCES__
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __KEYSKING STM32 Tutorial 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> Portal </a>](#)
+
+</div>
 
 !!! note "ESP32"
     This part is dedicated for ESP32 study.
+
+## __ESP32 STUDY RESOURCES__
 
 <div class="grid cards" markdown>
 
