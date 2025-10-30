@@ -152,7 +152,7 @@
 
     这个视频也可以作为学习单片机的入门参考。
 
-    1/35
+    2/35
 
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> 视频 </a>](#)
 
