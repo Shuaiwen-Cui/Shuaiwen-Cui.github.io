@@ -154,7 +154,9 @@
 
     1/35
 
-    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> 视频 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://docs.keysking.com/docs/stm32/getting-started/" target="_blank"> 文档 </a>](#)
 
 </div>
 
