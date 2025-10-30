@@ -148,6 +148,8 @@
 
     ---
 
+    This tutorial can also serves as a MCU study resource for beginners.
+
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> Portal </a>](#)
 
 </div>
