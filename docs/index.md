@@ -34,6 +34,10 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 | Research/Teaching Assistant | Nanyang Technological University, Singapore         | Aug, 2022 - Present    |
 | R&D (Digital Twin for Buildings) | Arcplus Group (Int'l) Co., Limited, Shanghai, China   | Aug, 2021 - Jun, 2022  |
 
+## 👨‍🏫 __TEACHING__
+
+CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026 S1
+
 ## 🔬 __RESEARCHES__
 
 Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)
@@ -72,7 +76,7 @@ Infrastructure and Algorithms Research and Development for Efficient Computation
 
 </div>
 
-## 📚 __PUBLICATIONS__
+## 📜 __PUBLICATIONS__
 
 **IoT-based Structural Health Monitoring**
 
