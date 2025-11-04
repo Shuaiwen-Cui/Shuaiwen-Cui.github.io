@@ -7,7 +7,7 @@ comments: false
 
 ![CSW](./static/images/csw-photo.jpeg){: width="30%"}
 
->“道法术器，抱元守一”
+>“本生用化，道法术器，抱元守一”
 
 <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a>
 
