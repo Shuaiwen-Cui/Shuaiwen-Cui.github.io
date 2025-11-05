@@ -99,7 +99,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.freertos.org/" target="_blank"> FreeRTOS 官方网站 </a>](#)
+    5
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1mhWqzFEzn/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> FreeRTOS 教学视频 </a>](#)
 
