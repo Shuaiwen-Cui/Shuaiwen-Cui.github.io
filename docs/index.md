@@ -23,9 +23,9 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 | Degree       | Major               | Institution                        | Duration               |
 |--------------|----------------------|------------------------------------|------------------------|
-| Ph.D.        | Civil Engineering    | Nanyang Technological University   | Aug, 2022 - Present    |
-| M.Eng.       | Civil Engineering    | Tongji University                  | Sep, 2018 - Jun, 2021  |
-| B.Eng.       | Civil Engineering    | Tongji University                  | Sep, 2014 - Jun, 2018  |
+| Ph.D.        | Civil Engineering (AIoT/Structural Health Monitoring)   | Nanyang Technological University   | Aug, 2022 - Present    |
+| M.Eng.       | Civil Engineering (Geotechnical)    | Tongji University                  | Sep, 2018 - Jun, 2021  |
+| B.Eng.       | Civil Engineering (Major) / Mathematics (Minor) | Tongji University                  | Sep, 2014 - Jun, 2018  |
 
 ## 🧰 __EXPERIENCE__
 
