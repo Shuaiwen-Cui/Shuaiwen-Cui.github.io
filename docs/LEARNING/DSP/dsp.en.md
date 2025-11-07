@@ -20,4 +20,11 @@
 
     [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=xPCgjP21Z7E" target="_blank"> Portal </a>](#)  
 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __DSP Short Videos__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/3493116524890964/lists/5639577?type=season" target="_blank"> Portal </a>](#)  
+
+
 </div>
