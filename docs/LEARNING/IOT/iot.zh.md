@@ -18,15 +18,35 @@
 
 </div>
 
-## __物联网操作__
+## __物联网工具__
 
 <div class="grid cards" markdown>
+
+-   :simple-influxdb:{ .lg .middle } __InfluxDB__
+
+    ---
+
+    数据存储
+
+    [:octicons-arrow-right-24: <a href="https://www.influxdata.com/time-series-platform/influxdb/" target="_blank"> 传送门 </a>](#)
+
 
 -   :simple-nodered:{ .lg .middle } __Node-RED__
 
     ---
 
+    操作流程编排
+
     [:octicons-arrow-right-24: <a href="https://nodered.org/" target="_blank"> 传送门 </a>](#)
+
+
+-   :simple-grafana:{ .lg .middle } __Grafana__
+
+    ---
+
+    数据可视化
+
+    [:octicons-arrow-right-24: <a href="https://grafana.com/" target="_blank"> 传送门 </a>](#)
 
 </div>
 
