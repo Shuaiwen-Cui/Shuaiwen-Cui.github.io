@@ -2,7 +2,7 @@
 # Built upon MkDocs & Material for MkDocs
 
 # Project information
-site_name: EVOAXIS #Nextron # Nexusium
+site_name: SHUAIWEN-CUI #Nextron # Nexusium
 site_url: http://www.cuishuaiwen.com # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
 site_author: Shuaiwen Cui
 site_description: >-
