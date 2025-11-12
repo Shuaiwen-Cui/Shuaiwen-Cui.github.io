@@ -26,7 +26,7 @@
 
     ---
 
-    20/42+
+    23/42+
 
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/3493116524890964/lists/5639577?type=season" target="_blank"> 传送门 </a>](#)  
 
