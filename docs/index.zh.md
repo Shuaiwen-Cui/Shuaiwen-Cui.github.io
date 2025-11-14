@@ -42,33 +42,71 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
 面向高效边缘计算与智能的软硬件基础设施和算法研究与开发（以结构健康监测为应用）
 
+
+AIoT 系统前端硬件与软件开发：
+
+- 嵌入式系统架构设计
+
+- 嵌入式硬件电路设计
+
+- 嵌入式软件驱动开发
+
+- 实时操作系统FreeRTOS应用开发
+
 <div class="grid cards" markdown>
 
 -   :material-router-wireless:{ .lg .middle } __智能物联网节点开发__
 
     ---
 
-    AIoT 系统前端硬件与软件开发
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> 通用物联网节点 </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> 专用物联网节点（结构健康监测） </a>](#)
 
+</div>
+
+
+AIoT 系统后端云服务开发
+
+- 云端架构设计与部署
+
+- 后端数据库设计与管理
+
+- MQTT中介服务器开发
+
+- Web服务与API开发
+
+<div class="grid cards" markdown>
+
 -   :material-cloud:{ .lg .middle } __智能物联网云端枢纽开发__
 
     ---
-
-    AIoT 系统后端云服务开发
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用云后端 </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> 专用云后端（结构健康监测） </a>](#)
 
+</div>
+
+AIoT 边缘设备计算与智能赋能框架
+
+
+- 平台兼容层开发
+
+- 数学运算子库开发
+
+- 信号处理子库开发 
+
+- 机器学习子库开发
+
+- 结构健康监测专用模块开发
+
+<div class="grid cards" markdown>
+
 -   :fontawesome-solid-brain:{ .lg .middle } __泛在（嵌入式）智能赋能框架__
 
     ---
-
-    AIoT 边缘设备计算与智能赋能框架
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用框架 </a>](#)
 

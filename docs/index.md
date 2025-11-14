@@ -42,33 +42,71 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)
 
+AIoT System Frontend Hardware & Software Development
+
+- Embedded System Architecture Design
+
+- Embedded Hardware Circuit Design
+
+- Embedded Software Driver Development
+
+- Real-Time Operating System FreeRTOS Application Development
+
 <div class="grid cards" markdown>
 
 -   :material-router-wireless:{ .lg .middle } __AIoT Node Development__
 
     ---
 
-    AIoT System Frontend Hardware & Software Development
-
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> General IoT Node </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> Domain-specific IoT Node (SHM) </a>](#)
+
+</div>
+
+AIoT System Backend Cloud Service Development
+
+- Cloud Architecture Design & Deployment
+
+- Backend Database Design & Management
+
+- MQTT Broker Development
+
+- Web Services & API Development
+
+<div class="grid cards" markdown>
 
 -   :material-cloud:{ .lg .middle } __AIoT Cloud Hub Development__
 
     ---
 
-    AIoT System Backend Cloud Service Development
-
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> General Cloud Backend </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> Domain-specific Cloud Backend (SHM) </a>](#)
+
+</div>
+
+AIoT System End-to-End Intelligence Enabling Framework
+
+- Platform Compatibility Layer Development
+
+- Mathematical Operators Library Development
+
+- Signal Processing Library Development
+
+- Machine Learning Library Development
+
+- Domain-specific Modules Development for Structural Health Monitoring
+
+<div class="grid cards" markdown>
 
 -   :fontawesome-solid-brain:{ .lg .middle } __Ubiquitous (Embedded) Intelligence Enabling Framework__
 
     ---
 
-    AIoT System End-to-End Intelligence Enabling Framework
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300" target="_blank"> General Framework </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8300" target="_blank"> Domain-specific Framework (SHM) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300" target="_blank"> General Framework </a>](#)
 
