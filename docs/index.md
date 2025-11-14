@@ -36,7 +36,7 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 ## 👨‍🏫 __TEACHING__
 
-CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026 S1
+CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026
 
 ## 🔬 __RESEARCHES__
 
