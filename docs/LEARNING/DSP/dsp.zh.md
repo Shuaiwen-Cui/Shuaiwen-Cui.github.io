@@ -2,11 +2,9 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __DSP理论浓缩版__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __DSP理论浓缩版✅__
 
     ---
-
-    7/15
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1iU4y157U8/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
 
