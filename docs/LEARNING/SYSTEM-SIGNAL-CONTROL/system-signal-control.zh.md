@@ -9,15 +9,19 @@
     ---
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1F4411c7vh/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __动力系统__
+<!-- 1/20 -->
+
+<!-- -   :fontawesome-brands-bilibili:{ .lg .middle } __动力系统__
 
     ---
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bg3qzhEdU?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bg3qzhEdU?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)   -->
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __微分方程与动力系统__
+<!-- 2/37 -->
+
+<!-- -   :fontawesome-brands-bilibili:{ .lg .middle } __微分方程与动力系统__
 
     ---
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV13e411N7Vt/?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-7vfnq.1763528991415.79&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV13e411N7Vt/?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-7vfnq.1763528991415.79&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)   -->
 
 </div>
 
