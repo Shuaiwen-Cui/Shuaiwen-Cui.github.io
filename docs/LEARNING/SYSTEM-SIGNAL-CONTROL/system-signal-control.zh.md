@@ -19,13 +19,6 @@
     ---
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV13e411N7Vt/?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2206146-7vfnq.1763528991415.79&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __信息论__
-
-    ---
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1kE411E7HX/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
-
-
-
 </div>
 
 ## __信号__
@@ -49,6 +42,11 @@
     作者：Mr.看海
 
     [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/138141521" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __信息论__
+
+    ---
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1kE411E7HX/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)  
 
 </div>
 
