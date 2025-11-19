@@ -7,7 +7,7 @@
 -   :fontawesome-brands-bilibili:{ .lg .middle } __EE263 Introduction to Linear Dynamical Systems (STANFORD 2008)__
 
     ---
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1F4411c7vh/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)  
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1AvQ1YMErX/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)  
 
 <!-- -   :fontawesome-brands-bilibili:{ .lg .middle } __Dynamical System__
 
