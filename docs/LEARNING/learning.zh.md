@@ -15,7 +15,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/DSP/dsp/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.cuishuaiwen.com/zh/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/" target="_blank"> 传送门 </a>](#)
 
 -   :simple-iota:{ .lg .middle } __物联网__
 
