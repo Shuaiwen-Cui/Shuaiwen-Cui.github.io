@@ -3,7 +3,7 @@
 ![IOT-SHM](IOT-SHM.jpg){width=100%}
 
 !!! info "研究主题 -- 将结构健康监测推向边缘设备"
-    我的博士研究课题是 __面向物联网结构健康监测的分布式边缘智能支持框架：TinySHM__，重点是开发一种分布式边缘智能使能框架，专门为物联网结构健康监测中的低成本和资源受限的边缘设备设计。
+    我的博士研究课题是 __面向物联网结构健康监测的分布式边缘智能框架__，重点是开发一种分布式边缘智能使能框架，专门为物联网结构健康监测中的低成本和资源受限的边缘设备设计。
 
 !!! info "主要任务"
     - 物联网系统开发：边缘设备（MCU级别，低成本和资源受限）和云平台开发
@@ -112,7 +112,7 @@
 
     ---
 
-    **Cui, S.**, Fu, Y.*, Fu, H., Yu, X., & Shen, W. (2025). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring. Mechanical Systems and Signal Processing. Mechanical Systems and Signal Processing, Volume 241, 2025, 113537.
+    **Cui, S.**, Fu, Y.*, Fu, H., Yu, X., & Shen, W. (2025). Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring.  Mechanical Systems and Signal Processing, Volume 241, 2025, 113537.
 
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.ymssp.2025.113537" target="_blank"> DOI </a>](#)
 

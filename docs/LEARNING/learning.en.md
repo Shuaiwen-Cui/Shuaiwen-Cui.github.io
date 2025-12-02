@@ -1,11 +1,5 @@
 # __LEARNING__
 
-!!! quote "Minimalism"
-    Less is more.
-
-!!! info "Introduction"
-    This column is a showcase of the domains I focus on or am actively learning, serving as a simplified version of my technical blog which can be found [here](http://www.cuishuaiwen.com:8000/). I divide this column into two parts: “Engineering & Practice” and “Theory & Algorithms”.
-
 !!! note "PART A: ENGINEERING & PRACTICE"
     This part serves as the foundation.
 
@@ -17,7 +11,7 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> Portal </a>](#)
 
--   :material-sine-wave:{ .lg .middle } __DIGITAL SIGNAL PROCESSING__
+-   :material-sine-wave:{ .lg .middle } __SYSTEM-SIGNAL-CONTROL__
 
     ---
 

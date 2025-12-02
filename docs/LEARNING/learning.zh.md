@@ -1,11 +1,5 @@
 # __求索__
  
-!!! quote "极简主义"
-    少即是多。
-
-!!! info "简介"
-    本栏目是我关注或正在学习的领域的展示，是我技术博客的简化版本，技术博客可以在[这里](http://www.cuishuaiwen.com:8000/)找到。我将这个栏目分为两部分：“工程与实践”和“理论与算法”。
-
 !!! note "第一部分：工程与实践"
     这部分作为基础。
     
@@ -17,7 +11,7 @@
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/" target="_blank"> 传送门 </a>](#)
 
--  :material-sine-wave:{ .lg .middle } __数字信号处理__
+-  :material-sine-wave:{ .lg .middle } __系统-信号-控制__
 
     ---
 
