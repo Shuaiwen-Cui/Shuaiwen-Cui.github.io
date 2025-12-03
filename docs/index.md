@@ -131,6 +131,10 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 
+## ✍ __REVIEWER__
+
+- Journal of Nature Scientific Reports
+
 ## 📄 __Patent__
 
 - Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, Singapore provisional patent application number 10202502426R, 2025.

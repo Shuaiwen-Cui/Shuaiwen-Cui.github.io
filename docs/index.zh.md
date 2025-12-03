@@ -136,6 +136,10 @@ AIoT 边缘设备计算与智能赋能框架
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 
+## ✍ __审稿人__
+
+- Nature Scientific Reports
+
 ## 📄 __专利__
 
 - Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, 新加坡临时专利申请号 10202502426R, 2025. 
