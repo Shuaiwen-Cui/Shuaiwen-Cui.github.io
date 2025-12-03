@@ -135,7 +135,7 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 - Journal of Nature Scientific Reports
 
-## 📄 __Patent__
+## 📄 __PATENT__
 
 - Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, Singapore provisional patent application number 10202502426R, 2025.
 
