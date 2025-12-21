@@ -10,7 +10,7 @@
     - Distributed Edge Intelligence Enabling Framework Development: TinySHM (Vector & Matrix Operations / Digital Signal Processing / Machine Learning & Artificial Intelligence Libraries)
     - Structural Health Monitoring Applications: Measurement / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
-## __I IoT System Development__
+## __I SHM IoT System Development__
 
 ![](platform.png){width=100%}
 
@@ -58,7 +58,7 @@
 </div>
 
 
-## __II Distributed Edge Intelligence Enabling Framework__
+## __II Distributed Edge Intelligence Framework for Resource-Constrained Devices__
 
 ![](SUMMARY.jpg){width=100%}
 
@@ -80,7 +80,7 @@
 
 </div>
 
-## __III Structural Health Monitoring Applications__
+## __III Emerging ML/AI Powered Typical Structural Health Monitoring Applications__
 
 ### __3.1 Single-Node Independent Applications__
 
