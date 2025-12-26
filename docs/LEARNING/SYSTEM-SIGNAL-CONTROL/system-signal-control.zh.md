@@ -16,7 +16,6 @@
     ---
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bg3qzhEdU?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)   -->
 
-<!-- 6/37 -->
 
 <!-- -   :fontawesome-brands-bilibili:{ .lg .middle } __微分方程与动力系统__
 
@@ -54,7 +53,7 @@
 
 </div>
 
-<!-- DSP 2/26 -->
+<!-- DSP 6/26 -->
 
 
 ## __控制__
