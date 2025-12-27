@@ -15,7 +15,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.cuishuaiwen.com/zh/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.cuishuaiwen.com/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/" target="_blank"> Portal </a>](#)
 
 -   :simple-iota:{ .lg .middle } __INTERNET OF THINGS__
 
