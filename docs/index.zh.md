@@ -127,14 +127,23 @@ AIoT 边缘设备计算与智能赋能框架
 
 - **Cui, S.**, Yu, X., & Fu, Y.* (2025). Smart adaptive triggering strategy for edge intelligence enabled energy-efficient sensing. In *Proceedings of the 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-13)*, pp. 609–616. Graz, Austria: Verlag der TU Graz. [https://doi.org/10.3217/978-3-99161-057-1-094](https://doi.org/10.3217/978-3-99161-057-1-094){:target="_blank"} (🏆 **最佳会议论文** 1st/202)
 
-
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
+
+- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2025). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring. 2025;0(0). [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
+
+- Yu, X., **Cui, S.**, Fu, Y.*, & Zhang, Q. (2026). Decentralized system-centric sensor fault diagnosis and recovery using edge computing for wireless structural health monitoring systems. Measurement, Volume 261, 2026, 119994. [https://doi.org/10.1016/j.measurement.2025.119994](https://doi.org/10.1016/j.measurement.2025.119994){:target="_blank"}
+
+- Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Ultra-low memory spatiotemporal decomposition recurrent neural networks for edge structural fault monitoring. Applied Soft Computing, Volume 184, Part B, 2025, 113777. [https://doi.org/10.1016/j.asoc.2025.113777](https://doi.org/10.1016/j.asoc.2025.113777){:target="_blank"}
+
+- Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Neural networks micro memory control strategy for mechanical faults edge recognition. IEEE Transactions on Industrial Informatics, 21(7), 5069–5080, July 2025. [https://doi.org/10.1109/TII.2025.3545091](https://doi.org/10.1109/TII.2025.3545091){:target="_blank"}
 
 **地下工程**
 
 - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review)
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
+
+- Song, X., **Cui, S.**, Tan, Y., & Zhang, Y. (2022). Influence of water pressure on deep subsea tunnel buried within sandy seabed. Marine Georesources & Geotechnology, 40(8), 967–982. [https://doi.org/10.1080/1064119X.2021.1961954](https://doi.org/10.1080/1064119X.2021.1961954){:target="_blank"}
 
 ## ✍ __审稿人__
 
@@ -144,6 +153,7 @@ AIoT 边缘设备计算与智能赋能框架
 ## 📄 __专利__
 
 - Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, 新加坡临时专利申请号 10202502426R, 2025. 
+- An Adaptive Self-Diagnosis Mechanism For System-Centric Sensor Faults In Wireless IoT-Based Structural Health Monitoring Systems, 新加坡临时专利申请号 10202500862P, 2025.
 
 ## 🏆 __荣誉__
 

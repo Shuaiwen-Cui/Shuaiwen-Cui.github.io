@@ -125,11 +125,21 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
+- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2025). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring. 2025;0(0). [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
+
+- Yu, X., **Cui, S.**, Fu, Y.*, & Zhang, Q. (2026). Decentralized system-centric sensor fault diagnosis and recovery using edge computing for wireless structural health monitoring systems. Measurement, Volume 261, 2026, 119994. [https://doi.org/10.1016/j.measurement.2025.119994](https://doi.org/10.1016/j.measurement.2025.119994){:target="_blank"}
+
+- Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Ultra-low memory spatiotemporal decomposition recurrent neural networks for edge structural fault monitoring. Applied Soft Computing, Volume 184, Part B, 2025, 113777. [https://doi.org/10.1016/j.asoc.2025.113777](https://doi.org/10.1016/j.asoc.2025.113777){:target="_blank"}
+
+- Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Neural networks micro memory control strategy for mechanical faults edge recognition. IEEE Transactions on Industrial Informatics, 21(7), 5069–5080, July 2025. [https://doi.org/10.1109/TII.2025.3545091](https://doi.org/10.1109/TII.2025.3545091){:target="_blank"}
+
 **Geotechnic Engineering**
 
 - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
+
+- Song, X., **Cui, S.**, Tan, Y., & Zhang, Y. (2022). Influence of water pressure on deep subsea tunnel buried within sandy seabed. Marine Georesources & Geotechnology, 40(8), 967–982. [https://doi.org/10.1080/1064119X.2021.1961954](https://doi.org/10.1080/1064119X.2021.1961954){:target="_blank"}
 
 ## ✍ __REVIEWER__
 
@@ -139,6 +149,7 @@ AIoT System End-to-End Intelligence Enabling Framework
 ## 📄 __PATENT__
 
 - Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, Singapore provisional patent application number 10202502426R, 2025.
+- An Adaptive Self-Diagnosis Mechanism For System-Centric Sensor Faults In Wireless IoT-Based Structural Health Monitoring Systems, Singapore provisional patent application number 10202500862P, 2025.
 
 ## 🏆 __HONORS__
 
