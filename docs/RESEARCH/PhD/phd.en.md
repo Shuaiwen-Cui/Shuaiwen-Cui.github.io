@@ -3,7 +3,7 @@
 ![IOT-SHM](IOT-SHM.jpg){width=100%}
 
 !!! info "RESEARCH TOPICS -- PUSHING STRUCTURAL HEALTH MONITORING TO THE EDGE DEVICES"
-    My Ph.D. research topic is __Distributed Edge Intelligence Framework for IoT-based Structural Health Monitoring__, focusing on developing a distributed edge intelligence enabling framework which is specially designed for low-cost and resource-constrained edge devices in IoT-based structural health monitoring. 
+    My Ph.D. research topic is __Distributed Edge Intelligence Framework for IoT-based Structural Health Monitoring__, with a focus on developing a distributed edge-intelligence enabling framework for resource-constrained, low-cost edge devices, to promote a paradigm shift from cloud to edge and from knowledge-driven to AI-driven approaches, and to apply it to typical IoT-based structural health monitoring applications.
 
 !!! info "KEY TASKS"
     - IoT System Development: Edge Device (MCU Level, Low-cost & Resource-constrained) and Cloud Platform Development
