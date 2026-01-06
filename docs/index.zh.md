@@ -139,6 +139,7 @@ AIoT 边缘设备计算与智能赋能框架
 ## ✍ __审稿人__
 
 - Nature Scientific Reports
+- Urban Informatics
 
 ## 📄 __专利__
 

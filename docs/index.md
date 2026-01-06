@@ -133,7 +133,8 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 ## ✍ __REVIEWER__
 
-- Journal of Nature Scientific Reports
+- Nature Scientific Reports
+- Urban Informatics
 
 ## 📄 __PATENT__
 
