@@ -115,7 +115,7 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 **IoT-based Structural Health Monitoring**
 
-<!-- - **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review) -->
+- **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review)
 
 - **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics. (Accepted for Publication)
 
@@ -127,7 +127,7 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 **Geotechnic Engineering**
 
-<!-- - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review) -->
+- Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 
