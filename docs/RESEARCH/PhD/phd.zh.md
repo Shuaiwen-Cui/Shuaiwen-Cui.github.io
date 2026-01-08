@@ -16,7 +16,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __综述论文-物联网结构健康监测中的泛在计算与智能（从云到端）__
+-   :material-file:{ .lg .middle } __综述论文-物联网结构健康监测中的泛在计算与智能（从端到云）__
 
     ---
 

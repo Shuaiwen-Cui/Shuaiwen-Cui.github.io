@@ -16,7 +16,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __Review Paper - Ubiquitous Computing and Intelligence in IoT-based Structural Health Monitoring (From Cloud to Edge)__
+-   :material-file:{ .lg .middle } __Review Paper - Ubiquitous Computing and Intelligence in IoT-based Structural Health Monitoring (From Edge to Cloud)__
 
     ---
 
