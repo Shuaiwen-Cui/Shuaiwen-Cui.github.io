@@ -2,6 +2,8 @@
 
 ![IOT-SHM](IOT-SHM.jpg){width=100%}
 
+## __研究概览__
+
 !!! info "研究主题 -- 将结构健康监测推向边缘设备"
     我的博士研究课题是 __面向物联网结构健康监测的分布式边缘智能__，重点是开发一种分布式边缘智能使能框架，面向资源受限的低成本边缘设备，以促进从云到边和从知识驱动到人工智能驱动的范式转变，并将其应用于物联网结构健康监测的典型应用。
 
@@ -9,6 +11,20 @@
     - 物联网系统开发：边缘设备（MCU级别，低成本和资源受限）和云平台开发
     - 分布式边缘智能使能框架开发：TinySHM (向量、矩阵运算/数字信号处理/机器学习与人工智能算法库)
     - 结构健康监测应用：测量/系统识别/损伤检测/损伤定位/损伤量化
+
+![REVIEW-GA](REVIEW-GA.jpg){width=100%}
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __综述论文-物联网结构健康监测中的泛在计算与智能（从云到端）__
+
+    ---
+
+    **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics. 
+
+    [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.aei.2025.104300" target="_blank"> DOI </a>](#)
+
+</div>
 
 ## __I SHM物联网系统开发__
 
