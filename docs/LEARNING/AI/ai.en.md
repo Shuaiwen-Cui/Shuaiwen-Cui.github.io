@@ -3,7 +3,7 @@
 !!! note "PART A: BASICS"
     This part serves as the foundation.
 
-![layers of AI](layer-ai.png)
+![layers of AI](layer-ai.png){width=100%}
 
 ## __GET STARTED__
 
