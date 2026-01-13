@@ -3,6 +3,8 @@
 !!! note "PART A: BASICS"
     This part serves as the foundation.
 
+![layers of AI](layer-ai.png)
+
 ## __GET STARTED__
 
 <div class="grid cards" markdown>

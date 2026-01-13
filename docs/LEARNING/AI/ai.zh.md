@@ -3,6 +3,8 @@
 !!! note "第一部分：基础"
     这部分作为基础。
 
+![layers of AI](layer-ai.png)
+
 ## __基础知识__
 
 <div class="grid cards" markdown>
