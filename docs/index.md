@@ -9,7 +9,10 @@ comments: flase
 
 >“From the One, To the One”
 
-<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a>
+<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_EN-2026.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
+<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_CN-2026.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
+
+<!-- <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a> -->
 
 ## 🏷️ __KEYWORDS__
 
