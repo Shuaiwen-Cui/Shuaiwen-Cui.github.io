@@ -274,6 +274,7 @@ nav:
     - AI: 
         - ROADMAP: "LEARNING/AI/ai.md"
         - TRANSFORMER: "LEARNING/AI/TRANSFORMER/transformer.md"
+        - MAMBA: "LEARNING/AI/MAMBA/mamba.md"
         - GNN: "LEARNING/AI/GNN/gnn.md"
         - DECISION-TREE: "LEARNING/AI/DECISION-TREE/decision-tree.md"
     - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"

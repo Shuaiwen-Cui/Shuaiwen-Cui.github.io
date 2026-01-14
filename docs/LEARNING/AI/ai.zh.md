@@ -21,6 +21,12 @@
 
     [:octicons-arrow-right-24: <a href="https://zh.d2l.ai/" target="_blank"> 传送门 </a>](#)
 
+-   :fontawesome-brands-square-github:{ .lg .middle } __大白话讲明白AI 🏆__
+
+    --- 
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/505885185/lists" target="_blank"> 传送门 </a>](#)
+
 </div>
 
 ## __实践__
