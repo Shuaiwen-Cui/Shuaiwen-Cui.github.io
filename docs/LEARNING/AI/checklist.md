@@ -13,4 +13,4 @@
 
 # AI
 
-- [ ] Mamba
+- [x] Mamba
