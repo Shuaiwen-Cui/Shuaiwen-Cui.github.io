@@ -9,6 +9,12 @@
 
 <div class="grid cards" markdown>
 
+-  :material-book:{ .lg .middle } __深度学习的小画书 🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="[lbdl.pdf](https://fleuret.org/francois/lbdl.html)" target="_blank"> 传送门 </a>](#)
+
 -  :material-book:{ .lg .middle } __深度学习：基础与概念 🏆__
 
     ---

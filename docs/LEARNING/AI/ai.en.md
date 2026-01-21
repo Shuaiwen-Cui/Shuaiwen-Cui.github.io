@@ -9,6 +9,12 @@
 
 <div class="grid cards" markdown>
 
+-  :material-book:{ .lg .middle } __Little Book of Deep Learning 🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="[lbdl.pdf](https://fleuret.org/francois/lbdl.html)" target="_blank"> Portal </a>](#)
+
 -  :material-book:{ .lg .middle } __Deep Learning：Foundations and Concepts 🏆__
 
     ---
