@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1AP411c7kS?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 芯板坊教程 ✅ </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1At421h7Ui?spm_id_from=333.788.videopod.episodes&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Expert电子实验室入门篇 16/29 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1At421h7Ui?spm_id_from=333.788.videopod.episodes&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Expert电子实验室入门篇 ✅ </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1fFAfeZEBE/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Expert电子实验室大师篇 </a>](#)
 
