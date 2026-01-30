@@ -52,8 +52,15 @@
 
 </div>
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
+Sensor Extension Board
+
+![AIoTNode-Extension](Extension-Board.png){width=100%}
+
+Main Control Board Base
+
+![AIoTNode-Base](Base-Board.png){width=100%}
 
 ### __1.2 Cloud Platform__
 
