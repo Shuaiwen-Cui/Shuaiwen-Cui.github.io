@@ -57,7 +57,9 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1fFAfeZEBE/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Expert电子实验室大师篇 </a>](#)
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nzRnYuEpK?spm_id_from=333.788.recommend_more_video.3&trackid=web_related_0.router-related-2206146-bk62g.1760532790603.580&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 小美老师教程 2 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1x6421f7AT?spm_id_from=333.788.videopod.sections&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 嘉立创官方教程 v2.2 </a>](#)
+
+
 
 </div>
 
