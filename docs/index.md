@@ -147,6 +147,7 @@ AIoT System End-to-End Intelligence Enabling Framework
 
 ## ✍ __REVIEWER__
 
+- Mechanical Systems and Signal Processing
 - Nature Scientific Reports
 - Urban Informatics
 
