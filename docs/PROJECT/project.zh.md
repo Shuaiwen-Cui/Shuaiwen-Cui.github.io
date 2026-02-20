@@ -66,9 +66,17 @@
 
 ![](arduinonode.jpg)
 
-![](teaching.jpg)
+<div class="grid cards" markdown>
 
-![](deployment.jpg)
+-   :simple-github:{ .lg .middle } __ArduinoNode__
 
-![](apess2025.jpg)
+    ---
 
+    SHM教学用WSN节点--基于Arduino UNO R4 WIFI
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ArduinoNode.git" target="_blank"> 代码 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/ArduinoNode/" target="_blank"> 在线文档 </a>](#)
+
+
+</div>

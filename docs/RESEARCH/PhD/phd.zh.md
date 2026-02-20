@@ -186,3 +186,25 @@
 <!-- ### __3.3 多智能体合作应用__ -->
 
 
+## __IV 教研工作__
+
+### ArduinoNode
+
+设计并开发了一个基于 Arduino UNO R4 WIFI 的简单无线智能传感器网络节点，成功应用于香港理工大学举办的 APESS2025 暑期学校的结构健康监测教学中。
+
+![](apess2025.jpg)
+
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __APESS2025_ARDUINONODE__
+
+    ---
+
+    SHM教学用WSN节点--基于Arduino UNO R4 WIFI
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/APESS2025_ArduinoNode.git" target="_blank"> 代码 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/APESS2025_ArduinoNode/" target="_blank"> 在线文档 </a>](#)
+
+
+</div>

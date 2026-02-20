@@ -172,9 +172,31 @@ Main Control Board Base
 
     **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520.
 
-    [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://doi.org/10.1016/j.engstruct.2024.119520" target="_blank"> DOI </a>](#)
 
 </div>
 
 <!-- ### __3.3 Damage Detection__ -->
 
+## __IV Pedagogical Research Works__
+
+### ArduinoNode
+
+A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, successfully used in the APESS2025 Summer School held at The Hong Kong Polytechnic University.
+
+![](apess2025.jpg)
+
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __APESS2025_ARDUINONODE__
+
+    ---
+
+    SHM Teaching WSN Node Based on Arduino UNO R4 WIFI
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/APESS2025_ArduinoNode.git" target="_blank"> Code </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/APESS2025_ArduinoNode/" target="_blank"> Online Doc </a>](#)
+
+
+</div>

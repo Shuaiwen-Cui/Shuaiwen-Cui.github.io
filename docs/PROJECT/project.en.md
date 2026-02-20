@@ -65,8 +65,17 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
 
 ![](arduinonode.jpg)
 
-![](teaching.jpg)
+<div class="grid cards" markdown>
 
-![](deployment.jpg)
+-   :simple-github:{ .lg .middle } __ArduinoNode__
 
-![](apess2025.jpg)
+    ---
+
+    SHM Teaching WSN Node Based on Arduino UNO R4 WIFI
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/ArduinoNode.git" target="_blank"> Code </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/ArduinoNode/" target="_blank"> Online Doc </a>](#)
+
+
+</div>
