@@ -46,7 +46,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 **Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)**
 
-1) AIoT System Frontend Hardware & Software Development
+(1) AIoT System Frontend Hardware & Software Development
 
 - Embedded System Architecture Design
 
@@ -68,7 +68,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 </div>
 
-2) AIoT System Backend Cloud Service Development
+(2) AIoT System Backend Cloud Service Development
 
 - Cloud Architecture Design & Deployment
 
@@ -90,7 +90,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 </div>
 
-3) AIoT System End-to-End Intelligence Enabling Framework
+(3) AIoT System End-to-End Intelligence Enabling Framework
 
 - Platform Compatibility Layer Development
 
