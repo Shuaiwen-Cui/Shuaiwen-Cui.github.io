@@ -178,7 +178,7 @@ Main Control Board Base
 
 <!-- ### __3.3 Damage Detection__ -->
 
-## __IV Pedagogical Research Works__
+## __IV Teaching and Pedagogical Research__
 
 ### ArduinoNode
 
