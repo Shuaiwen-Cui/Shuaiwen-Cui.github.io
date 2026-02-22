@@ -6,7 +6,7 @@ comments: false
 ## __崔帅文__
 
 <!-- ![CSW](./static/images/csw-photo.jpeg){: width="30%"} -->
-![CSW](./static/images/csw-studio1.png){: width="30%"}
+![CSW](./static/images/csw-studio2.png){: width="30%"}
 
 >“本生用化，道法术器，抱元守一”
 
