@@ -6,7 +6,7 @@ comments: flase
 ## __SHUAIWEN CUI__
 
 <!-- ![CSW](./static/images/csw-photo.jpeg){: width="30%"} -->
-![CSW](./static/images/csw-studio3.png){: width="80%"}
+![CSW](./static/images/CUI-SHUAIWEN.png){: width="80%"}
 
 >“From the One, To the One”
 
