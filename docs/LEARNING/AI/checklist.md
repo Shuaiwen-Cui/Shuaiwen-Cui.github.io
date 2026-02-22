@@ -14,6 +14,11 @@
 # AI
 - [x] 激活函数 1-2
 - [x] 反向传播 1-4
+- [x] 对偶问题
 - [x] 归一化 1-2
+- [x] CNN 1-4
+- [x] RNN & LSTM 1-2
 - [x] Transformer 1-5
+- [x] BERT
+- [x] GPT
 - [x] Mamba 1-4

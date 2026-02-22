@@ -62,7 +62,7 @@
 
     南洋理工大学服务平台
 
-    [:octicons-arrow-right-24: <a href="https://servicenow.ntu.edu.sg/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://ntuadminonestop.service-now.com/ntussp" target="_blank"> 传送门 </a>](#)
 
 -   :material-school:{ .lg .middle } __NTU GSLINK__
 
@@ -86,7 +86,7 @@
 
     南洋理工大学学生内网
 
-    [:octicons-arrow-right-24: <a href="https://student.ntu.edu.sg/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://entuedu.sharepoint.com/sites/student" target="_blank"> 传送门 </a>](#)
 
 
 </div>
