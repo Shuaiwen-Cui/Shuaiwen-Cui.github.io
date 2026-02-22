@@ -18,6 +18,7 @@
 - [x] 归一化 1-2
 - [x] CNN 1-4
 - [x] RNN & LSTM 1-2
+- [x] YOLO 1-7
 - [x] Transformer 1-5
 - [x] BERT
 - [x] GPT
