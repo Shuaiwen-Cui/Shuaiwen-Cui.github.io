@@ -9,7 +9,7 @@
 
 <div class="grid cards" markdown>
 
--  :material-book:{ .lg .middle } __Little Book of Deep Learning 🏆__
+-  :material-book:{ .lg .middle } __Little Book of Deep Learning ✅🏆__
 
     ---
 
@@ -20,12 +20,6 @@
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bishopbook.com/" target="_blank"> Portal </a>](#)
-
--   :fontawesome-brands-square-github:{ .lg .middle } __Dive Into Deep Learning 🏆__
-
-    --- 
-
-    [:octicons-arrow-right-24: <a href="https://d2l.ai/" target="_blank"> Portal </a>](#) 
 
 </div>
 
