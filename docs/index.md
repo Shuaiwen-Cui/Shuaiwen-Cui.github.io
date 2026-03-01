@@ -130,6 +130,8 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
+- Yu, X., Fu, Y., Yu, X., & **Cui, S.** (2026). Deep Learning-Enabled Data Synchronization for Non-Integer Time Lags in Wireless Structural Health Monitoring. IEEE Internet of Things Journal, 1–1. [https://doi.org/10.1109/JIOT.2026.3664904](https://doi.org/10.1109/JIOT.2026.3664904){:target="_blank"}
+
 - Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2025). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring. 2025;0(0). [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
 
 - Yu, X., **Cui, S.**, Fu, Y.*, & Zhang, Q. (2026). Decentralized system-centric sensor fault diagnosis and recovery using edge computing for wireless structural health monitoring systems. Measurement, Volume 261, 2026, 119994. [https://doi.org/10.1016/j.measurement.2025.119994](https://doi.org/10.1016/j.measurement.2025.119994){:target="_blank"}
