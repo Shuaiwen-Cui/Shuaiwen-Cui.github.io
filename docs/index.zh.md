@@ -8,7 +8,7 @@ comments: false
 <!-- ![CSW](./static/images/csw-photo.jpeg){: width="30%"} -->
 ![CSW](./static/images/CUI-SHUAIWEN-H.png){: width="80%"}
 
->“本生用化，道法术器，抱元守一”
+>“本生用化，道法术器，守正用奇”
 
 <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_CN-2026.pdf" target="_blank">📜 查看与下载我的简历-中文 (2026)</a>
 
