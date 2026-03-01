@@ -18,7 +18,7 @@ comments: flase
 
 ## 🏷️ __KEYWORDS__
 
-Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring
+Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring | AI Agents
 
 ## 🚀 __SPECIALTIES__
 
