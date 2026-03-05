@@ -194,3 +194,15 @@
 - **解决维度**：判定、定位、量化。  
 - **边缘计算**：不太适用。优点：可定量。缺点：优化/反演迭代重，计算与内存需求高。
 - **在线/离线**：适合离线计算；在线通常需云端或强算力节点。
+
+---
+
+## IV. 实验模态分析教学视频
+
+Amirali Najafi 系列
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/Og_VZ-PiBdM" frameborder="0" allowfullscreen></iframe>
+
+NPTEL IIT Delhi 系列
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/tzhSU9CTl08" frameborder="0" allowfullscreen></iframe>

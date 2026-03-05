@@ -131,6 +131,7 @@ plugins:
             GNN: 图神经网络
             DECISION-TREE: 决策树
             STRUCTURAL-HEALTH-MONITORING: 结构健康监测
+            PP: 峰值选取法
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
@@ -277,7 +278,9 @@ nav:
         - MAMBA: "LEARNING/AI/MAMBA/mamba.md"
         - GNN: "LEARNING/AI/GNN/gnn.md"
         - DECISION-TREE: "LEARNING/AI/DECISION-TREE/decision-tree.md"
-    - STRUCTURAL-HEALTH-MONITORING: "LEARNING/SHM/shm.md"
+    - STRUCTURAL-HEALTH-MONITORING: 
+        - ROADMAP: "LEARNING/SHM/shm.md"
+        - PP: "LEARNING/SHM/PP/pp.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
     - MEng STUDIES: "RESEARCH/MEng/meng.md"

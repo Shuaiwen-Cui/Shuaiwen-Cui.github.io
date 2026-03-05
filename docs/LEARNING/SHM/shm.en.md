@@ -193,3 +193,15 @@ Methods below are ordered by dimension: detection first, then localisation, then
 - **Dimensions:** Detection, localisation, quantification.  
 - **Edge computing:** Poorly suited. Pros: Quantitative. Cons: Optimisation/inversion is iterative and heavy; high compute and memory. 
 - **Online/offline:** Suited to offline; online usually needs cloud or high-end node.
+
+---
+
+## IV. MODAL ANALYSIS TEACHING VIDEOS
+
+Amirali Najafi Series
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/Og_VZ-PiBdM" frameborder="0" allowfullscreen></iframe>
+
+NPTEL IIT Delhi Series
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/tzhSU9CTl08" frameborder="0" allowfullscreen></iframe>
