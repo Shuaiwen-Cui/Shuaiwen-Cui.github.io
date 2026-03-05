@@ -22,7 +22,7 @@ Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring | AI
 
 ## 🚀 __SPECIALTIES__
 
-Embedded System Hardware and Software Development ｜ Edge Computing and Intelligence ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ Structural Health Monitoring
+Embedded System Hardware and Software Development ｜ Edge Computing and Intelligence ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ System Identification  |  Structural Health Monitoring
 
 ## 🎓 __EDUCATION__
 
