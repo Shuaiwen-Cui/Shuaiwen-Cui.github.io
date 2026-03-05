@@ -151,39 +151,45 @@ Methods below are ordered by dimension: detection first, then localisation, then
 - **Main idea:** Compare current estimates of modal frequency, damping, or mode shape with a healthy baseline; form a scalar or vector index (e.g. frequency shift, damping change) and apply a threshold or simple statistical test to decide if damage is present.
 - **Typical use:** When a healthy baseline exists and a quick yes/no or “significant change” decision is needed.
 - **Dimensions:** Detection; can support rough quantification (e.g. magnitude of change).  
-- **Edge computing:** Well suited. Pros: Comparison and threshold only; very low compute and memory. Cons: Depends on baseline quality; simple indices may miss damage. **Online/offline:** Suited to online (real-time comparison).
+- **Edge computing:** Well suited. Pros: Comparison and threshold only; very low compute and memory. Cons: Depends on baseline quality; simple indices may miss damage. 
+- **Online/offline:** Suited to online (real-time comparison).
 
 ### 3.2 Response- or feature-based anomaly detection
 
 - **Main idea:** Use statistical features of multi-channel response (e.g. PCA residual, covariance change, Mahalanobis distance) or a novelty index; compare to the baseline distribution and flag anomaly when a threshold is exceeded, without explicit modal parameters.
 - **Typical use:** Many channels, data-driven setup, when accurate modal identification is not required.
 - **Dimensions:** Detection.  
-- **Edge computing:** Moderately suited. Pros: Baseline/model can be trained offline; online step is projection and threshold only. Cons: Covariance or PCA cost grows with channel count. **Online/offline:** Baseline offline, detection online; or fully offline.
+- **Edge computing:** Moderately suited. Pros: Baseline/model can be trained offline; online step is projection and threshold only. Cons: Covariance or PCA cost grows with channel count. 
+- **Online/offline:** Baseline offline, detection online; or fully offline.
 
 ### 3.3 MAC and mode-shape–based indices
 
 - **Main idea:** Use Modal Assurance Criterion (MAC), mode shape difference, or mode slope to measure current vs baseline; regions or modes with large spatial change can indicate damage location.
 - **Typical use:** When multiple mode shapes are available and damage detection plus rough localisation is needed.
 - **Dimensions:** Detection, localisation.  
-- **Edge computing:** Moderately suited. Pros: MAC etc. are inner products and norms; light compute. Cons: Needs current mode shapes; if online, depends on online modal ID. **Online/offline:** Can be online (if modes are online) or offline.
+- **Edge computing:** Moderately suited. Pros: MAC etc. are inner products and norms; light compute. Cons: Needs current mode shapes; if online, depends on online modal ID. 
+- **Online/offline:** Can be online (if modes are online) or offline.
 
 ### 3.4 Flexibility / stiffness matrix method
 
 - **Main idea:** Flexibility and stiffness are inverses in the reduced DOF space; from identified modal parameters (frequency, mode shape, mass approximation) build the flexibility matrix or invert to get stiffness. Damage reduces stiffness and increases flexibility; compare current and baseline flexibility or stiffness (or their change) to find damage regions and to support quantification of stiffness loss.
 - **Typical use:** When several modes and mass approximation are available; common for beams and frames; can be expressed as flexibility or stiffness, same in essence.
 - **Dimensions:** Detection, localisation; can support quantification.  
-- **Edge computing:** Partially suited. Pros: Clear physics; manageable when matrix size is small. Cons: Needs several modes and mass approximation; matrix build or inverse. **Online/offline:** Often offline; can be online with light implementation.
+- **Edge computing:** Partially suited. Pros: Clear physics; manageable when matrix size is small. Cons: Needs several modes and mass approximation; matrix build or inverse. 
+- **Online/offline:** Often offline; can be online with light implementation.
 
 ### 3.5 Curvature and strain mode shape
 
 - **Main idea:** Derive curvature (or strain mode) from displacement mode shape; damage causes local stiffness drop and a spike or discontinuity in curvature/strain, used to localise damage.
 - **Typical use:** Dense sensors, beam- or plate-like structures, when localisation is the goal.
 - **Dimensions:** Localisation.  
-- **Edge computing:** Moderately suited. Pros: Curvature from mode difference or fit; modest compute; easy to distribute. Cons: Needs dense sensors and mode shape estimate. **Online/offline:** Can be online (if modes online) or offline.
+- **Edge computing:** Moderately suited. Pros: Curvature from mode difference or fit; modest compute; easy to distribute. Cons: Needs dense sensors and mode shape estimate. 
+- **Online/offline:** Can be online (if modes online) or offline.
 
 ### 3.6 Model updating and stiffness inversion
 
 - **Main idea:** Use a parameterised FE or reduced model (e.g. element stiffness reduction factors); fit or invert against current test data (modes, response) via optimisation or Bayesian inference to estimate stiffness loss and thus damage location and severity.
 - **Typical use:** When a reliable structural model exists and quantitative location and severity are required.
 - **Dimensions:** Detection, localisation, quantification.  
-- **Edge computing:** Poorly suited. Pros: Quantitative. Cons: Optimisation/inversion is iterative and heavy; high compute and memory. **Online/offline:** Suited to offline; online usually needs cloud or high-end node.
+- **Edge computing:** Poorly suited. Pros: Quantitative. Cons: Optimisation/inversion is iterative and heavy; high compute and memory. 
+- **Online/offline:** Suited to offline; online usually needs cloud or high-end node.
