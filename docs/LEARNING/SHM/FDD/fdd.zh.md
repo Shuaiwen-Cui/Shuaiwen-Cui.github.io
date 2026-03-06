@@ -1,12 +1,6 @@
 # 频域分解法（FDD）/ 增强频域分解法（EFDD）
 
-本页对 [SHM roadmap](../shm.zh.md) 中的 **2.4 FDD / EFDD** 做展开：通过对输出功率谱密度矩阵做奇异值分解提取振型与频率；EFDD 通过在频段内单模态拟合改进阻尼估计。
-
----
-
-## 教学视频
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/placeholder" frameborder="0" allowfullscreen></iframe>
+本页对 [SHM roadmap](../shm.zh.md) 中的 **2.5 FDD / EFDD** 做展开：通过对输出功率谱密度矩阵做奇异值分解提取振型与频率；EFDD 通过在频段内单模态拟合改进阻尼估计。
 
 ---
 
@@ -16,19 +10,26 @@
 
 **原理** — 在白噪声或宽频环境激励下，输出 PSD 矩阵 \(\mathbf{S}_{yy}(\omega)\) 可分解为
 
-\[\mathbf{S}_{yy}(\omega) = \sum_{r=1}^{N_m} \frac{d_r \boldsymbol{\phi}_r \boldsymbol{\phi}_r^H}{(\omega_r^2 - \omega^2)^2 + (2\zeta_r \omega_r \omega)^2} + \mathbf{S}_n(\omega), \tag{1}\]
+\[\mathbf{S}_{yy}(\omega) = \sum_{r=1}^{N_m} \frac{d_r \mathbf{\phi}_r \mathbf{\phi}_r^H}{(\omega_r^2 - \omega^2)^2 + (2\zeta_r \omega_r \omega)^2} + \mathbf{S}_n(\omega), \tag{1}\]
 
 **式 (1) 符号含义：**
 
+
 - \(\mathbf{S}_{yy}(\omega) \in \mathbb{C}^{n \times n}\)：频率 \(\omega\) 处的输出 PSD 矩阵（\(n\) = 传感器数）。
+
 - \(N_m\)：模态数。
-- \(\boldsymbol{\phi}_r \in \mathbb{C}^n\)：第 \(r\) 阶模态的振型向量。
+
+- \(\mathbf{\phi}_r \in \mathbb{C}^n\)：第 \(r\) 阶模态的振型向量。
+
 - \(\omega_r, \zeta_r\)：第 \(r\) 阶模态的无阻尼固有频率与阻尼比。
+
 - \(d_r\)：模态参与因子（取决于激励与模态）。
+
 - \(\mathbf{S}_n(\omega)\)：噪声 PSD 矩阵。
+
 - \((\cdot)^H\)：共轭转置。
 
-在固有频率 \(\omega \approx \omega_r\) 附近，第 \(r\) 阶模态占主导，因此 \(\mathbf{S}_{yy}(\omega)\) 的 **第一奇异向量** 近似 \(\boldsymbol{\phi}_r\)，**第一奇异值** 较大。FDD 通过在每个频率线处做 SVD 利用这一特性。
+在固有频率 \(\omega \approx \omega_r\) 附近，第 \(r\) 阶模态占主导，因此 \(\mathbf{S}_{yy}(\omega)\) 的 **第一奇异向量** 近似 \(\mathbf{\phi}_r\)，**第一奇异值** 较大。FDD 通过在每个频率线处做 SVD 利用这一特性。
 
 **FDD vs EFDD** — **FDD** 给出频率（来自第一奇异值曲线的峰值）与振型（来自各峰值处的第一奇异向量），但 **不给出阻尼**。**EFDD** 增加一步：在每个峰值附近，对奇异值曲线拟合单自由度（SDOF）模型以提取阻尼比 \(\zeta_r\)。
 
@@ -42,79 +43,124 @@
 
 **PSD 估计（Welch 方法）：**
 
-1. **数据分段：** 将每通道数据分成重叠段（如 50% 重叠）。典型段长：1024–4096 样本（根据所需频率分辨率 \(\Delta f = f_s / N_{\text{seg}}\) 调整）。
+1.1 **数据分段：** 将每通道数据分成重叠段（如 50% 重叠）。典型段长：1024–4096 样本（根据所需频率分辨率 \(\Delta f = f_s / N_{\text{seg}}\) 调整）。
 
-2. **加窗：** 对每段加窗（如 Hanning、Hamming）以减少频谱泄漏。对通道 \(i\) 的第 \(m\) 段：
-   \[y_{i,m}^{\text{win}}[k] = w[k] \cdot y_{i,m}[k],\]
+1.2 **加窗：** 对每段加窗（如 Hanning、Hamming）以减少频谱泄漏。对通道 \(i\) 的第 \(m\) 段：
+
+\[y_{i,m}^{\text{win}}[k] = w[k] \cdot y_{i,m}[k],\]
+
    其中 \(w[k]\) 为窗函数。
 
-3. **计算 FFT：** 对每个加窗段计算 FFT：
-   \[Y_{i,m}(\omega_k) = \text{FFT}\{y_{i,m}^{\text{win}}[k]\},\]
+1.3 **计算 FFT：** 对每个加窗段计算 FFT：
+
+\[Y_{i,m}(\omega_k) = \text{FFT}\{y_{i,m}^{\text{win}}[k]\},\]
+
    其中 \(\omega_k = 2\pi k f_s / N_{\text{seg}}\)，\(k = 0, \ldots, N_{\text{seg}}/2\)。
 
-4. **估计 PSD 矩阵：** 在每个频率线 \(\omega_k\) 处，形成 PSD 矩阵：
-   \[\mathbf{S}_{yy}(\omega_k) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{Y}_m(\omega_k) \mathbf{Y}_m^H(\omega_k), \tag{2}\]
+1.4 **估计 PSD 矩阵：** 在每个频率线 \(\omega_k\) 处，形成 PSD 矩阵：
+
+\[\mathbf{S}_{yy}(\omega_k) = \frac{1}{M} \sum_{m=1}^{M} \mathbf{Y}_m(\omega_k) \mathbf{Y}_m^H(\omega_k), \tag{2}\]
+
    其中 \(\mathbf{Y}_m(\omega_k) = [Y_{1,m}(\omega_k), \ldots, Y_{n,m}(\omega_k)]^T\) 为第 \(m\) 段在频率 \(\omega_k\) 处的 FFT 值向量，\(M\) 为段数。
 
 **实践要点：**
 
+
 - **段长：** 更长段 → 频率分辨率更好但平均次数少（方差大）。典型：\(f_s = 100\) Hz 时 2048 样本 → \(\Delta f \approx 0.05\) Hz。
+
 - **重叠：** 50% 重叠常见；75% 给出更多平均但计算更多。
+
 - **窗函数：** Hanning 标准；flat-top 用于幅值精度，矩形窗用于瞬态信号。
+
 - **平均次数：** 推荐 \(M \geq 20\) 以稳定估计；更多平均降低方差但需要更长数据。
 
 ### 步骤 2：各频率线处的 SVD
 
 **对关心的频率范围内的每个频率 \(\omega_k\)：**
 
-1. **提取 PSD 矩阵：** 获取 \(\mathbf{S}_{yy}(\omega_k) \in \mathbb{C}^{n \times n}\)（或使用单边 PSD 时为 \(\mathbb{R}^{n \times n}\)）。
+2.1 **提取 PSD 矩阵：** 获取 \(\mathbf{S}_{yy}(\omega_k) \in \mathbb{C}^{n \times n}\)（或使用单边 PSD 时为 \(\mathbb{R}^{n \times n}\)）。
 
-2. **执行 SVD：**
-   \[\mathbf{S}_{yy}(\omega_k) = \mathbf{U}_k \boldsymbol{\Sigma}_k \mathbf{V}_k^H, \tag{3}\]
+2.2 **执行 SVD：**
+
+\[\mathbf{S}_{yy}(\omega_k) = \mathbf{U}_k \mathbf{\Sigma}_k \mathbf{V}_k^H, \tag{3}\]
+
    其中：
-   - \(\mathbf{U}_k = [\mathbf{u}_{1,k}, \ldots, \mathbf{u}_{n,k}]\)：左奇异向量（列）。
-   - \(\boldsymbol{\Sigma}_k = \text{diag}(\sigma_{1,k}, \ldots, \sigma_{n,k})\)：奇异值（\(\sigma_{1,k} \geq \sigma_{2,k} \geq \cdots \geq \sigma_{n,k} \geq 0\)）。
-   - \(\mathbf{V}_k\)：右奇异向量（FDD 不需要）。
+ 
+  
+- \(\mathbf{U}_k = [\mathbf{u}_{1,k}, \ldots, \mathbf{u}_{n,k}]\)：左奇异向量（列）。
+ 
+  
+- \(\mathbf{\Sigma}_k = \text{diag}(\sigma_{1,k}, \ldots, \sigma_{n,k})\)：奇异值（\(\sigma_{1,k} \geq \sigma_{2,k} \geq \cdots \geq \sigma_{n,k} \geq 0\)）。
+ 
+  
+- \(\mathbf{V}_k\)：右奇异向量（FDD 不需要）。
 
-3. **存储结果：**
-   - **第一奇异值：** \(\sigma_{1,k}\)（用于找频率峰值）。
-   - **第一奇异向量：** \(\mathbf{u}_{1,k}\)（在 \(\omega_k\) 处近似振型）。
+2.3 **存储结果：**
+ 
+  
+- **第一奇异值：** \(\sigma_{1,k}\)（用于找频率峰值）。
+ 
+  
+- **第一奇异向量：** \(\mathbf{u}_{1,k}\)（在 \(\omega_k\) 处近似振型）。
 
 **实现要点：**
 
+
 - 若仅关心第一阶模态，使用 **精简 SVD**（仅计算前几个奇异向量）。
+
 - 对于实 PSD 矩阵（单边），使用实 SVD；对于复矩阵（双边），使用复 SVD。
+
 - **数值稳定性：** 若 \(\mathbf{S}_{yy}(\omega_k)\) 病态（如接近噪声底），第一奇异向量可能不可靠；检查条件数或使用正则化。
 
 ### 步骤 3：提取频率与振型（FDD）
 
 **频率提取：**
 
-1. **绘制第一奇异值曲线：** \(\sigma_1(\omega_k)\) vs \(\omega_k\)（或 \(f_k = \omega_k / (2\pi)\)）。
+3.1 **绘制第一奇异值曲线：** \(\sigma_1(\omega_k)\) vs \(\omega_k\)（或 \(f_k = \omega_k / (2\pi)\)）。
 
-2. **识别峰值：** 在 \(\sigma_1(\omega_k)\) 中找局部最大值。使用峰值检测：
-   - **简单方法：** 找满足 \(\sigma_{1,k} > \sigma_{1,k-1}\) 且 \(\sigma_{1,k} > \sigma_{1,k+1}\) 的 bin。
-   - **稳健方法：** 使用峰值突出度（相对邻域的最小高度）过滤噪声。
-   - **亚 bin 精度：** 在峰值附近拟合抛物线得到亚 bin 频率估计。
+3.2 **识别峰值：** 在 \(\sigma_1(\omega_k)\) 中找局部最大值。使用峰值检测：
+ 
+  
+- **简单方法：** 找满足 \(\sigma_{1,k} > \sigma_{1,k-1}\) 且 \(\sigma_{1,k} > \sigma_{1,k+1}\) 的 bin。
+ 
+  
+- **稳健方法：** 使用峰值突出度（相对邻域的最小高度）过滤噪声。
+ 
+  
+- **亚 bin 精度：** 在峰值附近拟合抛物线得到亚 bin 频率估计。
 
-3. **记录峰值频率：** 对每个峰值 \(r\)，记录频率 \(\omega_r\)（或 \(f_r\)）。
+3.3 **记录峰值频率：** 对每个峰值 \(r\)，记录频率 \(\omega_r\)（或 \(f_r\)）。
 
 **振型提取：**
 
-1. **在每个峰值频率 \(\omega_r\) 处：**
-   - 提取第一奇异向量：\(\boldsymbol{\phi}_r \approx \mathbf{u}_{1,k_r}\)，其中 \(k_r\) 为峰值 \(r\) 的频率 bin 索引。
-   - **归一化：** 通常归一化为单位范数或将最大分量设为 1：
-     \[\boldsymbol{\phi}_r \leftarrow \frac{\boldsymbol{\phi}_r}{\|\boldsymbol{\phi}_r\|} \quad \text{或} \quad \boldsymbol{\phi}_r \leftarrow \frac{\boldsymbol{\phi}_r}{\max_i |\phi_{r,i}|}.\]
+3.4 **在每个峰值频率 \(\omega_r\) 处：**
+ 
+  
+- 提取第一奇异向量：\(\mathbf{\phi}_r \approx \mathbf{u}_{1,k_r}\)，其中 \(k_r\) 为峰值 \(r\) 的频率 bin 索引。
+ 
+  
+- **归一化：** 通常归一化为单位范数或将最大分量设为 1：
 
-2. **处理复振型：** 若 \(\boldsymbol{\phi}_r\) 为复数（来自复 SVD），可：
-   - 使用 **幅值** \(|\boldsymbol{\phi}_r|\) 作为实振型（轻阻尼结构常见）。
-   - 使用 **实部** \(\text{Re}(\boldsymbol{\phi}_r)\)（若结构为实值）。
-   - 保留复数（若结构有复模态，如陀螺效应、非比例阻尼）。
+\[\mathbf{\phi}_r \leftarrow \frac{\mathbf{\phi}_r}{\|\mathbf{\phi}_r\|} \quad \text{或} \quad \mathbf{\phi}_r \leftarrow \frac{\mathbf{\phi}_r}{\max_i |\phi_{r,i}|}.\]
+
+3.5 **处理复振型：** 若 \(\mathbf{\phi}_r\) 为复数（来自复 SVD），可：
+ 
+  
+- 使用 **幅值** \(|\mathbf{\phi}_r|\) 作为实振型（轻阻尼结构常见）。
+ 
+  
+- 使用 **实部** \(\text{Re}(\mathbf{\phi}_r)\)（若结构为实值）。
+ 
+  
+- 保留复数（若结构有复模态，如陀螺效应、非比例阻尼）。
 
 **实践要点：**
 
+
 - **峰值选择：** 仅选择明显高于噪声底的峰值。经验规则：\(\sigma_{1,\text{peak}} > 2 \cdot \sigma_{1,\text{noise}}\)，其中 \(\sigma_{1,\text{noise}}\) 为非共振区 \(\sigma_1\) 的平均值。
+
 - **密模态：** 若两峰值非常接近（几个频率 bin 内），第一奇异向量可能混合两阶模态。使用第二奇异向量或应用 EFDD/SSI 以更好分离。
+
 - **振型一致性：** 检查附近频率（同一峰值区域内）的振型是否相似；大变化表明噪声或模态混合。
 
 ### 步骤 4：阻尼估计（EFDD）
@@ -123,24 +169,31 @@
 
 **对每个在频率 \(\omega_r\) 处的已识别峰值：**
 
-1. **选择频段：** 在 \(\omega_r\) 附近选择频段：\([\omega_r - \Delta\omega, \omega_r + \Delta\omega]\)，其中 \(\Delta\omega\) 通常为预期带宽的 2–5 倍（如已知阻尼近似值，\(\Delta\omega \approx 5 \zeta_r \omega_r\)）。
+4.1 **选择频段：** 在 \(\omega_r\) 附近选择频段：\([\omega_r - \Delta\omega, \omega_r + \Delta\omega]\)，其中 \(\Delta\omega\) 通常为预期带宽的 2–5 倍（如已知阻尼近似值，\(\Delta\omega \approx 5 \zeta_r \omega_r\)）。
 
-2. **提取奇异值曲线：** 在此频段内，提取该频段内所有频率 bin \(k\) 的 \(\sigma_1(\omega_k)\)。
+4.2 **提取奇异值曲线：** 在此频段内，提取该频段内所有频率 bin \(k\) 的 \(\sigma_1(\omega_k)\)。
 
-3. **拟合 SDOF 模型：** 将理论 SDOF 响应拟合到奇异值曲线。模型为：
-   \[\sigma_1(\omega) \approx \frac{A}{(\omega_r^2 - \omega^2)^2 + (2\zeta_r \omega_r \omega)^2}, \tag{4}\]
+4.3 **拟合 SDOF 模型：** 将理论 SDOF 响应拟合到奇异值曲线。模型为：
+
+\[\sigma_1(\omega) \approx \frac{A}{(\omega_r^2 - \omega^2)^2 + (2\zeta_r \omega_r \omega)^2}, \tag{4}\]
+
    其中 \(A\) 为幅值因子。
 
-4. **优化：** 最小化测量 \(\sigma_1(\omega_k)\) 与模型 (4) 之间的误差，对 \(\omega_r\) 和 \(\zeta_r\)（及可选的 \(A\)）优化。使用非线性优化（如 Levenberg–Marquardt、Gauss–Newton）：
-   \[\min_{\omega_r, \zeta_r, A} \sum_{k \in \text{band}} \left| \sigma_1(\omega_k) - \frac{A}{(\omega_r^2 - \omega_k^2)^2 + (2\zeta_r \omega_r \omega_k)^2} \right|^2. \tag{5}\]
+4.4 **优化：** 最小化测量 \(\sigma_1(\omega_k)\) 与模型 (4) 之间的误差，对 \(\omega_r\) 和 \(\zeta_r\)（及可选的 \(A\)）优化。使用非线性优化（如 Levenberg–Marquardt、Gauss–Newton）：
 
-5. **提取阻尼：** 优化得到的 \(\zeta_r\) 即为阻尼比估计。
+\[\min_{\omega_r, \zeta_r, A} \sum_{k \in \text{band}} \left| \sigma_1(\omega_k) - \frac{A}{(\omega_r^2 - \omega_k^2)^2 + (2\zeta_r \omega_r \omega_k)^2} \right|^2. \tag{5}\]
+
+4.5 **提取阻尼：** 优化得到的 \(\zeta_r\) 即为阻尼比估计。
 
 **实践要点：**
 
+
 - **初值：** 使用步骤 3 的峰值频率作为初值 \(\omega_r\)；使用典型阻尼（如土木结构 0.01，机械系统 0.05）或先验知识作为初值 \(\zeta_r\)。
+
 - **频段宽度选择：** 太窄 → 数据不足；太宽 → 包含邻近模态。从 \(\Delta\omega \approx 3 \zeta_r \omega_r\) 开始并调整。
+
 - **收敛性：** 若优化不收敛，模态可能太接近另一模态或阻尼太轻；尝试更窄频段或仅使用 FDD 频率（不估计阻尼）。
+
 - **验证：** 检查拟合曲线与测量 \(\sigma_1\) 的视觉匹配；大残差表明拟合差（可能因模态混合或噪声）。
 
 ---
@@ -150,60 +203,77 @@
 **输入：** 多通道时间序列 \(\{y_i[k]\}\)，\(i = 1, \ldots, n\)，\(k = 1, \ldots, N\)，采样率 \(f_s\)。
 
 **步骤 1：预处理**
-- 去除直流：\(y_i[k] \leftarrow y_i[k] - \text{mean}(y_i)\)。
-- （可选）去趋势：若存在线性趋势则去除。
-- （可选）滤波：应用带通滤波聚焦到关心的频率范围。
+
+1.1 去除直流：\(y_i[k] \leftarrow y_i[k] - \text{mean}(y_i)\)。
+
+1.2 （可选）去趋势：若存在线性趋势则去除。
+
+1.3 （可选）滤波：应用带通滤波聚焦到关心的频率范围。
 
 **步骤 2：PSD 矩阵估计**
-- 选择段长 \(N_{\text{seg}}\)（如 2048）与重叠（如 50%）。
-- 对每通道 \(i\)，计算所有段的加窗 FFT。
-- 在每个频率 bin \(k\)，使用 (2) 形成 \(\mathbf{S}_{yy}(\omega_k)\)。
-- 结果：频率 bin \(k = 0, \ldots, N_{\text{seg}}/2\) 的 PSD 矩阵 \(\mathbf{S}_{yy}(\omega_k)\)。
+
+2.1 选择段长 \(N_{\text{seg}}\)（如 2048）与重叠（如 50%）。
+
+2.2 对每通道 \(i\)，计算所有段的加窗 FFT。
+
+2.3 在每个频率 bin \(k\)，使用 (2) 形成 \(\mathbf{S}_{yy}(\omega_k)\)。
+
+2.4 结果：频率 bin \(k = 0, \ldots, N_{\text{seg}}/2\) 的 PSD 矩阵 \(\mathbf{S}_{yy}(\omega_k)\)。
 
 **步骤 3：各频率处 SVD**
-- 对每个 \(\omega_k\)：
-  - 计算 SVD：\(\mathbf{S}_{yy}(\omega_k) = \mathbf{U}_k \boldsymbol{\Sigma}_k \mathbf{V}_k^H\)。
-  - 存储 \(\sigma_{1,k}\)（第一奇异值）与 \(\mathbf{u}_{1,k}\)（第一奇异向量）。
-- 结果：\(\sigma_1(\omega_k)\) 曲线与 \(\mathbf{u}_1(\omega_k)\) 向量。
+
+3.1 对每个 \(\omega_k\)：计算 SVD \(\mathbf{S}_{yy}(\omega_k) = \mathbf{U}_k \mathbf{\Sigma}_k \mathbf{V}_k^H\)；存储 \(\sigma_{1,k}\)（第一奇异值）与 \(\mathbf{u}_{1,k}\)（第一奇异向量）。
+
+3.2 结果：\(\sigma_1(\omega_k)\) 曲线与 \(\mathbf{u}_1(\omega_k)\) 向量。
 
 **步骤 4：频率识别（FDD）**
-- 绘制 \(\sigma_1(\omega_k)\) vs \(f_k = \omega_k / (2\pi)\)。
-- 使用峰值检测（带突出度阈值）识别峰值。
-- 对每个峰值 \(r\)，记录频率 \(f_r\)（若拟合则含亚 bin 精度）。
+
+4.1 绘制 \(\sigma_1(\omega_k)\) vs \(f_k = \omega_k / (2\pi)\)。
+
+4.2 使用峰值检测（带突出度阈值）识别峰值。
+
+4.3 对每个峰值 \(r\)，记录频率 \(f_r\)（若拟合则含亚 bin 精度）。
 
 **步骤 5：振型提取（FDD）**
-- 对每个在频率 bin \(k_r\) 处的峰值 \(r\)：
-  - 提取振型：\(\boldsymbol{\phi}_r = \mathbf{u}_{1,k_r}\)。
-  - 归一化（单位范数或最大分量 = 1）。
-  - （可选）检查与附近 bin 的一致性。
-- 结果：\(r = 1, \ldots, N_m\) 的振型 \(\boldsymbol{\phi}_r\)。
+
+5.1 对每个在频率 bin \(k_r\) 处的峰值 \(r\)：提取振型 \(\mathbf{\phi}_r = \mathbf{u}_{1,k_r}\)；归一化（单位范数或最大分量 = 1）；（可选）检查与附近 bin 的一致性。
+
+5.2 结果：\(r = 1, \ldots, N_m\) 的振型 \(\mathbf{\phi}_r\)。
 
 **步骤 6：阻尼估计（EFDD，可选）**
-- 对每个峰值 \(r\)：
-  - 选择 \(f_r\) 附近的频段。
-  - 提取该频段内的 \(\sigma_1(\omega_k)\)。
-  - 使用优化 (5) 拟合 SDOF 模型 (4)。
-  - 提取阻尼比 \(\zeta_r\)。
-- 结果：\(r = 1, \ldots, N_m\) 的阻尼比 \(\zeta_r\)。
 
-**输出：** 模态参数：频率 \(f_r\)，振型 \(\boldsymbol{\phi}_r\)，阻尼比 \(\zeta_r\)（若使用 EFDD）。
+6.1 对每个峰值 \(r\)：选择 \(f_r\) 附近的频段；提取该频段内的 \(\sigma_1(\omega_k)\)；使用优化 (5) 拟合 SDOF 模型 (4)；提取阻尼比 \(\zeta_r\)。
+
+6.2 结果：\(r = 1, \ldots, N_m\) 的阻尼比 \(\zeta_r\)。
+
+**输出：** 模态参数：频率 \(f_r\)，振型 \(\mathbf{\phi}_r\)，阻尼比 \(\zeta_r\)（若使用 EFDD）。
 
 ---
 
 ## 适用情形与局限
 
 **适用：**
+
 - **仅输出数据**（环境激励、运行工况）。
+
 - **多个传感器**（至少 2 个，建议 4+ 以可靠得到振型）。
+
 - **宽频或白噪声激励**（确保所有模态被激励）。
+
 - **模态较分离**（FDD 在模态不太接近时效果最好）。
+
 - **中等阻尼**（极轻阻尼：峰值尖锐，EFDD 拟合可能困难；极重阻尼：峰值宽，难以分离）。
 
 **局限：**
+
 - **FDD 不给出阻尼：** FDD 仅给出频率与振型；需要 EFDD 得到阻尼。
+
 - **密模态：** 当模态非常接近（几个频率 bin 内）时，第一奇异向量可能混合模态；使用第二/第三奇异向量或改用 SSI。
+
 - **振型精度：** 奇异向量为近似；精度取决于信噪比、传感器数与模态分离度。
+
 - **激励假设：** 假设白噪声或宽频激励；窄带激励可能偏置结果。
+
 - **计算成本：** 各频率线处 SVD；对多频率与多传感器，成本为 \(O(n^3 \cdot N_f)\)，其中 \(N_f\) 为频率 bin 数。
 
 ---
@@ -258,39 +328,45 @@
 
 **实现策略：**
 
-1. **PSD 估计：** 使用 **滑动窗 Welch** 或 **块处理**：
-   - 每通道缓冲 \(N_{\text{seg}}\) 样本。
-   - 计算当前块的加窗 FFT。
-   - 更新 PSD 估计（指数移动平均或块平均）。
-   - 折中：更多平均 → 质量更好但延迟更大。
+1. **PSD 估计**（滑动窗 Welch 或块处理）  
+   1.1 每通道缓冲 \(N_{\text{seg}}\) 样本。  
+   1.2 计算当前块的加窗 FFT。  
+   1.3 更新 PSD 估计（指数移动平均或块平均）。  
+   1.4 折中：更多平均 → 质量更好但延迟更大。
 
-2. **SVD 计算：** 对每个频率 bin：
-   - **精简 SVD：** 仅计算前 1–2 个奇异向量（多数模态在第一）。
-   - **批处理：** 若硬件允许，并行处理多个频率 bin。
-   - **增量更新：** 对慢变系统，增量更新 SVD（如 rank-1 更新）。
+2. **SVD 计算**（对每个频率 bin）  
+   2.1 **精简 SVD** — 仅计算前 1–2 个奇异向量（多数模态在第一）。  
+   2.2 **批处理** — 若硬件允许，并行处理多个频率 bin。  
+   2.3 **增量更新** — 对慢变系统，增量更新 SVD（如 rank-1 更新）。
 
 3. **峰值检测：** 轻量（比较与局部拟合）；可实时运行。
 
-4. **EFDD 阻尼：** 更昂贵（非线性优化）；选项：
-   - **离线** 或在 **云端** 运行 EFDD（上传峰值频率，下载阻尼）。
-   - 使用来自基线的 **预计算阻尼**（假设阻尼变化不大）。
-   - 在边缘 **跳过 EFDD**，仅使用 FDD 频率（阻尼来自其他方法或先验）。
+4. **EFDD 阻尼：** 更昂贵（非线性优化）；选项：  
+   4.1 **离线** 或在 **云端** 运行 EFDD（上传峰值频率，下载阻尼）。  
+   4.2 使用来自基线的 **预计算阻尼**（假设阻尼变化不大）。  
+   4.3 在边缘 **跳过 EFDD**，仅使用 FDD 频率（阻尼来自其他方法或先验）。
 
 **实用边缘部署：**
 
-- **分级链路：**
-  1. **边缘：** PSD 估计 + SVD + 峰值检测 → 频率与振型（FDD）。
-  2. **云端/离线：** 对已识别峰值做 EFDD 阻尼拟合。
-- **资源限制：**
-  - 限制频率 bin 数（聚焦到预期模态范围）。
-  - 限制传感器数（需要时使用子集）。
-  - 使用精简 SVD（仅前 1–2 阶模态）。
-- **实时筛查：** 将 FDD 频率与基线比较；标记显著漂移；上传可疑片段做完整分析。
+1. **分级链路：**  
+   1.1 **边缘** — PSD 估计 + SVD + 峰值检测 → 频率与振型（FDD）。  
+   1.2 **云端/离线** — 对已识别峰值做 EFDD 阻尼拟合。
+
+2. **资源限制：**  
+   2.1 限制频率 bin 数（聚焦到预期模态范围）。  
+   2.2 限制传感器数（需要时使用子集）。  
+   2.3 使用精简 SVD（仅前 1–2 阶模态）。
+
+3. **实时筛查：** 将 FDD 频率与基线比较；标记显著漂移；上传可疑片段做完整分析。
 
 **挑战：**
+
 - **内存：** PSD 矩阵与 SVD 结果需要存储；限制频率范围与传感器。
+
 - **计算：** 各频率处 SVD；对多 bin，MCU 上成本显著。
+
 - **延迟：** PSD 需要缓冲；实时更新有延迟（如 \(N_{\text{seg}} / f_s\) 秒）。
+
 - **质量：** 边缘信噪比可能更低；更少平均 → 结果更噪声；使用平滑或更长缓冲。
 
 ---
@@ -298,18 +374,27 @@
 ## 与其他方法比较
 
 **FDD vs PP：**
+
 - **FDD：** 使用 PSD 矩阵 SVD → 对噪声更稳健，密模态更好，直接给出振型。
+
 - **PP：** 更简单（仅在谱上峰值拾取）→ 更快，稳健性差，振型来自幅值比。
 
 **FDD vs SSI：**
+
 - **FDD：** 频域，非参数 → 更简单，无需阶次选择，但无阻尼（需要 EFDD）。
+
 - **SSI：** 时域，参数 → 更准确，给出阻尼，但需要阶次选择与更多计算。
 
 **FDD vs EFDD：**
+
 - **FDD：** 快，给出频率与振型，无阻尼。
+
 - **EFDD：** 增加通过 SDOF 拟合的阻尼估计 → 更完整但更慢。
 
 **何时选择：**
+
 - 使用 **FDD** 进行快速筛查、模态较分离、阻尼不关键时。
+
 - 使用 **EFDD** 当需要阻尼且模态合理分离时。
+
 - 使用 **SSI** 追求最高精度、密模态、或需要完整模态模型时。

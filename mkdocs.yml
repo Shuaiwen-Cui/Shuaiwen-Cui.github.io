@@ -134,7 +134,9 @@ plugins:
             PP: 峰值选取法
             PEM: 预测误差法
             FRF: 频响函数法
+            TFF: 传递函数拟合
             FDD: 频域分解法
+            ERA: 特征系统实现算法
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
@@ -286,7 +288,9 @@ nav:
         - PP: "LEARNING/SHM/PP/pp.md"
         - PEM: "LEARNING/SHM/PEM/pem.md"
         - FRF: "LEARNING/SHM/FRF/frf.md"
+        - TFF: "LEARNING/SHM/TFF/tff.md"
         - FDD: "LEARNING/SHM/FDD/fdd.md"
+        - ERA: "LEARNING/SHM/ERA/era.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
     - MEng STUDIES: "RESEARCH/MEng/meng.md"
