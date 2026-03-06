@@ -119,26 +119,34 @@ Below are core, classical methods worth prioritising; each is given a one-senten
 - **Typical use:** Output-only operational modal analysis (e.g. bridges, buildings under ambient excitation).  
 - **Edge computing:** Moderately suited. Pros: Output-only; SVD per frequency line can be done in batches; manageable when channels and lines are limited. Cons: Buffer needed for PSD; EFDD damping fit adds an extra step.
 
-### 2.5 ERA / NExT-ERA
+### 2.5 Random Decrement (RDT / RDM)
+
+- **Name:** Random Decrement Technique / Random Decrement Method (RDT / RDM).  
+- **Main idea:** From long output-only response under ambient excitation, extract many short time segments triggered by a condition (e.g. level crossing) and average them to cancel the random part of excitation, yielding a **free-decay signature** (impulse-like response) that can be used to estimate modal frequency and damping (and, with multiple channels, mode shapes).  
+- **Typical use:** Output-only operational modal analysis when you want a clean free-decay signal from ambient data; commonly used as a preprocessing step for **NExT/ERA** or for simple damping estimation.  
+- **Edge computing:** Moderately suited. Pros: Mostly buffering + triggering + averaging; no heavy optimization. Cons: Needs sufficient data for averaging; trigger choice affects quality; multi-channel processing increases memory and bandwidth.
+
+### 2.6 ERA / NExT-ERA
 
 - **Name:** Eigensystem Realization Algorithm / Natural Excitation Technique – ERA.  
 - **Main idea:** ERA forms Markov parameters and a Hankel matrix from impulse or free-decay response, then uses SVD and minimal realisation to obtain a state-space model and modal parameters; NExT-ERA under ambient excitation builds equivalent impulse responses from output auto- and cross-correlations, then applies ERA to them.  
 - **Typical use:** ERA when impulse or free-decay data are available; NExT-ERA for output-only operational modal analysis (e.g. bridges, buildings under ambient excitation).  
 - **Edge computing:** Moderately suited. Pros: Output-only; Hankel size can be limited; single SVD per run, no iteration. Cons: Correlation estimation needs buffer; order selection and multi-order trials increase cost.
 
-### 2.6 SSI
+### 2.7 SSI
 
 - **Name:** Stochastic subspace identification (SSI: SSI-COV / SSI-DATA).  
 - **Main idea:** Build block Hankel/Toeplitz matrices from output (or input–output) data, obtain observability/controllability subspaces via SVD, then recover a discrete state-space model and modal parameters from its system matrix.  
 - **Typical use:** Output-only or input–output; robust modal identification with long, multi-channel data; widely used in operational modal analysis.  
 - **Edge computing:** Poorly suited. Pros: Best identification quality; industry standard. Cons: Large Hankel and SVD; multi-order stabilization diagram; high compute and memory; heavy for low-power edge; may need reduced setup or cloud–edge split to offload.
 
-### 2.7 BAYOMA
+### 2.8 BAYOMA
 
 - **Name:** Bayesian Operational Modal Analysis (BAYOMA).  
 - **Main idea:** In output-only setting, treat modal parameters as random variables; use Bayesian inference (e.g. MCMC, variational or Laplace approximation) to estimate their posterior from response data, yielding parameter estimates and uncertainty (e.g. credible intervals).  
 - **Typical use:** Output-only OMA when uncertainty quantification or confidence intervals for modal parameters are needed; complements point-estimate methods such as SSI and FDD.  
 - **Edge computing:** Poorly suited. Pros: Provides posterior and uncertainty for risk and decision-making. Cons: Bayesian computation (MCMC etc.) is heavy; high compute and memory; typically offline or cloud.
+
 
 ---
 
