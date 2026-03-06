@@ -206,3 +206,18 @@ Amirali Najafi 系列
 NPTEL IIT Delhi 系列
 
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/tzhSU9CTl08" frameborder="0" allowfullscreen></iframe>
+
+## V. 相关链接
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __常用环境激励模态识别方法__
+
+    ---
+
+    知乎
+
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/644013127" target="_blank"> 传送门 </a>](#)
+
+</div>
