@@ -132,6 +132,7 @@ plugins:
             DECISION-TREE: 决策树
             STRUCTURAL-HEALTH-MONITORING: 结构健康监测
             PP: 峰值选取法
+            PEM: 预测误差法
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
@@ -281,6 +282,7 @@ nav:
     - STRUCTURAL-HEALTH-MONITORING: 
         - ROADMAP: "LEARNING/SHM/shm.md"
         - PP: "LEARNING/SHM/PP/pp.md"
+        - PEM: "LEARNING/SHM/PEM/pem.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
     - MEng STUDIES: "RESEARCH/MEng/meng.md"
