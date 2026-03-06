@@ -4,15 +4,41 @@ This page expands **2.2 ARX / ARMAX (PEM)** from the [SHM roadmap](../shm.en.md)
 
 ---
 
+## Tutorial video
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/HY7U-xA5KEo" frameborder="0" allowfullscreen></iframe>
+
+---
+
 ## Concept
 
 **Core idea** — Use discrete-time difference equations (ARX, ARMAX, AR, ARMA) to describe the system; treat the **one-step-ahead prediction error** as a function of the model parameters and estimate parameters by **minimising a prediction-error criterion** (e.g. least squares, maximum likelihood); then obtain the **poles** of the identified discrete transfer function or state-space form, and hence **modal frequency and damping ratio** (and **mode shapes** when using MIMO or state-space). So PEM is: **model + prediction-error criterion + optimisation** → parameter estimate → modal parameters.
 
-**Model forms (brief)** — Let \(q^{-1}\) be the delay operator (\(q^{-1} y[k] = y[k-1]\)).
+**Model forms (brief)** — Let \(q^{-1}\) be the delay operator:
 
-- **ARX:** \(A(q^{-1}) y[k] = B(q^{-1}) u[k] + e[k]\). Output \(y\) is driven by past input \(u\), past output, and equation error \(e\); parameters enter **linearly** in \(A,B\), so **least squares (LS)** gives the solution in one step, no iteration.
-- **ARMAX:** Adds a moving-average term in the noise, \(C(q^{-1}) e[k]\), i.e. \(A(q^{-1}) y[k] = B(q^{-1}) u[k] + C(q^{-1}) e[k]\). Parameters in \(A,B,C\) are **nonlinear** (because of \(C\)), so **iterative optimisation** (e.g. Gauss–Newton, prediction-error minimisation, or MLE) is required.
-- **Output-only (AR / ARMA):** No input term: \(A(q^{-1}) y[k] = e[k]\) (AR) or \(A(q^{-1}) y[k] = C(q^{-1}) e[k]\) (ARMA). Used when only response is measured (e.g. ambient excitation); estimate \(A\) (and \(C\)) from response autocorrelation or directly by PEM, then get modal frequency and damping from the poles.
+\[q^{-1} y[k] = y[k-1]. \tag{1}\]
+
+- **ARX:** Output \(y\) is driven by past input \(u\), past output, and equation error \(e\); parameters enter **linearly** in \(A,B\), so **least squares (LS)** gives the solution in one step, no iteration.
+
+\[A(q^{-1}) y[k] = B(q^{-1}) u[k] + e[k]. \tag{2}\]
+
+- **ARMAX:** Adds a moving-average term in the noise \(C(q^{-1}) e[k]\); parameters in \(A,B,C\) are **nonlinear** (because of \(C\)), so **iterative optimisation** (e.g. Gauss–Newton, prediction-error minimisation, or MLE) is required.
+
+\[A(q^{-1}) y[k] = B(q^{-1}) u[k] + C(q^{-1}) e[k]. \tag{3}\]
+
+- **Output-only (AR / ARMA):** No input term; used when only response is measured (e.g. ambient excitation); estimate \(A\) (and \(C\)) from response autocorrelation or directly by PEM, then get modal frequency and damping from the poles.
+
+\[A(q^{-1}) y[k] = e[k] \quad \text{(AR)};\qquad A(q^{-1}) y[k] = C(q^{-1}) e[k] \quad \text{(ARMA)}. \tag{4}\]
+
+**Notation for (1)–(4):**
+
+- \(q^{-1}\): delay operator, \(q^{-1} y[k] = y[k-1]\).
+- \(k\): discrete time index.
+- \(y[k]\): output at step \(k\) (measured signal, e.g. acceleration, strain).
+- \(u[k]\): input at step \(k\) (excitation); absent in output-only models (AR/ARMA).
+- \(e[k]\): equation error / noise term (often white noise, or noise filtered by \(C(q^{-1})\)).
+- \(A(q^{-1}), B(q^{-1}), C(q^{-1})\): polynomials in \(q^{-1}\) whose coefficients are the parameters to be estimated; \(A\) is usually monic (constant term 1), \(B\) describes input-to-output dynamics, \(C\) describes the moving average of the noise.
+- \(n_a, n_b, n_c\): orders of \(A,B,C\) respectively (highest power of \(q^{-1}\)).
 
 **Relation to state space** — Difference-equation and discrete state-space models are equivalent (convertible); PEM can also be applied directly to state-space parameters. Here the focus is on input–output forms (ARX/ARMAX) for simplicity and the fact that ARX has a closed-form LS solution.
 
@@ -20,20 +46,46 @@ This page expands **2.2 ARX / ARMAX (PEM)** from the [SHM roadmap](../shm.en.md)
 
 ## Algorithm in brief
 
-**Prediction and prediction error** — For given data and parameters, the model yields a **one-step-ahead prediction** \(\hat{y}[k|k-1]\); the **prediction error** is \(\varepsilon[k] = y[k] - \hat{y}[k|k-1]\). PEM chooses parameters to minimise a criterion (usually sum of squared errors or negative log-likelihood).
+**Prediction and prediction error** — For given data and parameters, the model yields a **one-step-ahead prediction** \(\hat{y}[k|k-1]\); the **prediction error** is
 
-**ARX: least squares** — ARX can be written as a linear regression in the parameter vector; the prediction error is **linear** in the parameters. Minimising \(\sum_k \varepsilon[k]^2\) leads to the **normal equations**; solve the linear system (or use **recursive least squares, RLS**, for online/streaming). No iteration, no initial guess; numerically stable and cheap.
+\[\varepsilon[k] = y[k] - \hat{y}[k|k-1]. \tag{5}\]
+
+**Notation for (5):**
+
+- \(\hat{y}[k|k-1]\): **one-step-ahead prediction** of \(y[k]\) given data up to time \(k-1\) and the current model parameters.
+- \(\varepsilon[k]\): **one-step-ahead prediction error**; PEM estimates parameters by minimising a function of it (e.g. sum of squares).
+
+PEM chooses parameters to minimise a criterion (usually sum of squared errors or negative log-likelihood).
+
+**ARX: least squares** — ARX can be written as a linear regression in the parameter vector; the prediction error is **linear** in the parameters. Minimising
+
+\[\sum_k \varepsilon[k]^2 \tag{6}\]
+
+**Equation (6):** sum of squared prediction errors over all time steps \(k\); the range of \(k\) is determined by the data window.
+
+leads to the **normal equations**; solve the linear system (or use **recursive least squares, RLS**, for online/streaming). No iteration, no initial guess; numerically stable and cheap.
 
 **ARMAX / ARMA: iterative optimisation** — The prediction \(\hat{y}[k|k-1]\) depends on past \(\varepsilon\), which in turn depends on parameters, so the problem is **coupled** and **nonlinear** in parameters. Use **iterative methods** (e.g. Gauss–Newton, Levenberg–Marquardt, or gradient-based MLE) until convergence. Initialise from ARX or a high-order ARX; ensure convergence and numerical stability (e.g. keep \(A,C\) stable).
 
-**Modal parameter extraction** — From the estimated \(A(q^{-1})\) (and \(B,C\)), find the **roots** of \(A(z^{-1})=0\) (discrete poles). Map poles to continuous time (e.g. \(s = \ln(z)/T_s\)) to get **continuous poles** \(s_r = -\zeta_r \omega_r \pm j\omega_r\sqrt{1-\zeta_r^2}\), hence **undamped natural frequency** \(\omega_r\) and **damping ratio** \(\zeta_r\). For multiple outputs, **mode shapes** come from the MIMO model or the equivalent state-space realisation (observability matrix or residue directions).
+**Modal parameter extraction** — From the estimated \(A(q^{-1})\) (and \(B,C\)), find the **roots** of \(A(z^{-1})=0\) (discrete poles). Map poles to continuous time (e.g. \(s = \ln(z)/T_s\)) to get **continuous poles**
+
+\[s_r = -\zeta_r \omega_r \pm j\omega_r\sqrt{1-\zeta_r^2}, \tag{7}\]
+
+**Notation for (7):**
+
+- \(s_r\): **continuous-time pole** for mode \(r\) (obtained from discrete pole \(z_r\) via e.g. \(s = \ln(z)/T_s\)).
+- \(\omega_r\): **undamped natural frequency** of mode \(r\) (rad/s).
+- \(\zeta_r\): **damping ratio** of mode \(r\).
+- \(j\): imaginary unit.
+
+Hence \(\omega_r\) and \(\zeta_r\) give that mode’s frequency and damping. For multiple outputs, **mode shapes** come from the MIMO model or the equivalent state-space realisation (observability matrix or residue directions).
 
 ---
 
 ## Procedure (outline)
 
 1. **Data and structure:** Prepare input–output sequences \(\{u[k],y[k]\}\) (or output-only \(\{y[k]\}\)); choose model type (ARX / ARMAX / AR / ARMA) and **orders** (\(n_a,n_b,n_c\), etc.).
-2. **Order selection:** Use AIC, BIC, cross-validation, or identify at several orders and plot a **stabilisation diagram** (poles vs order); pick an order where true modes stabilise and spurious poles are few.
+2. **Order selection:** Use **AIC** (Akaike Information Criterion), **BIC** (Bayesian Information Criterion), cross-validation, or identify at several orders and plot a **stabilisation diagram** (poles vs order); pick an order where true modes stabilise and spurious poles are few. AIC and BIC trade off fit quality and model complexity (choose the order that minimizes the criterion); BIC penalizes order more and often yields a simpler model.
 3. **Estimation:** ARX: solve normal equations (LS or RLS); ARMAX/ARMA: minimise prediction error or MLE iteratively, initialised e.g. by ARX or zero.
 4. **Validation:** Residual whiteness, fit quality, or comparison with held-out data; impose stability on \(A,C\) in the optimisation if needed.
 5. **Modal extraction:** Roots of \(A(z^{-1})\) → discrete poles → map to continuous poles → \(\omega_r,\zeta_r\); for multiple channels, get mode shapes from MIMO or state-space form.
