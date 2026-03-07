@@ -6,7 +6,7 @@ This page expands **2.8 SSI** from the [SHM roadmap](../shm.en.md): **Stochastic
 
 ## Concept
 
-**Core idea** — Under **ambient** (unknown or unmeasured) excitation, the structure’s response can be modelled as the output of a **linear time-invariant (LTI) discrete state-space system** driven by white noise. The **observability matrix** of this system spans a subspace that can be recovered from output-only data. **SSI** does this by:
+**Core idea** — Under **ambient** (unknown or unmeasured) excitation, the structure’s response can be modelled as the output of a **linear time-invariant (LTI) discrete state-space system** driven by white noise. The **observability matrix** of this system spans a subspace that can be recovered from output-only data: under white-noise excitation and observability of \((\mathbf{A},\mathbf{C})\), the second-order statistics of the output (covariances at several lags) or the structure of the output data block (block Toeplitz, or the projection from the block Hankel) are uniquely determined by the observability matrix, so estimating covariances or forming the projection from output-only data and then taking an SVD yields a basis for the observability subspace. **SSI** does this by:
 
 1. **SSI-COV:** Estimating output **covariance matrices** at several lags, arranging them into a **block Toeplitz** matrix, and taking an SVD to obtain the observability range space; the state matrix \(\mathbf{A}\) and output matrix \(\mathbf{C}\) are then recovered from the observability matrix.
 2. **SSI-DATA:** Building a **block Hankel matrix** from the output data, splitting it into “past” and “future” blocks, computing the **oblique projection** of the future row space onto the past row space, and taking an SVD of (a weighted form of) this projection to obtain the observability matrix; \(\mathbf{A}\) and \(\mathbf{C}\) are recovered as in COV.
@@ -15,7 +15,11 @@ From the discrete state matrix \(\mathbf{A}\), eigenvalues give **discrete poles
 
 **State-space model (discrete time)** — The underlying LTI model is
 
-\[\mathbf{x}[k+1] = \mathbf{A} \mathbf{x}[k] + \mathbf{w}[k], \qquad \mathbf{y}[k] = \mathbf{C} \mathbf{x}[k] + \mathbf{v}[k]. \tag{1}\]
+\[\mathbf{x}[k+1] = \mathbf{A} \mathbf{x}[k] + \mathbf{w}[k], \tag{1a}\]
+
+\[\mathbf{y}[k] = \mathbf{C} \mathbf{x}[k] + \mathbf{v}[k]. \tag{1b}\]
+
+Here, the state evolves according to (1a), and we only observe the output (1b). The goal of SSI is to recover \(\mathbf{A}\) and \(\mathbf{C}\) from output data so we can compute modal parameters.
 
 **Notation for (1):**
 
@@ -25,11 +29,11 @@ From the discrete state matrix \(\mathbf{A}\), eigenvalues give **discrete poles
 - \(\mathbf{y}[k] \in \mathbb{R}^p\): output vector (e.g. accelerations at \(p\) sensors).
 - \(\mathbf{w}[k], \mathbf{v}[k]\): process and measurement noise (often assumed white, zero mean); input is implicitly in \(\mathbf{w}\).
 
-**Observability** — The **observability matrix** (block rows) is
+**Observability** — The **observability matrix** (stack of \(\mathbf{C}\) and its products with powers of \(\mathbf{A}\)) is
 
 \[\mathcal{O}_i = \begin{bmatrix} \mathbf{C} \\ \mathbf{C}\mathbf{A} \\ \vdots \\ \mathbf{C}\mathbf{A}^{i-1} \end{bmatrix}. \tag{2}\]
 
-SSI recovers a basis for the **range of \(\mathcal{O}_i\)** (up to a similarity transform). From \(\mathcal{O}_i\) one can obtain \(\mathbf{A}\) and \(\mathbf{C}\): the first block row is \(\mathbf{C}\); \(\mathbf{A}\) is recovered from the shift structure (e.g. \(\mathcal{O}_{i,\mathrm{up}}^\dagger \mathcal{O}_{i,\mathrm{down}}\), where “up” drops the last block row and “down” drops the first).
+SSI recovers a basis for the **range of \(\mathcal{O}_i\)** (up to a similarity transform). Once we have \(\mathcal{O}_i\), \(\mathbf{A}\) and \(\mathbf{C}\) follow: the first block row of \(\mathcal{O}_i\) is \(\mathbf{C}\); \(\mathbf{A}\) is recovered from the shift structure (e.g. \(\mathcal{O}_{i,\mathrm{up}}^\dagger \mathcal{O}_{i,\mathrm{down}}\), where “up” drops the last block row and “down” drops the first). So the central step in SSI is to obtain \(\mathcal{O}_i\) from data; the two variants differ in how they do that.
 
 **SSI-COV vs SSI-DATA** — **SSI-COV** works on **covariance estimates**: it forms a block Toeplitz matrix from output covariances \(\mathbf{R}_\ell = \mathbb{E}[\mathbf{y}_{k+\ell}\mathbf{y}_k^T]\) (or sample estimates). One SVD of this matrix (or a factor of it) yields the observability. **SSI-DATA** works on **raw data**: it builds a block Hankel matrix from \(\mathbf{y}[k]\), computes the orthogonal/oblique projection of “future” outputs onto “past” outputs, and takes an SVD of this projection to get the observability. COV compresses data into covariances first (fewer numbers, fixed size); DATA uses the full data block and can use weighting (e.g. CVA) for better numerical and statistical properties. Both end at the same place: observability → \(\mathbf{A},\mathbf{C}\) → modal parameters.
 
@@ -39,9 +43,9 @@ SSI recovers a basis for the **range of \(\mathcal{O}_i\)** (up to a similarity 
 
 ### Step 1: Data preparation and covariance estimation
 
-Input: Multi-channel output time series \(\mathbf{y}[k] \in \mathbb{R}^p\), \(k = 1,\ldots,N\), sampling interval \(\Delta t\), \(f_s = 1/\Delta t\). Typically \(p \geq 2\) (preferably more) sensors and \(N\) large (e.g. tens of thousands to millions) for stable covariance estimates.
+**Input:** Multi-channel output time series \(\mathbf{y}[k] \in \mathbb{R}^p\), \(k = 1,\ldots,N\), sampling interval \(\Delta t\), \(f_s = 1/\Delta t\). Typically \(p \geq 2\) (preferably more) sensors and \(N\) large (e.g. tens of thousands to millions) for stable covariance estimates.
 
-Preprocessing:
+**Preprocessing:**
 
 1.1 Remove DC: \(\mathbf{y}[k] \leftarrow \mathbf{y}[k] - \frac{1}{N}\sum_{j=1}^N \mathbf{y}[j]\) per channel.
 
@@ -53,9 +57,9 @@ Preprocessing:
 
 \[\mathbf{R}_\ell = \frac{1}{N-\ell} \sum_{k=1}^{N-\ell} \mathbf{y}[k+\ell] \mathbf{y}[k]^T. \tag{3}\]
 
-So \(\mathbf{R}_0\) is the (sample) output covariance at lag 0; \(\mathbf{R}_\ell\) is the cross-covariance between \(\mathbf{y}[k+\ell]\) and \(\mathbf{y}[k]\).
+Here \(\mathbf{R}_0\) is the (sample) output covariance at lag zero; \(\mathbf{R}_\ell\) is the cross-covariance between \(\mathbf{y}[k+\ell]\) and \(\mathbf{y}[k]\). These covariances are the building blocks for the Toeplitz matrix in the next step.
 
-Practical notes:
+**Practical notes:**
 
 - \(i\) should be large enough so that \(\mathcal{O}_i\) has full column rank for the desired order \(n\) (typically \(i \cdot p \geq n\), and \(i\) such that \(\mathbf{A}^{i-1}\) has decayed). Often \(i = 20\)–\(50\).
 - Covariance length: \(N\) must be much larger than the maximum lag (\(N \gg 2i\)) for low-variance estimates; for civil structures (e.g. 1–10 Hz modes, 100 Hz \(f_s\)), 2–10 minutes of data is common.
@@ -68,7 +72,7 @@ Practical notes:
 
 (Some conventions use \(\mathbf{R}_0\) in the first block column; the exact indexing may shift by one. The key is that the matrix has a Toeplitz structure and factorizes as observability × controllability.)
 
-2.2 Under the state-space model (1), \(\mathbf{T}_{1|i} = \mathcal{O}_i \, \mathcal{C}_i\), where \(\mathcal{O}_i\) is the observability matrix (2) and \(\mathcal{C}_i\) is the controllability matrix (in the same block structure). So the **column space** of \(\mathbf{T}_{1|i}\) equals the column space of \(\mathcal{O}_i\).
+2.2 **Why does SVD of T give the observability subspace?** Under the state-space model (1), the matrix \(\mathbf{T}_{1|i}\) built from covariances factorizes as \(\mathbf{T}_{1|i} = \mathcal{O}_i \, \mathcal{C}_i\), where \(\mathcal{O}_i\) is the observability matrix (2) and \(\mathcal{C}_i\) is the controllability matrix (same block structure). So the “main directions” in T are those spanned by \(\mathcal{O}_i\); taking an SVD of \(\mathbf{T}_{1|i}\) and keeping the leading left singular vectors therefore yields a basis for the observability subspace.
 
 ### Step 3: SVD and observability
 
@@ -76,13 +80,13 @@ Practical notes:
 
 \[\mathbf{T}_{1|i} = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^T. \tag{5}\]
 
-3.2 Truncate to order \(n\): Choose \(n\) (e.g. 2× number of physical modes, or from a stabilisation diagram). Keep the first \(n\) singular values and vectors: \(\mathbf{U}_n \in \mathbb{R}^{pi \times n}\), \(\mathbf{\Sigma}_n \in \mathbb{R}^{n \times n}\), \(\mathbf{V}_n \in \mathbb{R}^{pi \times n}\).
+3.2 **Truncate to order \(n\):** Choose \(n\) (e.g. 2× number of physical modes, or from a stabilisation diagram). Keep the first \(n\) singular values and vectors: \(\mathbf{U}_n \in \mathbb{R}^{pi \times n}\), \(\mathbf{\Sigma}_n \in \mathbb{R}^{n \times n}\), \(\mathbf{V}_n \in \mathbb{R}^{pi \times n}\).
 
 3.3 **Observability matrix:** Set
 
 \[\mathcal{O}_i = \mathbf{U}_n \mathbf{\Sigma}_n^{1/2}. \tag{6}\]
 
-Then \(\mathcal{O}_i\) has \(i\) block rows of size \(p \times n\) each; the **first block row** is the output matrix \(\mathbf{C}\).
+Then \(\mathcal{O}_i\) has \(i\) block rows of size \(p \times n\) each. The **first block row** of \(\mathcal{O}_i\) is the output matrix \(\mathbf{C}\); the shift structure of the remaining rows will give \(\mathbf{A}\) in Step 4.
 
 ### Step 4: Recover A and C
 
@@ -91,13 +95,13 @@ Then \(\mathcal{O}_i\) has \(i\) block rows of size \(p \times n\) each; the **f
 - \(\mathcal{O}_{i,\mathrm{up}}\): \(\mathcal{O}_i\) **without the last block row** (\((i-1)p \times n\)).
 - \(\mathcal{O}_{i,\mathrm{down}}\): \(\mathcal{O}_i\) **without the first block row** (\((i-1)p \times n\)).
 
-From the state-space structure, \(\mathcal{O}_{i,\mathrm{down}} = \mathcal{O}_{i-1,\mathrm{up}} \mathbf{A}\) (with \(\mathcal{O}_{i-1,\mathrm{up}}\) the first \(i-1\) block rows of \(\mathcal{O}_i\)). So
+From the state-space structure, \(\mathcal{O}_{i,\mathrm{down}} = \mathcal{O}_{i-1,\mathrm{up}} \mathbf{A}\) (with \(\mathcal{O}_{i-1,\mathrm{up}}\) the first \(i-1\) block rows of \(\mathcal{O}_i\)). Hence
 
 \[\mathbf{A} = \mathcal{O}_{i,\mathrm{up}}^\dagger \, \mathcal{O}_{i,\mathrm{down}}, \tag{7}\]
 
 where \(\dagger\) denotes the Moore–Penrose pseudo-inverse.
 
-4.2 Output matrix: \(\mathbf{C}\) is the **first block row** of \(\mathcal{O}_i\):
+4.2 **Output matrix:** \(\mathbf{C}\) is the **first block row** of \(\mathcal{O}_i\):
 
 \[\mathbf{C} = \mathcal{O}_i(1:p, 1:n). \tag{8}\]
 
@@ -105,31 +109,35 @@ where \(\dagger\) denotes the Moore–Penrose pseudo-inverse.
 
 5.1 Discrete eigenvalues: Compute eigenvalues \(\mu_j\) of \(\mathbf{A}\), \(j=1,\ldots,n\). Discard those outside the unit circle or clearly non-physical (e.g. real negative).
 
-5.2 Continuous-time poles: For each eigenvalue \(\mu_j\),
+5.2 **Continuous-time poles:** The eigenvalues \(\mu_j\) of the discrete state matrix \(\mathbf{A}\) correspond to continuous-time poles \(\lambda_j\). For discretisation with sampling interval \(\Delta t\), the standard relation is \(\mu_j = e^{\lambda_j \Delta t}\); inverting gives
 
-\[\lambda_j = \frac{\ln(\mu_j)}{\Delta t} \quad \text{(principal value)}. \tag{9}\]
+\[\lambda_j = \frac{\ln(\mu_j)}{\Delta t} \quad \text{(principal value for complex } \mu_j\text{)}. \tag{9}\]
 
-For a **conjugate pair** \(\lambda_r, \lambda_r^*\) corresponding to one physical mode:
+For a **conjugate pair** \(\lambda_r, \lambda_r^*\) corresponding to one physical mode, natural frequency (rad/s) and damping ratio are
 
-\[\omega_r = |\lambda_r|, \qquad \zeta_r = -\frac{\mathrm{Re}(\lambda_r)}{|\lambda_r|}. \tag{10}\]
+\[\omega_r = |\lambda_r|, \tag{10a}\]
 
-Natural frequency \(f_r = \omega_r/(2\pi)\).
+\[\zeta_r = -\frac{\mathrm{Re}(\lambda_r)}{|\lambda_r|}. \tag{10b}\]
 
-5.3 Mode shapes: Let \(\mathbf{\psi}_r \in \mathbb{C}^n\) be the right eigenvector of \(\mathbf{A}\) for \(\mu_r\). The **mode shape** at the sensors is
+Natural frequency in Hz is \(f_r = \omega_r/(2\pi)\).
+
+5.3 **Mode shapes:** Let \(\mathbf{\psi}_r \in \mathbb{C}^n\) be the right eigenvector of \(\mathbf{A}\) for \(\mu_r\). The **mode shape** at the sensors is
 
 \[\mathbf{\phi}_r = \mathbf{C} \mathbf{\psi}_r. \tag{11}\]
 
-Normalise (e.g. unit norm or max component 1). For real structures, take real part or magnitude if needed.
+Normalise (e.g. unit norm or max component 1). For real structures, take the real part or magnitude if needed.
 
 ---
 
 ## SSI-DATA: Data-driven algorithm
 
+SSI-DATA works directly on the raw output data instead of covariances: it builds a block Hankel matrix, then uses a projection step to obtain the same observability subspace as in SSI-COV. From there, recovery of \(\mathbf{A}\), \(\mathbf{C}\), and modal parameters is identical.
+
 ### Step 1: Data preparation and block Hankel matrix
 
-Input: Same as COV: \(\mathbf{y}[k] \in \mathbb{R}^p\), \(k = 1,\ldots,N\), \(\Delta t\). Preprocessing: remove DC; optional detrend and band-pass filter.
+**Input:** Same as COV: \(\mathbf{y}[k] \in \mathbb{R}^p\), \(k = 1,\ldots,N\), \(\Delta t\). **Preprocessing:** remove DC; optional detrend and band-pass filter.
 
-Block Hankel matrix:
+**Block Hankel matrix:**
 
 1.1 Choose **number of block rows** \(i\) (past) and \(i\) (future), and **number of columns** \(j\). Typically \(j = N - 2i + 1\) (use all available data). Require \(j \geq 2i\) and large enough for statistical stability.
 
@@ -148,11 +156,13 @@ The factor \(1/\sqrt{j}\) is for normalisation. Split into:
 
 \[\mathbf{O}_i = \mathbf{Y}_{i|2i-1} \, \mathbf{Y}_{0|i-1}^T \bigl( \mathbf{Y}_{0|i-1} \mathbf{Y}_{0|i-1}^T \bigr)^{-1} \mathbf{Y}_{0|i-1}. \tag{13}\]
 
-In practice one does **not** form this explicitly. Instead, use the **RQ** or **LQ** factorisation of the stacked past/future matrix, or the **SVD** of a weighted combination, so that the projection is represented in factored form.
+This projection captures the part of the future that is predictable from the past; its range is related to the observability subspace. In practice one does **not** form (13) explicitly. Instead, use the **RQ** or **LQ** factorisation of the stacked past/future matrix, or the **SVD** of a weighted combination, so that the projection is represented in factored form.
 
-2.2 Weighted projection (e.g. CVA — Canonical Variate Analysis): Define
+2.2 **Weighted projection** (e.g. CVA — Canonical Variate Analysis): Define past and future weight matrices
 
-\[\mathbf{W}_p = \bigl( \mathbf{Y}_{0|i-1} \mathbf{Y}_{0|i-1}^T \bigr)^{-1/2}, \qquad \mathbf{W}_f = \bigl( \mathbf{Y}_{i|2i-1} \mathbf{Y}_{i|2i-1}^T \bigr)^{-1/2}. \tag{14}\]
+\[\mathbf{W}_p = \bigl( \mathbf{Y}_{0|i-1} \mathbf{Y}_{0|i-1}^T \bigr)^{-1/2}, \tag{14a}\]
+
+\[\mathbf{W}_f = \bigl( \mathbf{Y}_{i|2i-1} \mathbf{Y}_{i|2i-1}^T \bigr)^{-1/2}. \tag{14b}\]
 
 Then compute the SVD of the **weighted projection**:
 
@@ -168,21 +178,23 @@ So the observability matrix is recovered from the left singular vectors (and sin
 
 ### Step 3: Recover A and C
 
-3.1 Same as SSI-COV: from \(\mathcal{O}_i\), form \(\mathcal{O}_{i,\mathrm{up}}\) and \(\mathcal{O}_{i,\mathrm{down}}\); then
+3.1 Same as SSI-COV: from \(\mathcal{O}_i\), form \(\mathcal{O}_{i,\mathrm{up}}\) and \(\mathcal{O}_{i,\mathrm{down}}\). Then
 
-\[\mathbf{A} = \mathcal{O}_{i,\mathrm{up}}^\dagger \, \mathcal{O}_{i,\mathrm{down}}, \qquad \mathbf{C} = \mathcal{O}_i(1:p, 1:n). \tag{17}\]
+\[\mathbf{A} = \mathcal{O}_{i,\mathrm{up}}^\dagger \, \mathcal{O}_{i,\mathrm{down}}, \tag{17a}\]
+
+\[\mathbf{C} = \mathcal{O}_i(1:p, 1:n). \tag{17b}\]
 
 ### Step 4: Modal parameter extraction
 
-4.1 Identical to COV Step 5: eigenvalues of \(\mathbf{A}\) → continuous poles (9)–(10) → \(f_r, \zeta_r\); mode shapes from (11).
+4.1 Identical to COV Step 5: eigenvalues of \(\mathbf{A}\) → continuous poles (9), (10a)–(10b) → \(f_r, \zeta_r\); mode shapes from (11).
 
 ---
 
 ## Complete procedure (step-by-step)
 
-Input: Multi-channel output \(\mathbf{y}[k]\), \(k=1,\ldots,N\); sampling rate \(f_s\), \(\Delta t = 1/f_s\).
+**Input:** Multi-channel output \(\mathbf{y}[k]\), \(k=1,\ldots,N\); sampling rate \(f_s\), \(\Delta t = 1/f_s\).
 
-Common preprocessing:
+**Common preprocessing:**
 
 1. Remove DC (subtract mean per channel).
 2. (Optional) Band-pass filter to the band of interest.
@@ -193,18 +205,18 @@ Common preprocessing:
 4. Estimate covariances \(\mathbf{R}_\ell\) for \(\ell = 0,\ldots,2i-1\) using (3).
 5. Build block Toeplitz \(\mathbf{T}_{1|i}\) (4); SVD (5); truncate to \(n\); form \(\mathcal{O}_i\) (6).
 6. Recover \(\mathbf{A}\) (7) and \(\mathbf{C}\) (8).
-7. Eigenvalues of \(\mathbf{A}\) → poles → \(f_r, \zeta_r\) (9)–(10); mode shapes (11).
+7. Eigenvalues of \(\mathbf{A}\) → poles (9), (10a)–(10b) → \(f_r, \zeta_r\); mode shapes (11).
 
 **SSI-DATA:**
 
 4. Build block Hankel \(\mathbf{Y}_{0|2i-1}\) (12); split past/future.
 5. Form (weighted) projection and compute SVD (15); truncate to \(n\); form \(\mathcal{O}_i\) (16).
-6. Recover \(\mathbf{A}\) and \(\mathbf{C}\) (17).
-7. Same modal extraction as COV.
+6. Recover \(\mathbf{A}\) (17a) and \(\mathbf{C}\) (17b).
+7. Same modal extraction as COV (eigenvalues → poles → \(f_r, \zeta_r\); mode shapes (11)).
 
-Stabilisation diagram (both): For several orders \(n = n_{\min}, \ldots, n_{\max}\), repeat the identification. Plot poles (e.g. frequency vs order). **Stable** poles (frequency and damping change little with \(n\)) correspond to physical modes; drifting or scattered poles are often spurious. Keep only stable poles (e.g. \(\Delta f/f < 1\%\), \(\Delta\zeta/\zeta < 5\%\) between consecutive orders).
+**Stabilisation diagram (both):** For several orders \(n = n_{\min}, \ldots, n_{\max}\), repeat the identification. Plot poles (e.g. frequency vs order). **Stable** poles (frequency and damping change little with \(n\)) correspond to physical modes; drifting or scattered poles are often spurious. Keep only stable poles (e.g. \(\Delta f/f < 1\%\), \(\Delta\zeta/\zeta < 5\%\) between consecutive orders).
 
-Output: Modal parameters — natural frequencies \(f_r\), damping ratios \(\zeta_r\), mode shapes \(\mathbf{\phi}_r\).
+**Output:** Modal parameters — natural frequencies \(f_r\), damping ratios \(\zeta_r\), mode shapes \(\mathbf{\phi}_r\).
 
 ---
 
