@@ -137,6 +137,7 @@ plugins:
             TFF: 传递函数拟合
             FDD: 频域分解法
             ERA: 特征系统实现算法
+            SSI: 随机子空间识别
             RESEARCH: 研究
             PhD STUDIES: 攻博期间研究
             MEng STUDIES: 读硕期间研究
@@ -291,6 +292,7 @@ nav:
         - TFF: "LEARNING/SHM/TFF/tff.md"
         - FDD: "LEARNING/SHM/FDD/fdd.md"
         - ERA: "LEARNING/SHM/ERA/era.md"
+        - SSI: "LEARNING/SHM/SSI/ssi.md"
   - RESEARCH: 
     - PhD STUDIES: "RESEARCH/PhD/phd.md"
     - MEng STUDIES: "RESEARCH/MEng/meng.md"
