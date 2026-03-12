@@ -2,6 +2,40 @@
 
 ![TBM](TBM.png){width=100%}
 
+<!-- <model-viewer
+    src="TBM.glb"
+    alt="TBM 盾构机 3D 模型"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 400px;">
+</model-viewer> -->
+
+<model-viewer
+    src="../TBM.glb"
+    alt="TBM 3D model"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 400px;">
+</model-viewer>
+
 !!! info "研究主题"
     我的硕士研究课题是 __颗粒材料三维细观形状随机生成算法及其在孤石地层盾构掘进中的应用__，重点是开发一种三维多面体的随机生成的算法，并将其应用于在孤石地层中的隧道掘进的研究中，以考察对地层的影响。
 

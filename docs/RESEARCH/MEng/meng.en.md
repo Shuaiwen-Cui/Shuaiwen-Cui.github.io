@@ -2,6 +2,40 @@
 
 ![TBM](TBM.png){width=100%}
 
+<!-- <model-viewer
+    src="TBM.glb"
+    alt="TBM shield machine 3D model"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 400px;">
+</model-viewer> -->
+
+<model-viewer
+    src="../TBM.glb"
+    alt="TBM 3D model"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 400px;">
+</model-viewer>
+
 !!! info "RESEARCH TOPICS"
     My M.Eng. research topic is __Algorithm for Random Generation of 3D Mesoscopic Shape of Granular Materials along with Its Application to TBM Tunnelling in Stratum with Boulders__, focusing on the development of a novel algorithm for the generation of 3D polyhedrons for the simulation of rock particles by Discrete Element Method (DEM) and its application to tunneling in a boulder-soil matrix.
 
