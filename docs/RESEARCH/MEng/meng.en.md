@@ -2,23 +2,6 @@
 
 ![TBM](TBM.png){width=100%}
 
-<!-- <model-viewer
-    src="TBM.glb"
-    alt="TBM shield machine 3D model"
-    camera-controls
-    auto-rotate
-    auto-rotate-delay="3000"
-    rotation-per-second="1deg"
-    interaction-prompt="none"
-    shadow-intensity="0.6"
-    exposure="0.5"
-    environment-image="legacy"
-    orientation="0deg 0deg 60deg"
-    ar
-    ar-modes="webxr scene-viewer quick-look"
-    style="width: 100%; height: 400px;">
-</model-viewer> -->
-
 <model-viewer
     src="../TBM.glb"
     alt="TBM 3D model"
@@ -33,7 +16,7 @@
     orientation="0deg 0deg 60deg"
     ar
     ar-modes="webxr scene-viewer quick-look"
-    style="width: 100%; height: 400px;">
+    style="width: 100%; height: 600px;">
 </model-viewer>
 
 !!! info "RESEARCH TOPICS"
