@@ -80,3 +80,40 @@
 
 
 </div>
+
+## TBM多元时序数据实时预测系统
+
+<model-viewer
+    src="TBM.glb"
+    alt="TBM 3D model"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 600px;">
+</model-viewer>
+
+![](boring.png)
+
+*掘进中*
+
+![](rest.png)
+
+*休息中*
+
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __盾构机掘进多元时序数据实时预测系统__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://8.141.92.6:5001/" target="_blank"> 项目地址 </a>](#)
+
+</div>

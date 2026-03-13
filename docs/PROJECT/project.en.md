@@ -79,3 +79,42 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
 
 
 </div>
+
+## TBM MULTIVARIATE TIME SERIES REAL-TIME PREDICTION SYSTEM
+
+
+<model-viewer
+    src="TBM.glb"
+    alt="TBM 3D model"
+    camera-controls
+    auto-rotate
+    auto-rotate-delay="3000"
+    rotation-per-second="1deg"
+    interaction-prompt="none"
+    shadow-intensity="0.6"
+    exposure="0.5"
+    environment-image="legacy"
+    orientation="0deg 0deg 60deg"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; height: 600px;">
+</model-viewer>
+
+![](boring.png)
+
+*Boring*
+
+![](rest.png)
+
+*Resting*
+
+
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __TBM Multivariate Time Series Real-Time Prediction System__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://8.141.92.6:5001/" target="_blank"> Project Link </a>](#)
+
+</div>
