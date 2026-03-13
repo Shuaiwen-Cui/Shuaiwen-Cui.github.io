@@ -2,70 +2,448 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>http://www.cuishuaiwen.com/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/"/>
     </url>
     <url>
         <loc>http://www.cuishuaiwen.com/LEARNING/learning/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/learning/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/learning/"/>
     </url>
     <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/ai/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/ai/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/ai/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/checklist/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/checklist/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/checklist/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/CV/cv/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/CV/cv/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/CV/cv/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/DECISION-TREE/decision-tree/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/DECISION-TREE/decision-tree/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/DECISION-TREE/decision-tree/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/GNN/gnn/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/GNN/gnn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/GNN/gnn/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/MAMBA/mamba/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/MAMBA/mamba/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/MAMBA/mamba/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/AI/TRANSFORMER/transformer/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/TRANSFORMER/transformer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/TRANSFORMER/transformer/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/DT/dt/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/DT/dt/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/DT/dt/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/IOT/iot/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/IOT/iot/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/IOT/iot/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/shm/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/shm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/shm/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/ERA/era/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/ERA/era/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/ERA/era/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/FDD/fdd/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/FDD/fdd/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/FDD/fdd/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/FRF/frf/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/FRF/frf/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/FRF/frf/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/PEM/pem/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/PEM/pem/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/PEM/pem/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/PP/pp/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/PP/pp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/PP/pp/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/SSI/ssi/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/SSI/ssi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/SSI/ssi/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SHM/TFF/tff/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/TFF/tff/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/TFF/tff/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/PROJECT/project/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/PROJECT/project/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/PROJECT/project/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/RESEARCH/research/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/research/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/research/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/RESEARCH/MEng/meng/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/MEng/meng/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/MEng/meng/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/RESEARCH/PhD/phd/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/PhD/phd/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/PhD/phd/"/>
+    </url>
+    <url>
         <loc>http://www.cuishuaiwen.com/ReferenceCode/browser-support/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/browser-support/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/"/>
     </url>
     <url>
         <loc>http://www.cuishuaiwen.com/ReferenceCode/reference/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/reference/"/>
     </url>
     <url>
+        <loc>http://www.cuishuaiwen.com/TOOLS/tools/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/TOOLS/tools/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/TOOLS/tools/"/>
+    </url>
+    <url>
         <loc>http://www.cuishuaiwen.com/blog/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/blog/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/blog/"/>
     </url>
     <url>
         <loc>http://www.cuishuaiwen.com/zh/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/"/>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/"/>
     </url>
     <url>
         <loc>http://www.cuishuaiwen.com/zh/LEARNING/learning/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/learning/"/>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/learning/"/>
     </url>
     <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/ai/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/ai/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/ai/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/checklist/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/checklist/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/checklist/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/CV/cv/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/CV/cv/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/CV/cv/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/DECISION-TREE/decision-tree/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/DECISION-TREE/decision-tree/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/DECISION-TREE/decision-tree/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/GNN/gnn/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/GNN/gnn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/GNN/gnn/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/MAMBA/mamba/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/MAMBA/mamba/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/MAMBA/mamba/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/AI/TRANSFORMER/transformer/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/AI/TRANSFORMER/transformer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/AI/TRANSFORMER/transformer/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/DISTRIBUTED-EDGE-COMPUTING/distributed-edge-computing/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/DT/dt/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/DT/dt/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/DT/dt/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/embedded-system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/embedded-system/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/ESP32/esp32/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/EMBEDDED-SYSTEM/STM32/stm32/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/IOT/iot/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/IOT/iot/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/IOT/iot/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/shm/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/shm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/shm/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/ERA/era/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/ERA/era/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/ERA/era/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/FDD/fdd/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/FDD/fdd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/FDD/fdd/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/FRF/frf/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/FRF/frf/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/FRF/frf/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/PEM/pem/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/PEM/pem/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/PEM/pem/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/PP/pp/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/PP/pp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/PP/pp/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/SSI/ssi/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/SSI/ssi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/SSI/ssi/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SHM/TFF/tff/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SHM/TFF/tff/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SHM/TFF/tff/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/PROJECT/project/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/PROJECT/project/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/PROJECT/project/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/RESEARCH/research/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/research/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/research/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/RESEARCH/MEng/meng/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/MEng/meng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/MEng/meng/"/>
+    </url>
+    <url>
+        <loc>http://www.cuishuaiwen.com/zh/RESEARCH/PhD/phd/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/RESEARCH/PhD/phd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/RESEARCH/PhD/phd/"/>
+    </url>
+    <url>
         <loc>http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/browser-support/"/>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/browser-support/"/>
     </url>
     <url>
         <loc>http://www.cuishuaiwen.com/zh/ReferenceCode/reference/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/ReferenceCode/reference/"/>
     </url>
     <url>
+        <loc>http://www.cuishuaiwen.com/zh/TOOLS/tools/</loc>
+        <lastmod>2026-03-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/TOOLS/tools/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/TOOLS/tools/"/>
+    </url>
+    <url>
         <loc>http://www.cuishuaiwen.com/zh/blog/</loc>
-        <lastmod>2025-01-12</lastmod>
+        <lastmod>2026-03-13</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="http://www.cuishuaiwen.com/zh/blog/"/>
         <xhtml:link rel="alternate" hreflang="en" href="http://www.cuishuaiwen.com/blog/"/>

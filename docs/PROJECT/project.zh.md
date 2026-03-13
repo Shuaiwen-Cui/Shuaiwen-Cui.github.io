@@ -84,7 +84,7 @@
 ## TBM多元时序数据实时预测系统
 
 <model-viewer
-    src="TBM.glb"
+    src="../../../static/models/TBM.glb"
     alt="TBM 3D model"
     camera-controls
     auto-rotate

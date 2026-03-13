@@ -84,7 +84,7 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
 
 
 <model-viewer
-    src="TBM.glb"
+    src="../../static/models/TBM.glb"
     alt="TBM 3D model"
     camera-controls
     auto-rotate
