@@ -10,9 +10,9 @@ comments: false
 
 >“本生用化，道法术器，守正用奇”
 
-<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_CN-2026.pdf" target="_blank">📜 查看与下载我的简历-中文 (2026)</a>
+<a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜  查看与下载我的简历-中文 (2026)</a>
 
-<a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_EN-2026.pdf" target="_blank">📜 查看与下载我的简历-英文 (2026)</a>
+<a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 查看与下载我的简历-英文 (2026)</a>
 
 <!-- <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a> -->
 
