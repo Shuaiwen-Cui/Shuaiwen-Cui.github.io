@@ -54,13 +54,22 @@
 
 <!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
-Sensor Extension Board
 
-![AIoTNode-Extension](Extension-Board.png){width=100%}
+<!-- Main Control Board
 
-Main Control Board Base
+![AIoTNode-Base](Main-Board.png){width=100%}
 
-![AIoTNode-Base](Base-Board.png){width=100%}
+Extension Board
+
+![AIoTNode-Extension](Extension-Board.png){width=100%} -->
+
+Node Design
+
+![Node-Design](Node-Overview.png){width=100%}
+
+PCB Design
+
+![PCB-Design](PCB.png){width=100%}
 
 ### __1.2 Cloud Platform__
 

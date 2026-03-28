@@ -56,13 +56,21 @@
 
 <!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
-传感器扩展板
+<!-- 主控板
 
-![AIoTNode-Extension](Extension-Board.png){width=100%}
+![AIoTNode-Base](Main-Board.png){width=100%}
 
-主控板底座
+扩展板
 
-![AIoTNode-Base](Base-Board.png){width=100%}
+![AIoTNode-Extension](Extension-Board.png){width=100%} -->
+
+节点设计
+
+![Node-Design](Node-Overview.png){width=100%}
+
+PCB 设计
+
+![PCB-Design](PCB.png){width=100%}
 
 ### __1.2 云平台__
 
