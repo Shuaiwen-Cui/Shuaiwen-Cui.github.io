@@ -88,6 +88,13 @@
 
     [:octicons-arrow-right-24: <a href="https://entuedu.sharepoint.com/sites/student" target="_blank"> Portal </a>](#)
 
+-   :material-school:{ .lg .middle } __NTU Sharepoint__
+
+    ---
+
+    NTU Sharepoint
+
+    [:octicons-arrow-right-24: <a href="https://entuedu.sharepoint.com/sites/Student/cs/cee" target="_blank"> Portal </a>](#)
 
 </div>
 
