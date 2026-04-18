@@ -74,6 +74,8 @@ PCB 设计
 
 ![PCB-Design](PCB.png){width=100%}
 
+![PCB](PCB.jpg){width=100%} 
+
 ### __1.2 云平台__
 
 <div class="grid cards" markdown>
