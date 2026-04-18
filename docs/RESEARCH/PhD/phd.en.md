@@ -67,9 +67,13 @@ Node Design
 
 ![Node-Design](Node-Overview.png){width=100%}
 
+![WSN](WSN.jpg){width=100%}
+
 PCB Design
 
 ![PCB-Design](PCB.png){width=100%}
+
+![PCB](PCB.jpg){width=100%}
 
 ### __1.2 Cloud Platform__
 

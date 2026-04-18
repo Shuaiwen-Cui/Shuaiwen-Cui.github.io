@@ -68,6 +68,8 @@
 
 ![Node-Design](Node-Overview.png){width=100%}
 
+![WSN](WSN.jpg){width=100%}
+
 PCB 设计
 
 ![PCB-Design](PCB.png){width=100%}
