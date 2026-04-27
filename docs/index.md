@@ -151,6 +151,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 ## ✍ __REVIEWER__
 
 - Mechanical Systems and Signal Processing
+- Engineering Applications of Artificial Intelligence
 - Nature Scientific Reports
 - Urban Informatics
 

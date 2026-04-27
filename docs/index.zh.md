@@ -155,6 +155,7 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 ## ✍ __审稿人__
 
 - Mechanical Systems and Signal Processing
+- Engineering Applications of Artificial Intelligence
 - Nature Scientific Reports
 - Urban Informatics
 
