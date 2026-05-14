@@ -93,15 +93,15 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 (3) AIoT System End-to-End Intelligence Enabling Framework
 
-- Platform Compatibility Layer Development
+- Platform Compatibility Layer Development (Configuration, Time Management, WSN Communication, etc.)
 
-- Mathematical Operators Library Development
+- Mathematical Operators Library Development (Vector/Matrix operations, Linear Algebra, inversion, eigenvalue/eigenvector, SVD, various decompositions, modal analysis, and other advanced computations)
 
-- Signal Processing Library Development
+- Signal Processing Library Development (Convolution, correlation, resampling, FIR/IIR filtering, FFT, DWT, ICA, etc.)
 
-- Machine Learning Library Development
+- Machine Learning Library Development (Supporting inference, training, quantization, and the full AI lifecycle)
 
-- Domain-specific Modules Development for Structural Health Monitoring
+- Domain-specific Modules Development for SHM (Covering online/offline multi-mode measurement, lightweight and efficient system identification — PP/FDD/EFDD/ITD/Next-ERA/SSI-Cov, and damage detection/localization/severity assessment)
 
 <div class="grid cards" markdown>
 
