@@ -54,15 +54,6 @@
 
 <!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
-Sensor Streaming Demo
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" frameborder="0" allowfullscreen></iframe>
-
-Sensor Synchronization Demo
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/IdZ6cGDO1go" frameborder="0" allowfullscreen></iframe>
-
-
 <!-- Main Control Board
 
 ![AIoTNode-Base](Main-Board.png){width=100%}
@@ -82,6 +73,14 @@ PCB Design
 ![PCB-Design](PCB.png){width=100%}
 
 ![PCB](PCB.jpg){width=100%}
+
+Sensor Streaming Demo
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" frameborder="0" allowfullscreen></iframe>
+
+Sensor Synchronization Demo
+
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/IdZ6cGDO1go" frameborder="0" allowfullscreen></iframe>
 
 ### __1.2 Cloud Platform__
 
