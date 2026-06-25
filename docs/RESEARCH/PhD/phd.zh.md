@@ -56,6 +56,14 @@
 
 <!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
+传感器流式采样Demo
+
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1Vm7Y6wEH2&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
+传感器同步Demo
+
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1q75i6qE8r&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
 <!-- 主控板
 
 ![AIoTNode-Base](Main-Board.png){width=100%}

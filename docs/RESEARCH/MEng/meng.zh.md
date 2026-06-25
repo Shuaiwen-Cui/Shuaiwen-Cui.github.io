@@ -53,4 +53,4 @@
 
 ![SETUP](SETUP.jpg){width=100%}
 
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/ZqYrFJc2pJ8" frameborder="0" allowfullscreen></iframe>
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1ab4y1Y7YF&autoplay=0" frameborder="0" allowfullscreen></iframe>

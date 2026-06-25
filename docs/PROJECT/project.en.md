@@ -118,3 +118,6 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
     [:octicons-arrow-right-24: <a href="http://8.141.92.6:5001/" target="_blank"> Project Link </a>](#)
 
 </div>
+
+<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1ZDcSzsEgP&autoplay=0" frameborder="0" allowfullscreen></iframe>
+
