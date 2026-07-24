@@ -120,7 +120,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 **IoT-based Structural Health Monitoring**
 
-- **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Under Review)
+- **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. (Accepted)
 
 - **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics, 71, 104300. [https://doi.org/10.1016/j.aei.2025.104300](https://doi.org/10.1016/j.aei.2025.104300){:target="_blank"}
 
