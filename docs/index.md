@@ -140,7 +140,7 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
 - Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Neural networks micro memory control strategy for mechanical faults edge recognition. IEEE Transactions on Industrial Informatics, 21(7), 5069–5080, July 2025. [https://doi.org/10.1109/TII.2025.3545091](https://doi.org/10.1109/TII.2025.3545091){:target="_blank"}
 
-**Geotechnic Engineering**
+**Others**
 
 - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
