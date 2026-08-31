@@ -10,26 +10,69 @@ comments: flase
 
 >“From the One, To the One”
 
+!!! abstract "__DECISIONS WHERE THE DATA IS__"
+    I build the hardware and the intelligence on it: asleep in microamps, deciding in milliseconds.
+
+<!-- ROLLBACK: absolute links, replaced by root-relative ones below
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
 
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
+-->
+
+<a href="/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
+
+<a href="/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
 
 <!-- <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a> -->
 
 ## 🏷️ __KEYWORDS__
 
-Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring | AI Agents
+<!-- ROLLBACK: Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring | AI Agents -->
+Distributed Edge AI | Embedded Systems | Embodied Intelligence
 
 ## 🚀 __SPECIALTIES__
 
 Embedded System Hardware and Software Development ｜ Edge Computing and Intelligence ｜ Signal Processing ｜ Internet of Things ｜ Digital Twin ｜ Artificial Intelligence ｜ System Identification  |  Structural Health Monitoring
 
+## 🧩 __SYSTEMS I BUILD__
+
+<div class="grid cards" markdown>
+
+-   :material-chip:{ .lg .middle } __TinyAuton__
+
+    ---
+
+    MCU-native edge intelligence. Open-source C/C++ framework putting numerics, DSP, neural
+    networks and on-device training inside a microcontroller.
+
+    [:octicons-arrow-right-24: Details](./PROJECT/project.md#autora){:target="_blank" rel="noopener"}
+
+-   :material-router-wireless:{ .lg .middle } __NexNode + NexHub__
+
+    ---
+
+    Schematic to cloud. A wireless edge-AI node designed end to end - PCB, enclosure, firmware,
+    wireless stack - together with its cloud backend.
+
+    [:octicons-arrow-right-24: Details](./PROJECT/project.md#nexusia){:target="_blank" rel="noopener"}
+
+-   :material-microscope:{ .lg .middle } __Ph.D. Research__
+
+    ---
+
+    Distributed edge intelligence on resource-constrained devices: measurement, system
+    identification, damage detection and assessment.
+
+    [:octicons-arrow-right-24: Details](./RESEARCH/PhD/phd.md){:target="_blank" rel="noopener"}
+
+</div>
+
 ## 🎓 __EDUCATION__
 
 | Degree       | Major               | Institution                        | Duration               |
 |--------------|----------------------|------------------------------------|------------------------|
-| Ph.D.        | Civil Engineering (AIoT/Structural Health Monitoring)   | Nanyang Technological University   | Aug, 2022 - Present    |
-| M.Eng.       | Civil Engineering (Geotechnical)    | Tongji University                  | Sep, 2018 - Jun, 2021  |
+| Ph.D.        | Civil Engineering (Edge-AI Hardware, On-Device Learning, Distributed Intelligence)   | Nanyang Technological University   | Aug, 2022 - Present    |
+| M.Eng.       | Architectural and Civil Engineering (3D Geometry, GJK Collision Detection, DEM Simulation)    | Tongji University                  | Sep, 2018 - Jun, 2021  |
 | B.Eng.       | Civil Engineering (Major) / Mathematics (Minor) | Tongji University                  | Sep, 2014 - Jun, 2018  |
 
 ## 🧰 __EXPERIENCE__
@@ -38,10 +81,6 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 |-----------------|----------------------------------|------------------------|
 | Research/Teaching Assistant | Nanyang Technological University, Singapore         | Aug, 2022 - Present    |
 | R&D (Digital Twin for Buildings) | Arcplus Group (Int'l) Co., Limited, Shanghai, China   | Aug, 2021 - Jun, 2022  |
-
-## 👨‍🏫 __TEACHING__
-
-CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026
 
 ## 🔬 __RESEARCHES__
 
@@ -63,7 +102,9 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> General IoT Node </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> General IoT Node </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> General IoT Node (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> Domain-specific IoT Node (SHM) </a>](#)
 
@@ -85,7 +126,9 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> General Cloud Backend </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> General Cloud Backend </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> General Cloud Backend (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> Domain-specific Cloud Backend (SHM) </a>](#)
 
@@ -109,7 +152,9 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300" target="_blank"> General Framework </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/TinyAuton/" target="_blank"> General Framework </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9300" target="_blank"> General Framework (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8300" target="_blank"> Domain-specific Framework (SHM) </a>](#)
 
@@ -156,6 +201,10 @@ CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/
 - Engineering Applications of Artificial Intelligence
 - Nature Scientific Reports
 - Urban Informatics
+
+## 👨‍🏫 __TEACHING__
+
+CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026
 
 ## 📄 __PATENT__
 

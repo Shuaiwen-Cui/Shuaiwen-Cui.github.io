@@ -10,26 +10,66 @@ comments: false
 
 >“本生用化，道法术器，守正用奇”
 
+!!! abstract "__决策发生在数据产生的地方__"
+    硬件和跑在它上面的智能都由我亲手构建：休眠时以微安计，决策时以毫秒计。
+
+<!-- ROLLBACK: 绝对路径版本，已换成下方根相对路径
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜  查看与下载我的简历-中文 (2026)</a>
 
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 查看与下载我的简历-英文 (2026)</a>
+-->
+
+<a href="/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜  查看与下载我的简历-中文 (2026)</a>
+
+<a href="/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 查看与下载我的简历-英文 (2026)</a>
 
 <!-- <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 查看与下载我的简历 (2025)</a> -->
 
 ## 🏷️ __关键词__
 
-泛在计算与智能 | 人工智能物联网 | 结构健康监测 | 智能体
+<!-- ROLLBACK: 泛在计算与智能 | 人工智能物联网 | 结构健康监测 | 智能体 -->
+分布式边缘智能 | 嵌入式系统 | 具身智能
 
 ## 🚀 __专长__
 
 嵌入式系统硬件与软件开发 ｜ 边缘计算与智能 ｜ 信号处理 ｜ 物联网 ｜ 数字孪生 ｜ 人工智能 ｜ 系统识别 ｜ 结构健康监测
 
+## 🧩 __我构建的系统__
+
+<div class="grid cards" markdown>
+
+-   :material-chip:{ .lg .middle } __TinyAuton__
+
+    ---
+
+    面向单片机的边缘智能框架。开源 C/C++ 实现，将数值计算、信号处理、神经网络与端侧训练放进 MCU。
+
+    [:octicons-arrow-right-24: 详情](./PROJECT/project.md#autora){:target="_blank" rel="noopener"}
+
+-   :material-router-wireless:{ .lg .middle } __NexNode + NexHub__
+
+    ---
+
+    从原理图到云端。一人完成的无线边缘智能节点——PCB、结构、固件、无线协议栈，以及配套云平台。
+
+    [:octicons-arrow-right-24: 详情](./PROJECT/project.md#nexusia){:target="_blank" rel="noopener"}
+
+-   :material-microscope:{ .lg .middle } __博士研究__
+
+    ---
+
+    资源受限设备上的分布式边缘智能：测量、系统辨识、损伤识别与评估。
+
+    [:octicons-arrow-right-24: 详情](./RESEARCH/PhD/phd.md){:target="_blank" rel="noopener"}
+
+</div>
+
 ## 🎓 __教育背景__
 
 | 学位   | 专业       | 学校               | 时间                  |
 |--------|------------|--------------------|--------------------|
-| 博士   | 土木工程（人工智能物联网/结构健康监测） | 南洋理工大学        | 2022年8月 - 至今        |
-| 硕士   | 土木工程（地下建筑方向） | 同济大学           | 2018年9月 - 2021年6月   |
+| 博士   | 土木工程（边缘智能硬件、端侧学习、分布式智能） | 南洋理工大学        | 2022年8月 - 至今        |
+| 硕士   | 建筑与土木工程（三维几何、GJK 碰撞检测、离散元仿真） | 同济大学           | 2018年9月 - 2021年6月   |
 | 学士   | 土木工程（主修）/ 数学（辅修）   | 同济大学           | 2014年9月 - 2018年6月   |
 
 ## 🧰 __经历__
@@ -38,10 +78,6 @@ comments: false
 |-----------------|----------------------------------|------------------------|
 | 科研/教学助理    | 南洋理工大学, 新加坡 | 2022年8月 - 至今       |
 | 产品研发（建筑数字孪生） | 华建数创, 中国上海 | 2021年8月 - 2022年6月  |
-
-## 👨‍🏫 __教学__
-
-CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
 ## 🔬 __研究__
 
@@ -65,7 +101,9 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
     ---
 
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> 通用物联网节点 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexNode/" target="_blank"> 通用物联网节点 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9100" target="_blank"> 通用物联网节点 (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8100/" target="_blank"> 专用物联网节点（结构健康监测） </a>](#)
 
@@ -88,7 +126,9 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用云后端 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> 通用云端平台 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用云后端 (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> 专用云后端（结构健康监测） </a>](#)
 
@@ -113,7 +153,9 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用框架 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/NexHub/" target="_blank"> 通用云端平台 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:9200" target="_blank"> 通用框架 (mirror) </a>](#)
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8200" target="_blank"> 专用框架（结构健康监测） </a>](#)
 
@@ -160,6 +202,10 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 - Engineering Applications of Artificial Intelligence
 - Nature Scientific Reports
 - Urban Informatics
+
+## 👨‍🏫 __教学__
+
+CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
 ## 📄 __专利__
 
