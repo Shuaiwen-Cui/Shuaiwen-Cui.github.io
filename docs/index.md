@@ -19,9 +19,9 @@ comments: flase
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
 -->
 
-<a href="/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
+<a href="/Resume_Shuaiwen_CUI_2026-ENGLISH.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
 
-<a href="/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
+<a href="/Resume_Shuaiwen_CUI_2026-CHINESE.pdf" target="_blank">📜 Check and Download My CV - Chinese (2026)</a>
 
 <!-- <a href="http://www.cuishuaiwen.com/CV_Shuaiwen_CUI_2025.pdf" target="_blank">📜 Check and Download My CV (2025)</a> -->
 
