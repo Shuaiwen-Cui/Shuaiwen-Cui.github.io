@@ -220,3 +220,15 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
 
 
 </div>
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Journal Paper - IEEE Transactions on Education__
+
+    ---
+
+    **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. 
+
+    [:octicons-arrow-right-24: <a href="https://doi.org/10.1109/TE.2026.3717462" target="_blank"> DOI </a>](#)
+
+</div>

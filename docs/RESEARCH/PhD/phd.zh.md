@@ -228,3 +228,17 @@ PCB 设计
 
 
 </div>
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __期刊论文 - IEEE Transactions on Education__
+
+    ---
+
+    **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. 
+
+    [:octicons-arrow-right-24: <a href="https://doi.org/10.1109/TE.2026.3717462" target="_blank"> DOI </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://mp.weixin.qq.com/s/d7ucOQSB-XSaVzWxegbzBg?scene=1&click_id=524330546" target="_blank"> 公众号推送 </a>](#)
+
+</div>
