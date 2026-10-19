@@ -1,5 +1,10 @@
 # __LEARNING__
 
+!!! tip "Two ways to use this section"
+    **Fast track**: AI, foundation models and embodied intelligence each have a two-week "Get Started" page, worked back from common industry requirements, ending in a project you can show — [AI](AI/GET-STARTED/get-started.md) · [Foundation Models](FOUNDATION-MODELS/GET-STARTED/get-started.md) · [Embodied Intelligence](EMBODIED-INTELLIGENCE/GET-STARTED/get-started.md).
+
+    **Systematic track**: start from each direction's overview and roadmap and go deeper step by step. Doing one fast track first, then returning to the systematic track, works best.
+
 !!! note "PART A: ENGINEERING & PRACTICE"
     This part serves as the foundation.
 
@@ -47,6 +52,18 @@
     ---
 
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/AI/ai/" target="_blank"> Portal </a>](#)
+
+-   :material-brain:{ .lg .middle } __FOUNDATION MODELS__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/FOUNDATION-MODELS/foundation-models/" target="_blank"> Portal </a>](#)
+
+-   :material-robot-outline:{ .lg .middle } __EMBODIED INTELLIGENCE__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com/LEARNING/EMBODIED-INTELLIGENCE/embodied-intelligence/" target="_blank"> Portal </a>](#)
 
 -   :material-router-wireless:{ .lg .middle } __STRUCTURAL HEALTH MONITORING__
 

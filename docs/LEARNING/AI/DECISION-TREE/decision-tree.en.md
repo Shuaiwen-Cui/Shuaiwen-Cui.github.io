@@ -1,5 +1,14 @@
 # DECISION TREE
 
+A classical-model topic under shared foundations. Start the [foundation map](../FOUNDATIONS/foundations.md) and verify implementations with [official Trees documentation](https://scikit-learn.org/stable/modules/tree.html). Earlier notes are retained below.
+
+| Depth | Learn | Experiment |
+|---|---|---|
+| P1 | Splits, pruning, depth and overfitting | Linear vs. tree baseline in AI-1 |
+| P1 | Random forests and boosting/GBDT | Compare ensembles/single trees under fixed splits and budgets |
+| P2 | XGBoost/LightGBM implementations | Choose one only for a relevant tabular task |
+
+
 ## Definition of Decision Trees
 
 A decision tree is a supervised learning algorithm used for classification and regression. It builds a tree-like model by splitting the dataset into smaller subsets, enabling predictions to be made based on the data. Each internal node represents a test on a feature, and each leaf node represents a class label or a numerical value.
