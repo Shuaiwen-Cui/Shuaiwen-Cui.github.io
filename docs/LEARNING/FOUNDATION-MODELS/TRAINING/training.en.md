@@ -29,6 +29,8 @@
 
 **Parameter-efficient tuning**: LoRA freezes W and trains a low-rank update ΔW = BA, usually under 1% of parameters; QLoRA quantises the base to 4-bit and trains LoRA on top, so billion-parameter models fit on one GPU.
 
+**Distributed training systems**: data parallelism (DDP) keeps a full model per GPU and synchronises gradients with NCCL all-reduce; when the model does not fit, ZeRO / FSDP shard optimiser states, gradients and parameters across GPUs (DeepSpeed, PyTorch FSDP); larger models add tensor parallelism (splitting matrices within a layer) and pipeline parallelism (splitting layers into stages), as in Megatron-LM. Activation recomputation (gradient checkpointing) trades time for memory, and mixed precision (BF16) is close to the default.
+
 ## Debate · keep scaling vs. new methods
 
 Scaling: more data and compute remain the most reliable source of progress. Methods: better data, synthetic data, RL and test-time compute (thinking longer at inference) deliver similar gains more cheaply. The recent trend combines both: pretraining scale slows while post-training and inference-time compute grow.

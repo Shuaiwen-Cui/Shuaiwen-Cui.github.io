@@ -77,6 +77,14 @@
 
     [:octicons-arrow-right-24: Open](INFERENCE/inference.md)
 
+-   :material-expansion-card:{ .lg .middle } __GPU & Kernel Development__
+
+    ---
+
+    Execution model and memory hierarchy, roofline, fusion, FlashAttention and Triton.
+
+    [:octicons-arrow-right-24: Open](KERNELS/kernels.md)
+
 -   :material-earth:{ .lg .middle } __World Models__
 
     ---

@@ -160,6 +160,8 @@ plugins:
             PRACTICE: 项目实践
             FURTHER: 延伸
             ARCHIVE: 历史收藏
+            KERNELS: GPU 与算子开发
+            TOOLCHAIN: 工具链与生态
             POSE-6DOF-DEMO: 实战·6DoF 位姿估计
             LLM-QUANT-DEMO: 实战·大模型量化
             EMBODIED-INTELLIGENCE: 具身智能
@@ -358,6 +360,7 @@ nav:
             - APPLICATIONS: "LEARNING/FOUNDATION-MODELS/APPLICATIONS/applications.md"
             - MULTIMODAL: "LEARNING/FOUNDATION-MODELS/MULTIMODAL/multimodal.md"
             - INFERENCE: "LEARNING/FOUNDATION-MODELS/INFERENCE/inference.md"
+            - KERNELS: "LEARNING/FOUNDATION-MODELS/KERNELS/kernels.md"
             - WORLD-MODELS: "LEARNING/FOUNDATION-MODELS/WORLD-MODELS/world-models.md"
         - PRACTICE:
             - PROJECT-BASED-LEARNING: "LEARNING/FOUNDATION-MODELS/PROJECT-BASED-LEARNING/project-based-learning.md"
@@ -375,6 +378,7 @@ nav:
             - PLANNING-CONTROL: "LEARNING/EMBODIED-INTELLIGENCE/PLANNING-CONTROL/planning-control.md"
             - POLICY-LEARNING: "LEARNING/EMBODIED-INTELLIGENCE/POLICY-LEARNING/policy-learning.md"
             - SIM-TO-REAL: "LEARNING/EMBODIED-INTELLIGENCE/SIM-TO-REAL/sim-to-real.md"
+            - TOOLCHAIN: "LEARNING/EMBODIED-INTELLIGENCE/TOOLCHAIN/toolchain.md"
         - PRACTICE:
             - PROJECT-BASED-LEARNING: "LEARNING/EMBODIED-INTELLIGENCE/PROJECT-BASED-LEARNING/project-based-learning.md"
             - POSE-6DOF-DEMO: "LEARNING/EMBODIED-INTELLIGENCE/PROJECT-BASED-LEARNING/pose-6dof.md"

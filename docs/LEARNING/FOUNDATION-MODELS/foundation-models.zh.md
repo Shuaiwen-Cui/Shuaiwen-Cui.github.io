@@ -77,6 +77,14 @@
 
     [:octicons-arrow-right-24: 进入](INFERENCE/inference.md)
 
+-   :material-expansion-card:{ .lg .middle } __GPU 与算子开发__
+
+    ---
+
+    执行模型与内存层次、roofline、算子融合、FlashAttention 与 Triton。
+
+    [:octicons-arrow-right-24: 进入](KERNELS/kernels.md)
+
 -   :material-earth:{ .lg .middle } __世界模型__
 
     ---
