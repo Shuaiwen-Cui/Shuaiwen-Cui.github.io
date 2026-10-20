@@ -1,61 +1,132 @@
 # 基础模型
 
-先理解 LLM 与多模态模型在解决什么问题，再通过小实验认识模型、数据和应用，最后选择方向深入。
+!!! abstract ""
+    大语言模型与多模态模型的全生命周期：架构与训练、应用与智能体、多模态与行动接口、推理部署与世界模型。
+
+## 从这里开始
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch:{ .lg .middle } __Get Started · 两周速成__
+-   :material/rocket-launch:{ .lg .middle } __快速入门__
 
     ---
 
-    14 天闭环：小 GPT、LoRA 微调、带来源的检索问答，量化后离线跑在 Jetson 上。
+    十四天闭环：小 GPT、LoRA 微调、带来源的检索问答、量化后离线跑在边缘设备上。
 
-    [开始速成](GET-STARTED/get-started.md)
+    [:octicons-arrow-right-24: 进入](GET-STARTED/get-started.md)
 
--   :material-compass-outline:{ .lg .middle } __Overview · 全貌导读__
-
-    ---
-
-    从零认识术语、系统组成与方向关系，配合中文导论和可视化视频。
-
-    [从这里开始](OVERVIEW/overview.md)
-
--   :material-map-marker-path:{ .lg .middle } __Roadmap · 学习路线__
+-   :material/map-outline:{ .lg .middle } __全貌导读__
 
     ---
 
-    按“扫盲 → 基础 → 使用 → 适配 → 深入”推进，明确必学、选学和完成标准。
+    术语、系统组成与各方向之间的关系。
 
-    [查看路线](ROADMAP/roadmap.md)
+    [:octicons-arrow-right-24: 进入](OVERVIEW/overview.md)
 
--   :material-hammer-wrench:{ .lg .middle } __Guided Projects · 跟随式项目__
+-   :material/map-marker-path:{ .lg .middle } __学习路线__
 
     ---
 
-    从 PyTorch 小模型到个人资料问答，每个项目都有教程、步骤、个人修改和验收要求。
+    扫盲、实现、使用、适配，再按实践选方向深入。
 
-    [开始实践](PROJECT-BASED-LEARNING/project-based-learning.md)
+    [:octicons-arrow-right-24: 进入](ROADMAP/roadmap.md)
 
 </div>
 
-## 知识地图
+## 知识体系
 
-| 单元 | 核心问题 | 学习层次 |
-|---|---|---|
-| [架构与表示](ARCHITECTURE/architecture.md) | token、嵌入和 Attention 如何组成模型？ | 基础；架构变体选学 |
-| [训练与适配](TRAINING/training.md) | 预训练、SFT、LoRA 和偏好优化分别改变什么？ | 基础；大规模训练选学 |
-| [应用与智能体](APPLICATIONS/applications.md) | 如何连接资料、工具与任务，并评估结果？ | 基础与实践 |
-| [多模态与行动接口](MULTIMODAL/multimodal.md) | 图像、语言、状态和动作怎样连接？ | 导论与体验；VLA 适配进阶 |
-| [推理与部署](INFERENCE/inference.md) | 怎样权衡质量、延迟、吞吐和内存？ | 基础；运行时优化进阶 |
-| [世界模型](WORLD-MODELS/world-models.md) | 怎样预测环境变化，并用于规划或学习？ | 进阶选修 |
+<div class="grid cards" markdown>
 
-!!! tip "如何使用这个栏目"
-    主课只保留李宏毅导论与 Karpathy 实现两条连续路线。先做 F0；F1 用于按需补 PyTorch，F4 的小型 GPT 是实现主项目；F2/F3 二选一体验，F5 以后按方向选择。文档在遇到具体接口时查阅，不需要逐个学完。
+-   :material/layers-outline:{ .lg .middle } __架构与表示__
 
-## 与具身智能的连接
+    ---
 
-- **技能调用**：语言模型选择目标或技能，机器人控制器负责执行。
-- **VLA**：视觉、语言和机器人状态共同条件化动作策略，需要机器人数据与闭环评估。
-- **世界模型**：预测动作带来的环境变化，可支持规划或策略学习。
+    token、嵌入与注意力如何组成模型。
 
-在[具身智能全貌导读](../EMBODIED-INTELLIGENCE/OVERVIEW/overview.md)中查看这些模块如何进入机器人系统。
+    [:octicons-arrow-right-24: 进入](ARCHITECTURE/architecture.md)
+
+-   :material/school-outline:{ .lg .middle } __训练与适配__
+
+    ---
+
+    预训练、SFT、LoRA 与偏好优化分别改变什么。
+
+    [:octicons-arrow-right-24: 进入](TRAINING/training.md)
+
+-   :material/tools:{ .lg .middle } __应用与智能体__
+
+    ---
+
+    RAG、工具调用与智能体，以及如何评估。
+
+    [:octicons-arrow-right-24: 进入](APPLICATIONS/applications.md)
+
+-   :material/image-multiple-outline:{ .lg .middle } __多模态与行动接口__
+
+    ---
+
+    图像、语言、状态与动作如何连接，直到 VLA。
+
+    [:octicons-arrow-right-24: 进入](MULTIMODAL/multimodal.md)
+
+-   :material/speedometer:{ .lg .middle } __推理与部署__
+
+    ---
+
+    质量、延迟、吞吐与内存的权衡，量化与 KV Cache。
+
+    [:octicons-arrow-right-24: 进入](INFERENCE/inference.md)
+
+-   :material/earth:{ .lg .middle } __世界模型__
+
+    ---
+
+    预测环境变化，并用于规划与学习。
+
+    [:octicons-arrow-right-24: 进入](WORLD-MODELS/world-models.md)
+
+</div>
+
+## 项目实践
+
+<div class="grid cards" markdown>
+
+-   :material/hammer-wrench:{ .lg .middle } __跟随式项目__
+
+    ---
+
+    F0–F6：从模型概念到小型 GPT、检索问答与推理对比。
+
+    [:octicons-arrow-right-24: 进入](PROJECT-BASED-LEARNING/project-based-learning.md)
+
+-   :material/memory:{ .lg .middle } __实战 · 大模型量化__
+
+    ---
+
+    从 RTN 到 GPTQ / AWQ / SmoothQuant，比较精度、显存与速度。
+
+    [:octicons-arrow-right-24: 进入](PROJECT-BASED-LEARNING/llm-quant.md)
+
+</div>
+
+## 延伸
+
+<div class="grid cards" markdown>
+
+-   :material/robot-vacuum:{ .lg .middle } __人工智能__
+
+    ---
+
+    各方向共用的学习方法与工程基础。
+
+    [:octicons-arrow-right-24: 进入](../AI/ai.md)
+
+-   :material/robot-outline:{ .lg .middle } __具身智能__
+
+    ---
+
+    技能调用、VLA 与世界模型进入机器人闭环。
+
+    [:octicons-arrow-right-24: 进入](../EMBODIED-INTELLIGENCE/embodied-intelligence.md)
+
+</div>

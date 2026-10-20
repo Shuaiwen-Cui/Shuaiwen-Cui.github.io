@@ -1,7 +1,7 @@
 # 具身智能 · 学习路线
 
 !!! tip "时间紧时"
-    先做 [两周速成](../GET-STARTED/get-started.md)：从感知切入，覆盖坐标、ROS 2、[P1 · 6DoF 位姿](../PROJECT-BASED-LEARNING/pose-6dof.md)和一次模仿学习体验；第二轮选择"感知与估计"分支时直接从 P1 继续。
+    先做 [快速入门](../GET-STARTED/get-started.md)：从感知切入，覆盖坐标、ROS 2、[P1 · 6DoF 位姿](../PROJECT-BASED-LEARNING/pose-6dof.md)和一次模仿学习体验；第二轮选择"感知与估计"分支时直接从 P1 继续。
 
 主课只跟 Modern Robotics，机器人学习阶段延续 LeRobot。你已有几何、信号与工程基础，先补机器人空间表示和接口，数学与编程按缺口补齐。时间按每周 8–10 小时估计；ROS 2 文档和算法例子服务于项目，不增加为完整必修课。
 

@@ -1,61 +1,132 @@
 # Foundation Models
 
-Understand what LLMs and multimodal models do, explore models and data through small experiments, then choose a direction for deeper work.
+!!! abstract ""
+    The full life cycle of language and multimodal models: architecture and training, applications and agents, multimodality and action interfaces, inference, deployment and world models.
+
+## Start here
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch:{ .lg .middle } __Get Started · Two Weeks__
+-   :material/rocket-launch:{ .lg .middle } __Get Started__
 
     ---
 
-    A 14-day loop: a small GPT, LoRA tuning, retrieval QA with sources, quantised and running offline on a Jetson.
+    A fourteen-day loop: a small GPT, LoRA tuning, retrieval QA with sources, quantised and running offline on an edge device.
 
-    [Start here](GET-STARTED/get-started.md)
+    [:octicons-arrow-right-24: Open](GET-STARTED/get-started.md)
 
--   :material-compass-outline:{ .lg .middle } __Overview__
-
-    ---
-
-    Start with terminology, system diagrams and introductory courses, including Chinese lectures and visual explanations.
-
-    [Start here](OVERVIEW/overview.md)
-
--   :material-map-marker-path:{ .lg .middle } __Roadmap__
+-   :material/map-outline:{ .lg .middle } __Overview__
 
     ---
 
-    Move from orientation to fundamentals, model use, adaptation and specialization, with explicit completion criteria.
+    Terms, system components and how the directions relate.
 
-    [Follow the roadmap](ROADMAP/roadmap.md)
+    [:octicons-arrow-right-24: Open](OVERVIEW/overview.md)
 
--   :material-hammer-wrench:{ .lg .middle } __Guided Projects__
+-   :material/map-marker-path:{ .lg .middle } __Roadmap__
 
     ---
 
-    Follow tutorials from a small PyTorch model to a personal knowledge assistant; make changes and evaluate them.
+    Literacy, implementation, use, adaptation, then go deeper by practice.
 
-    [Start building](PROJECT-BASED-LEARNING/project-based-learning.md)
+    [:octicons-arrow-right-24: Open](ROADMAP/roadmap.md)
 
 </div>
 
-## Knowledge map
+## Knowledge
 
-| Unit | Main question | Depth |
-|---|---|---|
-| [Architecture & representation](ARCHITECTURE/architecture.md) | How do tokens, embeddings and attention form a model? | Fundamentals; architecture variants optional |
-| [Training & adaptation](TRAINING/training.md) | What do pretraining, SFT, LoRA and preference optimization change? | Fundamentals; large-scale training optional |
-| [Applications & agents](APPLICATIONS/applications.md) | How do models connect to documents, tools and tasks? | Fundamentals and practice |
-| [Multimodality & action interfaces](MULTIMODAL/multimodal.md) | How do images, language, state and actions connect? | Orientation and exploration; VLA adaptation advanced |
-| [Inference & deployment](INFERENCE/inference.md) | How do quality, latency, throughput and memory interact? | Fundamentals; runtime optimization advanced |
-| [World models](WORLD-MODELS/world-models.md) | How can predicted changes support planning or learning? | Advanced elective |
+<div class="grid cards" markdown>
 
-!!! tip "How to use this section"
-    Follow two continuous courses: Lee's overview and Karpathy's implementation. Start with F0, use F1 only to fill PyTorch gaps, and use the small GPT in F4 as the implementation project. Choose F2 or F3 for exploration; F5 is a later elective. Consult documentation for specific interfaces.
+-   :material/layers-outline:{ .lg .middle } __Architecture & Representation__
 
-## Connection to embodied intelligence
+    ---
 
-- **Skill calling**: a language model selects goals or skills; robot controllers execute them.
-- **VLA**: vision, language and robot state condition an action policy, requiring robot data and closed-loop evaluation.
-- **World models**: predict consequences of actions for planning or policy learning.
+    How tokens, embeddings and attention make up a model.
 
-See the [embodied intelligence overview](../EMBODIED-INTELLIGENCE/OVERVIEW/overview.md) for their place in a robot system.
+    [:octicons-arrow-right-24: Open](ARCHITECTURE/architecture.md)
+
+-   :material/school-outline:{ .lg .middle } __Training & Adaptation__
+
+    ---
+
+    What pre-training, SFT, LoRA and preference optimisation each change.
+
+    [:octicons-arrow-right-24: Open](TRAINING/training.md)
+
+-   :material/tools:{ .lg .middle } __Applications & Agents__
+
+    ---
+
+    RAG, tool use and agents, and how to evaluate them.
+
+    [:octicons-arrow-right-24: Open](APPLICATIONS/applications.md)
+
+-   :material/image-multiple-outline:{ .lg .middle } __Multimodality & Action__
+
+    ---
+
+    How images, language, state and actions connect, up to VLA.
+
+    [:octicons-arrow-right-24: Open](MULTIMODAL/multimodal.md)
+
+-   :material/speedometer:{ .lg .middle } __Inference & Deployment__
+
+    ---
+
+    Quality, latency, throughput and memory; quantisation and KV cache.
+
+    [:octicons-arrow-right-24: Open](INFERENCE/inference.md)
+
+-   :material/earth:{ .lg .middle } __World Models__
+
+    ---
+
+    Predicting how the environment changes, for planning and learning.
+
+    [:octicons-arrow-right-24: Open](WORLD-MODELS/world-models.md)
+
+</div>
+
+## Projects
+
+<div class="grid cards" markdown>
+
+-   :material/hammer-wrench:{ .lg .middle } __Guided Projects__
+
+    ---
+
+    F0–F6: from model concepts to a small GPT, retrieval QA and inference comparison.
+
+    [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/project-based-learning.md)
+
+-   :material/memory:{ .lg .middle } __Project · LLM Quantization__
+
+    ---
+
+    From RTN to GPTQ / AWQ / SmoothQuant: accuracy, memory and speed.
+
+    [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/llm-quant.md)
+
+</div>
+
+## Further
+
+<div class="grid cards" markdown>
+
+-   :material/robot-vacuum:{ .lg .middle } __Artificial Intelligence__
+
+    ---
+
+    Learning methods and engineering shared across directions.
+
+    [:octicons-arrow-right-24: Open](../AI/ai.md)
+
+-   :material/robot-outline:{ .lg .middle } __Embodied Intelligence__
+
+    ---
+
+    Skill calls, VLA and world models inside the robot loop.
+
+    [:octicons-arrow-right-24: Open](../EMBODIED-INTELLIGENCE/embodied-intelligence.md)
+
+</div>

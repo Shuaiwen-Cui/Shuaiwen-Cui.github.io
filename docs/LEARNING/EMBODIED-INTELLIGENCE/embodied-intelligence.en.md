@@ -1,59 +1,132 @@
 # Embodied Intelligence
 
-Start with the robot system: body, observations, decisions and execution. Explore classical methods and learned policies through simulation.
+!!! abstract ""
+    The robot loop from observation to action: space and embodiment, software systems, perception and state estimation, planning and control, learned policies, and moving from simulation to hardware.
+
+## Start here
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch:{ .lg .middle } __Get Started · Two Weeks__
+-   :material/rocket-launch:{ .lg .middle } __Get Started__
 
     ---
 
-    A 14-day robot-perception loop: frames and cameras, ROS 2, a 6DoF pose project wired into ROS 2, and one run of imitation learning.
+    A fourteen-day perception loop: frames and cameras, ROS 2, a 6DoF pose project inside ROS 2, then a taste of imitation learning.
 
-    [Start here](GET-STARTED/get-started.md)
+    [:octicons-arrow-right-24: Open](GET-STARTED/get-started.md)
 
--   :material-compass-outline:{ .lg .middle } __Overview__
-
-    ---
-
-    Understand robotics, embodied intelligence, imitation learning, reinforcement learning and VLA.
-
-    [Start here](OVERVIEW/overview.md)
-
--   :material-map-marker-path:{ .lg .middle } __Roadmap__
+-   :material/map-outline:{ .lg .middle } __Overview__
 
     ---
 
-    Move from orientation to a simulated control loop, then choose perception, control, policies or systems.
+    What robotics, embodied intelligence, imitation learning, RL and VLA each are.
 
-    [Follow the roadmap](ROADMAP/roadmap.md)
+    [:octicons-arrow-right-24: Open](OVERVIEW/overview.md)
 
--   :material-hammer-wrench:{ .lg .middle } __Guided Projects__
+-   :material/map-marker-path:{ .lg .middle } __Roadmap__
 
     ---
 
-    Turtlesim, small robot algorithms and simulated imitation learning, with increasing complexity.
+    From concepts to a simulated loop, then choose perception, control, policy or systems.
 
-    [Start building](PROJECT-BASED-LEARNING/project-based-learning.md)
+    [:octicons-arrow-right-24: Open](ROADMAP/roadmap.md)
 
 </div>
 
-## Knowledge map
+## Knowledge
 
-| Unit | Main question | Depth |
-|---|---|---|
-| [Space & embodiment](EMBODIMENT/embodiment.md) | What can the body do, and how are frames, states and actions described? | Fundamentals; complex dynamics optional |
-| [Software systems & simulation](SYSTEMS/systems.md) | How do data, algorithms and actuators connect? | Fundamentals and practice |
-| [Perception & state estimation](PERCEPTION/perception.md) | Where is the robot and what surrounds it? | Orientation, then task-specific depth |
-| [Planning & control](PLANNING-CONTROL/planning-control.md) | How are paths chosen and execution errors corrected? | Fundamentals; MPC and whole-body control optional |
-| [Learned policies](POLICY-LEARNING/policy-learning.md) | How can demonstrations or interaction teach actions? | Imitation first; RL and VLA advanced |
-| [Simulation & sim-to-real](SIM-TO-REAL/sim-to-real.md) | How can simulation experience transfer reliably to hardware? | Simulation early; hardware transfer advanced |
+<div class="grid cards" markdown>
 
-!!! tip "Learning order"
-    Run a simple policy and fill in mechanics and control as needed. Frames, observation/action interfaces and basic feedback come first; full SLAM, MPC and whole-body control are not universal prerequisites for introductory imitation learning.
+-   :material/axis-arrow:{ .lg .middle } __Space & Embodiment__
 
-## Connection to foundation models
+    ---
 
-Language-based skill calling, VLA action generation and world-model prediction are different interfaces. Each must connect to robot state, control and evaluation.
+    Frames, rigid transforms, kinematics and dynamics.
 
-[Foundation overview](../FOUNDATION-MODELS/OVERVIEW/overview.md) · [Multimodality & action interfaces](../FOUNDATION-MODELS/MULTIMODAL/multimodal.md)
+    [:octicons-arrow-right-24: Open](EMBODIMENT/embodiment.md)
+
+-   :material/lan:{ .lg .middle } __Software Systems & Simulation__
+
+    ---
+
+    ROS 2, topics and transform trees; how data reaches the actuators.
+
+    [:octicons-arrow-right-24: Open](SYSTEMS/systems.md)
+
+-   :material/radar:{ .lg .middle } __Perception & State Estimation__
+
+    ---
+
+    Filtering, SLAM, detection and 6DoF pose.
+
+    [:octicons-arrow-right-24: Open](PERCEPTION/perception.md)
+
+-   :material/vector-curve:{ .lg .middle } __Planning & Control__
+
+    ---
+
+    Path and trajectory planning; PID, LQR and MPC.
+
+    [:octicons-arrow-right-24: Open](PLANNING-CONTROL/planning-control.md)
+
+-   :material/brain:{ .lg .middle } __Learned Policies__
+
+    ---
+
+    Imitation learning, diffusion policies, RL and VLA.
+
+    [:octicons-arrow-right-24: Open](POLICY-LEARNING/policy-learning.md)
+
+-   :material/swap-horizontal:{ .lg .middle } __Sim-to-Real__
+
+    ---
+
+    Domain randomisation, system identification and hardware reliability.
+
+    [:octicons-arrow-right-24: Open](SIM-TO-REAL/sim-to-real.md)
+
+</div>
+
+## Projects
+
+<div class="grid cards" markdown>
+
+-   :material/hammer-wrench:{ .lg .middle } __Guided Projects__
+
+    ---
+
+    E0–E5: from turtlesim and 2D robot algorithms to imitation learning in simulation.
+
+    [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/project-based-learning.md)
+
+-   :material/cube-scan:{ .lg .middle } __Project · 6DoF Pose__
+
+    ---
+
+    RGB-D object pose: public benchmark, edge deployment and iPhone capture.
+
+    [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/pose-6dof.md)
+
+</div>
+
+## Further
+
+<div class="grid cards" markdown>
+
+-   :material/robot-vacuum:{ .lg .middle } __Artificial Intelligence__
+
+    ---
+
+    Learning methods and engineering shared across directions.
+
+    [:octicons-arrow-right-24: Open](../AI/ai.md)
+
+-   :material/brain:{ .lg .middle } __Foundation Models__
+
+    ---
+
+    Multimodal models, VLA and world models.
+
+    [:octicons-arrow-right-24: Open](../FOUNDATION-MODELS/foundation-models.md)
+
+</div>
