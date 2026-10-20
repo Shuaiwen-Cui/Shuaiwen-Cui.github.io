@@ -184,7 +184,7 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 **Others**
 
-- Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. (To be submitted to *Automation in Construction*)
+- Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. (Under Review)
 
 - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
