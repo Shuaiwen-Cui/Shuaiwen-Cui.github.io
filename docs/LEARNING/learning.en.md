@@ -1,12 +1,11 @@
 # __LEARNING__
 
-!!! tip "Two ways to use this section"
-    **Fast track**: AI, foundation models and embodied intelligence each have a two-week "Get Started" page, worked back from common industry requirements, ending in a project you can show — [AI](AI/GET-STARTED/get-started.md) · [Foundation Models](FOUNDATION-MODELS/GET-STARTED/get-started.md) · [Embodied Intelligence](EMBODIED-INTELLIGENCE/GET-STARTED/get-started.md).
+> "Long, long had been my road and far, far was the journey; I would go up and down to seek my heart's desire." — Qu Yuan, *Li Sao*
 
-    **Systematic track**: start from each direction's overview and roadmap and go deeper step by step. Doing one fast track first, then returning to the systematic track, works best.
+This is my body of knowledge, in two parts. **Engineering & Practice** is the tangible layer — chips, signals, networks and systems that ground intelligence in real hardware and real environments. **Theory & Algorithms** is the abstract layer — computation, learning and reasoning that ask how intelligence is possible and how it can be better. Tools carry ideas, and ideas guide tools; the two test each other, and that is how I approach research.
 
-!!! note "PART A: ENGINEERING & PRACTICE"
-    This part serves as the foundation.
+!!! note "PART A: ENGINEERING & PRACTICE · THE TANGIBLE"
+    From circuits and signals to networked systems and digital twins — the physical and engineering ground every intelligent system runs on.
 
 <div class="grid cards" markdown>
 
@@ -36,8 +35,8 @@
 
 </div>
 
-!!!note "PART B: THEORY & ALGORITHMS"
-    This part serves as the superstructure.
+!!! note "PART B: THEORY & ALGORITHMS · THE ABSTRACT"
+    From distributed computing and machine learning to foundation models and embodied intelligence — how intelligence represents the world, learns its regularities and acts on it.
 
 <div class="grid cards" markdown>
 
