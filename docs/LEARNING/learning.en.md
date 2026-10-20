@@ -1,7 +1,5 @@
 # __LEARNING__
 
-This is my body of knowledge, in two parts. <strong>Engineering & Practice</strong> is the tangible layer — chips, signals, networks and systems that ground intelligence in real hardware and real environments. <strong>Theory & Algorithms</strong> is the abstract layer — computation, learning and reasoning that ask how intelligence is possible and how it can be better. Tools carry ideas, and ideas guide tools; the two test each other, and that is how I approach research.
-
 !!! note "PART A: ENGINEERING & PRACTICE · THE TANGIBLE"
     From circuits and signals to networked systems and digital twins — the physical and engineering ground every intelligent system runs on.
 
