@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __Get Started__
+-   :material-rocket-launch:{ .lg .middle } __Get Started__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: Open](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __Overview__
+-   :material-map-outline:{ .lg .middle } __Overview__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: Open](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __Roadmap__
+-   :material-map-marker-path:{ .lg .middle } __Roadmap__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/layers-outline:{ .lg .middle } __Architecture & Representation__
+-   :material-layers-outline:{ .lg .middle } __Architecture & Representation__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: Open](ARCHITECTURE/architecture.md)
 
--   :material/school-outline:{ .lg .middle } __Training & Adaptation__
+-   :material-school-outline:{ .lg .middle } __Training & Adaptation__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: Open](TRAINING/training.md)
 
--   :material/tools:{ .lg .middle } __Applications & Agents__
+-   :material-tools:{ .lg .middle } __Applications & Agents__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: Open](APPLICATIONS/applications.md)
 
--   :material/image-multiple-outline:{ .lg .middle } __Multimodality & Action__
+-   :material-image-multiple-outline:{ .lg .middle } __Multimodality & Action__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: Open](MULTIMODAL/multimodal.md)
 
--   :material/speedometer:{ .lg .middle } __Inference & Deployment__
+-   :material-speedometer:{ .lg .middle } __Inference & Deployment__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: Open](INFERENCE/inference.md)
 
--   :material/earth:{ .lg .middle } __World Models__
+-   :material-earth:{ .lg .middle } __World Models__
 
     ---
 
@@ -91,7 +91,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/hammer-wrench:{ .lg .middle } __Guided Projects__
+-   :material-hammer-wrench:{ .lg .middle } __Guided Projects__
 
     ---
 
@@ -99,7 +99,7 @@
 
     [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/project-based-learning.md)
 
--   :material/memory:{ .lg .middle } __Project · LLM Quantization__
+-   :material-memory:{ .lg .middle } __Project · LLM Quantization__
 
     ---
 
@@ -113,7 +113,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/robot-vacuum:{ .lg .middle } __Artificial Intelligence__
+-   :material-robot-vacuum:{ .lg .middle } __Artificial Intelligence__
 
     ---
 
@@ -121,7 +121,7 @@
 
     [:octicons-arrow-right-24: Open](../AI/ai.md)
 
--   :material/robot-outline:{ .lg .middle } __Embodied Intelligence__
+-   :material-robot-outline:{ .lg .middle } __Embodied Intelligence__
 
     ---
 

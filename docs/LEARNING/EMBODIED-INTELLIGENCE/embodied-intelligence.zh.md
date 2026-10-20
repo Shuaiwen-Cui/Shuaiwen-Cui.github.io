@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __快速入门__
+-   :material-rocket-launch:{ .lg .middle } __快速入门__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: 进入](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __全貌导读__
+-   :material-map-outline:{ .lg .middle } __全貌导读__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: 进入](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __学习路线__
+-   :material-map-marker-path:{ .lg .middle } __学习路线__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/axis-arrow:{ .lg .middle } __空间与本体__
+-   :material-axis-arrow:{ .lg .middle } __空间与本体__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: 进入](EMBODIMENT/embodiment.md)
 
--   :material/lan:{ .lg .middle } __软件系统与仿真__
+-   :material-lan:{ .lg .middle } __软件系统与仿真__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: 进入](SYSTEMS/systems.md)
 
--   :material/radar:{ .lg .middle } __感知与状态估计__
+-   :material-radar:{ .lg .middle } __感知与状态估计__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: 进入](PERCEPTION/perception.md)
 
--   :material/vector-curve:{ .lg .middle } __规划与控制__
+-   :material-vector-curve:{ .lg .middle } __规划与控制__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: 进入](PLANNING-CONTROL/planning-control.md)
 
--   :material/brain:{ .lg .middle } __学习型策略__
+-   :material-brain:{ .lg .middle } __学习型策略__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: 进入](POLICY-LEARNING/policy-learning.md)
 
--   :material/swap-horizontal:{ .lg .middle } __仿真与虚实迁移__
+-   :material-swap-horizontal:{ .lg .middle } __仿真与虚实迁移__
 
     ---
 
@@ -91,7 +91,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/hammer-wrench:{ .lg .middle } __跟随式项目__
+-   :material-hammer-wrench:{ .lg .middle } __跟随式项目__
 
     ---
 
@@ -99,7 +99,7 @@
 
     [:octicons-arrow-right-24: 进入](PROJECT-BASED-LEARNING/project-based-learning.md)
 
--   :material/cube-scan:{ .lg .middle } __实战 · 6DoF 位姿估计__
+-   :material-cube-scan:{ .lg .middle } __实战 · 6DoF 位姿估计__
 
     ---
 
@@ -113,7 +113,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/robot-vacuum:{ .lg .middle } __人工智能__
+-   :material-robot-vacuum:{ .lg .middle } __人工智能__
 
     ---
 
@@ -121,7 +121,7 @@
 
     [:octicons-arrow-right-24: 进入](../AI/ai.md)
 
--   :material/brain:{ .lg .middle } __基础模型__
+-   :material-brain:{ .lg .middle } __基础模型__
 
     ---
 

@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __快速入门__
+-   :material-rocket-launch:{ .lg .middle } __快速入门__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: 进入](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __全貌与知识地图__
+-   :material-map-outline:{ .lg .middle } __全貌与知识地图__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: 进入](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __学习路线__
+-   :material-map-marker-path:{ .lg .middle } __学习路线__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/function-variant:{ .lg .middle } __学习基础与经典方法__
+-   :material-function-variant:{ .lg .middle } __学习基础与经典方法__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: 进入](FOUNDATIONS/foundations.md)
 
--   :material/vector-polyline:{ .lg .middle } __表示学习__
+-   :material-vector-polyline:{ .lg .middle } __表示学习__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: 进入](REPRESENTATION/representation.md)
 
--   :material/sitemap-outline:{ .lg .middle } __网络架构__
+-   :material-sitemap-outline:{ .lg .middle } __网络架构__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: 进入](ARCHITECTURES/architectures.md)
 
--   :material/chart-bell-curve:{ .lg .middle } __几何表示与生成建模__
+-   :material-chart-bell-curve:{ .lg .middle } __几何表示与生成建模__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: 进入](GENERATIVE-MODELING/generative-modeling.md)
 
--   :material/eye-outline:{ .lg .middle } __视觉与三维空间__
+-   :material-eye-outline:{ .lg .middle } __视觉与三维空间__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: 进入](CV/cv.md)
 
--   :material/source-branch:{ .lg .middle } __搜索规划与决策学习__
+-   :material-source-branch:{ .lg .middle } __搜索规划与决策学习__
 
     ---
 
@@ -85,7 +85,7 @@
 
     [:octicons-arrow-right-24: 进入](DECISION-LEARNING/decision-learning.md)
 
--   :material/sine-wave:{ .lg .middle } __时序与科学机器学习__
+-   :material-sine-wave:{ .lg .middle } __时序与科学机器学习__
 
     ---
 
@@ -93,7 +93,7 @@
 
     [:octicons-arrow-right-24: 进入](SCIENTIFIC-AI/scientific-ai.md)
 
--   :material/chip:{ .lg .middle } __高效训练与工程__
+-   :material-chip:{ .lg .middle } __高效训练与工程__
 
     ---
 
@@ -101,7 +101,7 @@
 
     [:octicons-arrow-right-24: 进入](SYSTEMS/systems.md)
 
--   :material/shield-check-outline:{ .lg .middle } __评估与可信 AI__
+-   :material-shield-check-outline:{ .lg .middle } __评估与可信 AI__
 
     ---
 
@@ -115,7 +115,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/compass-outline:{ .lg .middle } __前沿技术索引__
+-   :material-compass-outline:{ .lg .middle } __前沿技术索引__
 
     ---
 
@@ -123,7 +123,7 @@
 
     [:octicons-arrow-right-24: 进入](FRONTIERS/frontiers.md)
 
--   :material/brain:{ .lg .middle } __基础模型__
+-   :material-brain:{ .lg .middle } __基础模型__
 
     ---
 
@@ -131,7 +131,7 @@
 
     [:octicons-arrow-right-24: 进入](../FOUNDATION-MODELS/foundation-models.md)
 
--   :material/robot-outline:{ .lg .middle } __具身智能__
+-   :material-robot-outline:{ .lg .middle } __具身智能__
 
     ---
 
@@ -139,7 +139,7 @@
 
     [:octicons-arrow-right-24: 进入](../EMBODIED-INTELLIGENCE/embodied-intelligence.md)
 
--   :material/archive-outline:{ .lg .middle } __历史收藏__
+-   :material-archive-outline:{ .lg .middle } __历史收藏__
 
     ---
 

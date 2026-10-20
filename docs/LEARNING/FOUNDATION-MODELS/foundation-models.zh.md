@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __快速入门__
+-   :material-rocket-launch:{ .lg .middle } __快速入门__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: 进入](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __全貌导读__
+-   :material-map-outline:{ .lg .middle } __全貌导读__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: 进入](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __学习路线__
+-   :material-map-marker-path:{ .lg .middle } __学习路线__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/layers-outline:{ .lg .middle } __架构与表示__
+-   :material-layers-outline:{ .lg .middle } __架构与表示__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: 进入](ARCHITECTURE/architecture.md)
 
--   :material/school-outline:{ .lg .middle } __训练与适配__
+-   :material-school-outline:{ .lg .middle } __训练与适配__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: 进入](TRAINING/training.md)
 
--   :material/tools:{ .lg .middle } __应用与智能体__
+-   :material-tools:{ .lg .middle } __应用与智能体__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: 进入](APPLICATIONS/applications.md)
 
--   :material/image-multiple-outline:{ .lg .middle } __多模态与行动接口__
+-   :material-image-multiple-outline:{ .lg .middle } __多模态与行动接口__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: 进入](MULTIMODAL/multimodal.md)
 
--   :material/speedometer:{ .lg .middle } __推理与部署__
+-   :material-speedometer:{ .lg .middle } __推理与部署__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: 进入](INFERENCE/inference.md)
 
--   :material/earth:{ .lg .middle } __世界模型__
+-   :material-earth:{ .lg .middle } __世界模型__
 
     ---
 
@@ -91,7 +91,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/hammer-wrench:{ .lg .middle } __跟随式项目__
+-   :material-hammer-wrench:{ .lg .middle } __跟随式项目__
 
     ---
 
@@ -99,7 +99,7 @@
 
     [:octicons-arrow-right-24: 进入](PROJECT-BASED-LEARNING/project-based-learning.md)
 
--   :material/memory:{ .lg .middle } __实战 · 大模型量化__
+-   :material-memory:{ .lg .middle } __实战 · 大模型量化__
 
     ---
 
@@ -113,7 +113,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/robot-vacuum:{ .lg .middle } __人工智能__
+-   :material-robot-vacuum:{ .lg .middle } __人工智能__
 
     ---
 
@@ -121,7 +121,7 @@
 
     [:octicons-arrow-right-24: 进入](../AI/ai.md)
 
--   :material/robot-outline:{ .lg .middle } __具身智能__
+-   :material-robot-outline:{ .lg .middle } __具身智能__
 
     ---
 

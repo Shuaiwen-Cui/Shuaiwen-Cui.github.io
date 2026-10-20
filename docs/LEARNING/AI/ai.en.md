@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __Get Started__
+-   :material-rocket-launch:{ .lg .middle } __Get Started__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: Open](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __Overview & Knowledge Map__
+-   :material-map-outline:{ .lg .middle } __Overview & Knowledge Map__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: Open](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __Roadmap__
+-   :material-map-marker-path:{ .lg .middle } __Roadmap__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/function-variant:{ .lg .middle } __Foundations & Classical ML__
+-   :material-function-variant:{ .lg .middle } __Foundations & Classical ML__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: Open](FOUNDATIONS/foundations.md)
 
--   :material/vector-polyline:{ .lg .middle } __Representation Learning__
+-   :material-vector-polyline:{ .lg .middle } __Representation Learning__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: Open](REPRESENTATION/representation.md)
 
--   :material/sitemap-outline:{ .lg .middle } __Architectures__
+-   :material-sitemap-outline:{ .lg .middle } __Architectures__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: Open](ARCHITECTURES/architectures.md)
 
--   :material/chart-bell-curve:{ .lg .middle } __Geometry & Generative Modelling__
+-   :material-chart-bell-curve:{ .lg .middle } __Geometry & Generative Modelling__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: Open](GENERATIVE-MODELING/generative-modeling.md)
 
--   :material/eye-outline:{ .lg .middle } __Vision & 3D Space__
+-   :material-eye-outline:{ .lg .middle } __Vision & 3D Space__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: Open](CV/cv.md)
 
--   :material/source-branch:{ .lg .middle } __Search, Planning & Decisions__
+-   :material-source-branch:{ .lg .middle } __Search, Planning & Decisions__
 
     ---
 
@@ -85,7 +85,7 @@
 
     [:octicons-arrow-right-24: Open](DECISION-LEARNING/decision-learning.md)
 
--   :material/sine-wave:{ .lg .middle } __Time Series & Scientific ML__
+-   :material-sine-wave:{ .lg .middle } __Time Series & Scientific ML__
 
     ---
 
@@ -93,7 +93,7 @@
 
     [:octicons-arrow-right-24: Open](SCIENTIFIC-AI/scientific-ai.md)
 
--   :material/chip:{ .lg .middle } __Efficient Training & Engineering__
+-   :material-chip:{ .lg .middle } __Efficient Training & Engineering__
 
     ---
 
@@ -101,7 +101,7 @@
 
     [:octicons-arrow-right-24: Open](SYSTEMS/systems.md)
 
--   :material/shield-check-outline:{ .lg .middle } __Evaluation & Trustworthy AI__
+-   :material-shield-check-outline:{ .lg .middle } __Evaluation & Trustworthy AI__
 
     ---
 
@@ -115,7 +115,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/compass-outline:{ .lg .middle } __Frontiers Index__
+-   :material-compass-outline:{ .lg .middle } __Frontiers Index__
 
     ---
 
@@ -123,7 +123,7 @@
 
     [:octicons-arrow-right-24: Open](FRONTIERS/frontiers.md)
 
--   :material/brain:{ .lg .middle } __Foundation Models__
+-   :material-brain:{ .lg .middle } __Foundation Models__
 
     ---
 
@@ -131,7 +131,7 @@
 
     [:octicons-arrow-right-24: Open](../FOUNDATION-MODELS/foundation-models.md)
 
--   :material/robot-outline:{ .lg .middle } __Embodied Intelligence__
+-   :material-robot-outline:{ .lg .middle } __Embodied Intelligence__
 
     ---
 
@@ -139,7 +139,7 @@
 
     [:octicons-arrow-right-24: Open](../EMBODIED-INTELLIGENCE/embodied-intelligence.md)
 
--   :material/archive-outline:{ .lg .middle } __Archive__
+-   :material-archive-outline:{ .lg .middle } __Archive__
 
     ---
 

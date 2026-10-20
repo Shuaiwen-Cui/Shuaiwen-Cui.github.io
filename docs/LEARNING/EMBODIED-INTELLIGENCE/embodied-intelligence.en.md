@@ -7,7 +7,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/rocket-launch:{ .lg .middle } __Get Started__
+-   :material-rocket-launch:{ .lg .middle } __Get Started__
 
     ---
 
@@ -15,7 +15,7 @@
 
     [:octicons-arrow-right-24: Open](GET-STARTED/get-started.md)
 
--   :material/map-outline:{ .lg .middle } __Overview__
+-   :material-map-outline:{ .lg .middle } __Overview__
 
     ---
 
@@ -23,7 +23,7 @@
 
     [:octicons-arrow-right-24: Open](OVERVIEW/overview.md)
 
--   :material/map-marker-path:{ .lg .middle } __Roadmap__
+-   :material-map-marker-path:{ .lg .middle } __Roadmap__
 
     ---
 
@@ -37,7 +37,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/axis-arrow:{ .lg .middle } __Space & Embodiment__
+-   :material-axis-arrow:{ .lg .middle } __Space & Embodiment__
 
     ---
 
@@ -45,7 +45,7 @@
 
     [:octicons-arrow-right-24: Open](EMBODIMENT/embodiment.md)
 
--   :material/lan:{ .lg .middle } __Software Systems & Simulation__
+-   :material-lan:{ .lg .middle } __Software Systems & Simulation__
 
     ---
 
@@ -53,7 +53,7 @@
 
     [:octicons-arrow-right-24: Open](SYSTEMS/systems.md)
 
--   :material/radar:{ .lg .middle } __Perception & State Estimation__
+-   :material-radar:{ .lg .middle } __Perception & State Estimation__
 
     ---
 
@@ -61,7 +61,7 @@
 
     [:octicons-arrow-right-24: Open](PERCEPTION/perception.md)
 
--   :material/vector-curve:{ .lg .middle } __Planning & Control__
+-   :material-vector-curve:{ .lg .middle } __Planning & Control__
 
     ---
 
@@ -69,7 +69,7 @@
 
     [:octicons-arrow-right-24: Open](PLANNING-CONTROL/planning-control.md)
 
--   :material/brain:{ .lg .middle } __Learned Policies__
+-   :material-brain:{ .lg .middle } __Learned Policies__
 
     ---
 
@@ -77,7 +77,7 @@
 
     [:octicons-arrow-right-24: Open](POLICY-LEARNING/policy-learning.md)
 
--   :material/swap-horizontal:{ .lg .middle } __Sim-to-Real__
+-   :material-swap-horizontal:{ .lg .middle } __Sim-to-Real__
 
     ---
 
@@ -91,7 +91,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/hammer-wrench:{ .lg .middle } __Guided Projects__
+-   :material-hammer-wrench:{ .lg .middle } __Guided Projects__
 
     ---
 
@@ -99,7 +99,7 @@
 
     [:octicons-arrow-right-24: Open](PROJECT-BASED-LEARNING/project-based-learning.md)
 
--   :material/cube-scan:{ .lg .middle } __Project · 6DoF Pose__
+-   :material-cube-scan:{ .lg .middle } __Project · 6DoF Pose__
 
     ---
 
@@ -113,7 +113,7 @@
 
 <div class="grid cards" markdown>
 
--   :material/robot-vacuum:{ .lg .middle } __Artificial Intelligence__
+-   :material-robot-vacuum:{ .lg .middle } __Artificial Intelligence__
 
     ---
 
@@ -121,7 +121,7 @@
 
     [:octicons-arrow-right-24: Open](../AI/ai.md)
 
--   :material/brain:{ .lg .middle } __Foundation Models__
+-   :material-brain:{ .lg .middle } __Foundation Models__
 
     ---
 
