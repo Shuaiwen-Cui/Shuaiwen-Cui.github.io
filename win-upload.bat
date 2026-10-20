@@ -1,5 +1,5 @@
 @echo off
-REM Safe upload: stage -> review -> commit -> rebase onto remote -> push
+REM Automatic upload: stage -> commit -> rebase onto remote -> push
 REM
 REM   win-upload.bat                  commit message defaults to "auto update"
 REM   win-upload.bat "your message"
@@ -24,10 +24,6 @@ echo.
 git diff --cached --quiet
 if not errorlevel 1 goto :nothing
 
-set "OK="
-set /p "OK=Commit the above? [y/N] "
-if /i not "%OK%"=="y" goto :aborted
-
 git commit -m "%MSG%"
 if errorlevel 1 goto :fail
 goto :sync
@@ -50,10 +46,6 @@ echo.
 echo ======== done ========
 goto :end
 
-:aborted
-echo Aborted. Nothing committed.
-goto :end
-
 :conflict
 echo.
 echo Rebase stopped - most likely a conflict.
@@ -71,4 +63,3 @@ echo FAILED - see the error above. Nothing was force-pushed.
 
 :end
 endlocal
-pause

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Safe upload: stage -> review -> commit -> rebase onto remote -> push
+# Automatic upload: stage -> commit -> rebase onto remote -> push
 #
 #   ./upload.sh                  commit message defaults to "auto update"
 #   ./upload.sh "your message"
@@ -19,11 +19,7 @@ echo
 if git diff --cached --quiet; then
   echo "Nothing staged - working tree is clean."
 else
-  read -r -p "Commit the above? [y/N] " OK
-  case "$OK" in
-    y|Y) git commit -m "$MSG" ;;
-    *)   echo "Aborted. Nothing committed."; exit 1 ;;
-  esac
+  git commit -m "$MSG"
 fi
 
 echo
