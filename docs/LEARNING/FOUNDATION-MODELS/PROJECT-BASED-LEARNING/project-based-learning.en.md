@@ -11,6 +11,7 @@
 | F3 · Image Q&A | Optional exploration | Loading and inference | Model-dependent memory/GPU or online example |
 | F4 · Small GPT and adaptation | Core implementation; adaptation elective | F1, tokens and attention | CPU for small experiments; GPU for larger training |
 | F5 · Inference comparison | Advanced elective | A working model | Fixed model, test set and hardware |
+| F6 · LLM quantization project | Advanced elective | F5, or loading HF models | NVIDIA GPU with 8 GB+ memory |
 
 ## F0
 
@@ -98,6 +99,19 @@
 Run a supported small model, then compare quantizations of the same base model. Fix hardware, prompts, output length and settings; measure time to first token, generation speed, peak memory and answer quality. Repeat measurements and separate loading from inference.
 
 **Acceptance:** configurations, results, quality regressions and bottleneck analysis. Document limitations when models or hardware differ.
+
+
+<div class="grid cards" markdown>
+
+-   :material-memory:{ .lg .middle } __F6 · Project: quantizing a small language model__
+
+    ---
+
+    From RTN to GPTQ / AWQ / SmoothQuant: calibrate and quantize yourself, compare accuracy, memory and speed, and analyse per-layer error.
+
+    [:octicons-arrow-right-24: Open project](llm-quant.md)
+
+</div>
 
 ## Common record
 

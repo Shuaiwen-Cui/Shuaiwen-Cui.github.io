@@ -156,6 +156,7 @@ plugins:
             PROJECT-BASED-LEARNING: 跟随式项目
             GET-STARTED: 两周速成
             POSE-6DOF-DEMO: 实战·6DoF 位姿估计
+            LLM-QUANT-DEMO: 实战·大模型量化
             EMBODIED-INTELLIGENCE: 具身智能
             EMBODIMENT: 空间与本体
             PERCEPTION: 感知与状态估计
@@ -347,6 +348,7 @@ nav:
         - INFERENCE: "LEARNING/FOUNDATION-MODELS/INFERENCE/inference.md"
         - WORLD-MODELS: "LEARNING/FOUNDATION-MODELS/WORLD-MODELS/world-models.md"
         - PROJECT-BASED-LEARNING: "LEARNING/FOUNDATION-MODELS/PROJECT-BASED-LEARNING/project-based-learning.md"
+        - LLM-QUANT-DEMO: "LEARNING/FOUNDATION-MODELS/PROJECT-BASED-LEARNING/llm-quant.md"
     - EMBODIED-INTELLIGENCE:
         - "LEARNING/EMBODIED-INTELLIGENCE/embodied-intelligence.md"
         - GET-STARTED: "LEARNING/EMBODIED-INTELLIGENCE/GET-STARTED/get-started.md"
