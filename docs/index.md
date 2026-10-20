@@ -162,6 +162,8 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 **IoT-based Structural Health Monitoring**
 
+- **Cui, S.**, Fu, Y.*, Wang, Y., & Fu, H. (2026). Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. Automation in Construction. (Under Review)
+
 - **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. [https://doi.org/10.1109/TE.2026.3717462](https://doi.org/10.1109/TE.2026.3717462){:target="_blank"}
 
 - **Cui, S.**, Fu, Y.*, Fu, H., & Shen, W. (2026). Edge-to-Cloud Computing and Intelligence for IoT-based Structural Health Monitoring: A Comprehensive Review. Advanced Engineering Informatics, 71, 104300. [https://doi.org/10.1016/j.aei.2025.104300](https://doi.org/10.1016/j.aei.2025.104300){:target="_blank"}
@@ -183,8 +185,6 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 - Fu, H., Deng, L., Tang, B., **Cui, S.**, & Fu, Y. (2025). Neural networks micro memory control strategy for mechanical faults edge recognition. IEEE Transactions on Industrial Informatics, 21(7), 5069–5080, July 2025. [https://doi.org/10.1109/TII.2025.3545091](https://doi.org/10.1109/TII.2025.3545091){:target="_blank"}
 
 **Others**
-
-- Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. (Under Review)
 
 - Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
