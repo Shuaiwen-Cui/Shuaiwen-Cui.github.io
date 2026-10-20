@@ -37,9 +37,9 @@ flowchart LR
 
 **第一轮只跟这一门导论：**[官方课程页](https://speech.ee.ntu.edu.tw/~hylee/genai/2024-spring.php)提供中文视频、课件与作业入口。先看第 1 讲建立范围，再看第 6–10 讲串起训练、Agent 与 Transformer，最后看第 12 讲理解评估；其余按问题回访。
 
-**适合你的原因：**你已有数学、信号与工程经验，目前需要补齐模型领域的概念和整体关系。中文系统讲解能减少跨资源拼接，先弄清流程，再进入实现。该课程采用 2024 版作为固定导论材料，具体软件操作查当前官方文档。
+<strong>适合你的原因：</strong>你已有数学、信号与工程经验，目前需要补齐模型领域的概念和整体关系。中文系统讲解能减少跨资源拼接，先弄清流程，再进入实现。该课程采用 2024 版作为固定导论材料，具体软件操作查当前官方文档。
 
-**可选直觉补充：**只有注意力机制看不明白时，再看 [3Blue1Brown 的 Transformer 可视化](https://www.youtube.com/watch?v=wjZofJX0v4M)。它是单个概念的辅助解释，不再要求额外学完整套神经网络导论。
+<strong>可选直觉补充：</strong>只有注意力机制看不明白时，再看 [3Blue1Brown 的 Transformer 可视化](https://www.youtube.com/watch?v=wjZofJX0v4M)。它是单个概念的辅助解释，不再要求额外学完整套神经网络导论。
 
 ## 下一门主课：Karpathy 的实现路线
 
@@ -47,7 +47,7 @@ flowchart LR
 
 作者明确要求 Python 编程和入门数学。你的数学与工程经历有帮助，PyTorch 熟悉程度则用实验判断。[社区的学习建议](https://www.reddit.com/r/learnmachinelearning/comments/1vu96aa/completed_andrew_ngs_ml_course_whats_the_best/)也将其用于基础课程之后的实践；这里依据课程前置要求安排难度，不以单个推荐或星数判定质量。
 
-**本栏只有两门主课。**HF 文档用于加载和适配时查阅；喜欢文字逐步推导时，可用 [Raschka 的书与代码](https://github.com/rasbt/LLMs-from-scratch)替代 Karpathy 实现部分，二选一，无须重复学两套。
+<strong>本栏只有两门主课。</strong>HF 文档用于加载和适配时查阅；喜欢文字逐步推导时，可用 [Raschka 的书与代码](https://github.com/rasbt/LLMs-from-scratch)替代 Karpathy 实现部分，二选一，无须重复学两套。
 
 ## 概念体验 F0
 
@@ -56,7 +56,7 @@ flowchart LR
 3. 给模型一个资料中没有答案的问题，检查它是否承认信息不足。
 4. 画资料问答系统，标出资料、检索、模型、工具和评估的位置。
 
-**完成标准：**能解释 Prompt、RAG、微调和工具调用的作用；不把流畅回答等同于正确答案。
+<strong>完成标准：</strong>能解释 Prompt、RAG、微调和工具调用的作用；不把流畅回答等同于正确答案。
 
 ## 认识方向，暂不急于选择
 

@@ -48,7 +48,7 @@ flowchart LR
 | 机器人运动基础主课 | [Modern Robotics](https://modernrobotics.northwestern.edu/) 的教材、配套视频与代码 | 你的线性代数、几何和系统经验可以衔接；同一套符号贯通运动学、规划和控制 | 第一遍读 Preview 与章节导览，第二遍做第 2–6 章选定内容；规划/控制按任务补 |
 | 后续机器人学习实践 | [LeRobot 的 Robot Learning 教程](https://huggingface.co/spaces/lerobot/robot-learning-tutorial) | 同一生态提供概念、数据、训练和执行入口，减少跨框架拼接 | 先读概念；PyTorch 与动作接口检查通过后再做 E3，不要求立即训练 VLA |
 
-**选择依据：**Modern Robotics 是 [UIUC ECE470](https://publish.illinois.edu/ece470-intro-robotics/syllabus-spring-2025-2/) 指定教材，也反复出现在[机器人社区学习讨论](https://www.reddit.com/r/robotics/comments/1hgcqwg)中。它的数学深度适合工程背景，但重点是运动与控制，视觉和学习仍需后续补充。
+<strong>选择依据：</strong>Modern Robotics 是 [UIUC ECE470](https://publish.illinois.edu/ece470-intro-robotics/syllabus-spring-2025-2/) 指定教材，也反复出现在[机器人社区学习讨论](https://www.reddit.com/r/robotics/comments/1hgcqwg)中。它的数学深度适合工程背景，但重点是运动与控制，视觉和学习仍需后续补充。
 
 LeRobot 是较新的官方实践生态，文档与工具在持续演进；这里依据工作流完整性选择它，不把“新课程”直接称为已有长期口碑的经典课。按教程记录版本，并为环境调试预留时间。
 
@@ -63,7 +63,7 @@ ROS 2 官方入门仅作为 E1 的软件练习说明，PythonRobotics 仅取一�
 3. 哪个模块选择动作，哪个模块执行动作？
 4. 成功、失败、超时和恢复怎样定义？
 
-**完成标准：**能画闭环，并区分定位、检测、规划、控制和策略学习。暂时不要求实现 SLAM 或训练 VLA。
+<strong>完成标准：</strong>能画闭环，并区分定位、检测、规划、控制和策略学习。暂时不要求实现 SLAM 或训练 VLA。
 
 ## 后续可选方向
 
