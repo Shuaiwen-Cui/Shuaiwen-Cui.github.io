@@ -10,9 +10,6 @@ comments: flase
 
 >“From the One, To the One”
 
-!!! abstract "__DECISIONS WHERE THE DATA IS__"
-    I build the hardware and the intelligence on it: asleep in microamps, deciding in milliseconds.
-
 <!-- ROLLBACK: absolute links, replaced by root-relative ones below
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-EN.pdf" target="_blank">📜 Check and Download My CV - English (2026)</a>
 

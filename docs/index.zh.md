@@ -10,9 +10,6 @@ comments: false
 
 >“本生用化，道法术器，守正用奇”
 
-!!! abstract "__决策发生在数据产生的地方__"
-    硬件和跑在它上面的智能都由我亲手构建：休眠时以微安计，决策时以毫秒计。
-
 <!-- ROLLBACK: 绝对路径版本，已换成下方根相对路径
 <a href="http://www.cuishuaiwen.com/Resume_Shuaiwen_CUI_2026-CN.pdf" target="_blank">📜  查看与下载我的简历-中文 (2026)</a>
 
