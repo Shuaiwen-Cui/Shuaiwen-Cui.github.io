@@ -163,7 +163,7 @@ comments: false
 
 **物联网结构健康监测**
 
-- **Cui, S.**, Fu, Y.*, Wang, Y., & Fu, H. (2026). Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. Automation in Construction. (Under Review)
+- **Cui, S.**, Fu, Y.*, Wang, Y., & Fu, H. (2026). Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. Computer-Aided Civil and Infrastructure Engineering. (Under Review)
 
 - **Cui, S.**, Fu, Y.*, Xia, Y., Zhang Q., & Li, S. (2026). A Class-Lab-Field Pedagogical Framework for Structural Health Monitoring using Ultra-Low-Cost Wireless IoT Prototypes. IEEE Transactions on Education. [https://doi.org/10.1109/TE.2026.3717462](https://doi.org/10.1109/TE.2026.3717462){:target="_blank"}
 
