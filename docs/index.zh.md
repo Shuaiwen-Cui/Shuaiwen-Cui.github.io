@@ -161,7 +161,9 @@ comments: false
 
 ## 📜 __论文发表__
 
-**物联网结构健康监测**
+** 泛在智能/边缘计算/物联网/TinyML/结构健康监测 **
+
+** Ubiquitous Intelligence / Edge Computing / IoT / TinyML / SHM **
 
 - **Cui, S.**, Fu, Y.*, Wang, Y., & Fu, H. (2026). Decisions Beside Data: LiftNode and TinySHM for Decentralized Edge Intelligence in Wireless Infrastructure Monitoring. Computer-Aided Civil and Infrastructure Engineering. (Under Review)
 
