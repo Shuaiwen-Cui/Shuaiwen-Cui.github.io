@@ -25,7 +25,7 @@ comments: flase
 ## 🏷️ __KEYWORDS__
 
 <!-- ROLLBACK: Ubiquitous Computing and Intelligence | AIoT | Structural Health Monitoring | AI Agents -->
-Distributed Edge AI | Embedded Systems | Embodied Intelligence
+Distributed Intelligence | Efficient AI| IoT | Embedded System | Embodied Intelligence
 
 ## 🚀 __SPECIALTIES__
 
