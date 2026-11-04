@@ -25,7 +25,7 @@ comments: false
 ## 🏷️ __关键词__
 
 <!-- ROLLBACK: 泛在计算与智能 | 人工智能物联网 | 结构健康监测 | 智能体 -->
-分布式智能 | 高效AI | 物联网 | 嵌入式系统 | 具身智能
+分布式计算与智能 | 高效AI | 物联网 | 嵌入式系统 | 具身智能
 
 ## 🚀 __专长__
 
@@ -161,7 +161,7 @@ comments: false
 
 ## 📜 __论文发表__
 
-** 泛在智能/边缘计算/物联网/TinyML/结构健康监测 **
+**泛在智能/边缘计算/物联网/TinyML/结构健康监测**
 
 ** Ubiquitous Intelligence / Edge Computing / IoT / TinyML / SHM **
 
