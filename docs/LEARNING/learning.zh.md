@@ -36,6 +36,12 @@
 
 <div class="grid cards" markdown>
 
+-   :material-sine-wave:{ .lg .middle } __数学可视化__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.3blue1brown.com/" target="_blank" rel="noopener noreferrer"> 访问 3Blue1Brown </a>](#)
+
 -   :material-hub:{ .lg .middle } __分布式计算__
 
     ---
