@@ -210,8 +210,8 @@ CV1711 工程制图（CAD）与建筑信息模型（BIM）2025/2026学年
 
 ## 📄 __专利__
 
-- Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, 新加坡临时专利申请号 10202502426R, 2025. 
-- An Adaptive Self-Diagnosis Mechanism For System-Centric Sensor Faults In Wireless IoT-Based Structural Health Monitoring Systems, 新加坡临时专利申请号 10202500862P, 2025.
+- **Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices** — 新加坡临时专利申请 **10202502426R** · 2025。
+- **Onboard Fault Diagnosis and Recovery in Wireless Sensor Node Device and Method** — PCT 国际申请 **PCT/SG2026/050212** · 已公开为 [**WO 2026/212573 A1**](./RESEARCH/Patents/2024-498-02-PCT%20-%20Publication.pdf) · 2026 年 10 月 8 日 · 优先权申请 **10202500862P**。
 
 ## 🏆 __荣誉__
 

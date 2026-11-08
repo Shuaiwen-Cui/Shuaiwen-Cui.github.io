@@ -205,10 +205,10 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 CV1711 Engineering Drawing (CAD) and Building Information Modeling (BIM) AY2025/2026
 
-## 📄 __PATENT__
+## 📄 __PATENTS__
 
-- Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices, Singapore provisional patent application number 10202502426R, 2025.
-- An Adaptive Self-Diagnosis Mechanism For System-Centric Sensor Faults In Wireless IoT-Based Structural Health Monitoring Systems, Singapore provisional patent application number 10202500862P, 2025.
+- **Adaptive Triggering Mechanism for Time-Series Data Sensing on Edge Devices** — Singapore provisional application **10202502426R** · 2025.
+- **Onboard Fault Diagnosis and Recovery in Wireless Sensor Node Device and Method** — PCT application **PCT/SG2026/050212** · Published as [**WO 2026/212573 A1**](./RESEARCH/Patents/2024-498-02-PCT%20-%20Publication.pdf) · 8 Oct 2026 · Priority application **10202500862P**.
 
 ## 🏆 __HONORS__
 
