@@ -246,7 +246,10 @@ extra:
   #     find what they're searching for. With your consent, you're helping us to
   #     make our documentation better.
 
-# Extra Configuration 
+# Extra Configuration
+extra_css:
+  - static/css/research.css
+
 extra_javascript:
   # - https://giscus.app/client.js
   - /CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
