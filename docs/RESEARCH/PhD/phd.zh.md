@@ -156,8 +156,6 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 ![](SATM.jpg)
 
-*在实验室中用单节点、单轴加速度验证，长期现场验证尚未完成。*
-
 <div class="grid cards" markdown>
 
 -   :material-file:{ .lg .middle } __会议论文 - 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-13)__
@@ -205,8 +203,6 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 ![](ONBOARD-MODAL.jpg){width=100%}
 
-*结果来自已有记录在单块板上的回放，并非现场部署。*
-
 <div class="grid cards" markdown>
 
 -   :material-file:{ .lg .middle } __在审稿件__
@@ -228,8 +224,6 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 - 随机过程控制
 
 ![PAPER1](PAPER1.png){width=100%}
-
-*无参考位移方法和 GPR-SPC 评估方法来自已有工作，包括 Hoang 的博士研究。我的工作是把它们适配、优化到微控制器上执行。*
 
 <div class="grid cards" markdown>
 
@@ -256,8 +250,6 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 ![](DECISIONS-GA.jpg){width=100%}
 
-*与上文为同一在审稿件。通过回放桥梁记录评估，并非实时多节点网络。案例 2 照片来源：Yu et al. (2026), [Measurement](https://doi.org/10.1016/j.measurement.2025.119308)。*
-
 **- 流形动力学**
 
 🏷️ SHM分类：测量/**系统识别**/**损伤检测**/**损伤定位**/**损伤量化**
@@ -271,8 +263,6 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 三个验证系统上的状态轨迹（仅用于可视化）
 
 ![](MANIFOLD-STATES.png){width=100%}
-
-*未发表，见博士论文。在实验室和公开基准数据上离线评估，并非实时多板网络。*
 
 
 ## __IV 教研工作__

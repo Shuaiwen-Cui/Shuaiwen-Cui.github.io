@@ -154,8 +154,6 @@ The applications progress from decisions on a single node, to rule-based coopera
 
 ![](SATM.jpg)
 
-*Validated in the laboratory with one node and one acceleration axis. Long-term field validation has not been completed.*
-
 <div class="grid cards" markdown>
 
 -   :material-file:{ .lg .middle } __Conference Paper - 13th International Conference on Structural Health Monitoring of Intelligent Infrastructure (SHMII-13)__
@@ -200,8 +198,6 @@ The applications progress from decisions on a single node, to rule-based coopera
 
 ![](ONBOARD-MODAL.jpg){width=100%}
 
-*Results come from recorded data replayed on one board, not from a field deployment.*
-
 <div class="grid cards" markdown>
 
 -   :material-file:{ .lg .middle } __Manuscript Under Review__
@@ -223,8 +219,6 @@ The applications progress from decisions on a single node, to rule-based coopera
 - Stochastic Process Control (SPC)
 
 ![PAPER1](PAPER1.png){width=100%}
-
-*The reference-free displacement method and the GPR-SPC formulation come from prior work, including Hoang's doctoral research. My work adapts and optimizes them for microcontroller execution.*
 
 <div class="grid cards" markdown>
 
@@ -249,8 +243,6 @@ The applications progress from decisions on a single node, to rule-based coopera
 
 ![](DECISIONS-GA.jpg){width=100%}
 
-*Same manuscript as above, under review. Evaluated by replaying recorded bridge data, not on a live multi-node network. Case 2 photographs: Yu et al. (2026), [Measurement](https://doi.org/10.1016/j.measurement.2025.119308).*
-
 **- Manifold Dynamics**
 
 🏷️ SHM Category: Measurement / **System Identification** / **Damage Detection** / **Damage Localization** / **Damage Evaluation**
@@ -264,8 +256,6 @@ The applications progress from decisions on a single node, to rule-based coopera
 State trajectories on three validation systems (visualization only)
 
 ![](MANIFOLD-STATES.png){width=100%}
-
-*Unpublished; reported in my Ph.D. thesis. Evaluated offline on laboratory and benchmark data, not on a live multi-board network.*
 
 ## __IV Teaching and Pedagogical Research__
 
