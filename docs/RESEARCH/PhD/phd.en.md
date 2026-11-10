@@ -243,7 +243,7 @@ The applications progress from decisions on a single node, to rule-based coopera
 - Gateway-Node Collaboration
 - Communication-Efficient Identification
 
-![](DECISIONS-GA.jpg){width=100%}
+![](LCSI-PATH.png){width=100%}
 
 **- Manifold Dynamics**
 

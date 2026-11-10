@@ -250,7 +250,7 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 - 网关与节点协作
 - 通信高效的系统识别
 
-![](DECISIONS-GA.jpg){width=100%}
+![](LCSI-PATH.png){width=100%}
 
 **- 流形动力学**
 
