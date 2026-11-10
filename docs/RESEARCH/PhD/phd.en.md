@@ -115,6 +115,8 @@ On-Device Training (TinyAI)
 
 ![](MOD-AI.png){width=100%}
 
+![](TINYAI-PROPAGATION.png){width=100%}
+
 On-Node System Identification (TinySysID)
 
 ![](MOD-SYSID.png){width=100%}

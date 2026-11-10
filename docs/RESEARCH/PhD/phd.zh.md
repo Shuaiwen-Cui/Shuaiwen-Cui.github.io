@@ -117,6 +117,8 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 ![](MOD-AI.png){width=100%}
 
+![](TINYAI-PROPAGATION.png){width=100%}
+
 节点端系统识别（TinySysID）
 
 ![](MOD-SYSID.png){width=100%}
