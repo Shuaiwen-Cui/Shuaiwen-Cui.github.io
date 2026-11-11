@@ -5,6 +5,12 @@
 
 <div class="grid cards" markdown>
 
+-   :material-laptop:{ .lg .middle } __COMPUTER SCIENCE__
+
+    ---
+
+    [:octicons-arrow-right-24: Portal](COMPUTER-SCIENCE/computer-science.md)
+
 -   :material-integrated-circuit-chip:{ .lg .middle } __EMBEDDED SYSTEMS__
 
     ---

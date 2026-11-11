@@ -119,6 +119,7 @@ plugins:
           nav_translations: # note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation
             ABOUT: 关于
             LEARNING: 求索
+            COMPUTER-SCIENCE: 计算机科学
             EMBEDDED-SYSTEM: 嵌入式系统
             ROADMAP: 路线图
             STM32: STM32
@@ -314,6 +315,7 @@ nav:
   - ABOUT: "index.md"
   - LEARNING: 
     - "LEARNING/learning.md"
+    - COMPUTER-SCIENCE: "LEARNING/COMPUTER-SCIENCE/computer-science.md"
     - EMBEDDED-SYSTEM: "LEARNING/EMBEDDED-SYSTEM/embedded-system.md"
     - SYSTEM-SIGNAL-CONTROL: "LEARNING/SYSTEM-SIGNAL-CONTROL/system-signal-control.md"
     - IOT: "LEARNING/IOT/iot.md"
