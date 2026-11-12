@@ -16,6 +16,8 @@ Learn X in Y Minutes 通过带注释的代码示例介绍语言语法与特性�
 
     [:octicons-arrow-right-24: 分钟速成](https://learnxinyminutes.com/zh-cn/c++/)
 
+    [:octicons-arrow-right-24: hacking C++ · 入门指南（英文）](https://hackingcpp.com/cpp/beginners_guide)
+
 -   :material-language-python:{ .lg .middle } __Python__
 
     ---

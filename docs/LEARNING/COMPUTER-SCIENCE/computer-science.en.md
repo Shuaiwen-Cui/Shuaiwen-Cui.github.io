@@ -16,6 +16,8 @@ Learn X in Y Minutes introduces language syntax and features through annotated c
 
     [:octicons-arrow-right-24: Learn X in Y Minutes](https://learnxinyminutes.com/c++/)
 
+    [:octicons-arrow-right-24: hacking C++ · Beginner's Guide](https://hackingcpp.com/cpp/beginners_guide)
+
 -   :material-language-python:{ .lg .middle } __Python__
 
     ---
