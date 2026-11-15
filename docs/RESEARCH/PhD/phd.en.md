@@ -72,6 +72,37 @@ PCB Design
 
 ![PCB](PCB.jpg){width=100%}
 
+#### Field Deployment
+
+<figure markdown="span">
+  [![LiftNode deployment team pictured together on site](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 style="display:block;width:100%;max-width:640px;height:auto;margin:auto;" }](deployment/liftnode-deployment-team.webp)
+  <figcaption>The LiftNode deployment team on site.</figcaption>
+</figure>
+
+<details markdown="1">
+<summary>Deployment details · Expand and select a photo to enlarge</summary>
+
+<div class="grid" markdown style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.75rem;">
+
+<figure markdown="span" style="margin:0;">
+  [![Two LiftNode nodes at the upper and lower ends of a staircase](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-staircase-two-nodes.webp)
+  <figcaption>Two-node staircase deployment</figcaption>
+</figure>
+
+<figure markdown="span" style="margin:0;">
+  [![LiftNode enclosure and antenna beside a column](deployment/liftnode-column.webp){ loading=lazy width=1280 height=960 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-column.webp)
+  <figcaption>Column location</figcaption>
+</figure>
+
+<figure markdown="span" style="margin:0;">
+  [![LiftNode beside a railing post on a stair landing](deployment/liftnode-stair-landing.webp){ loading=lazy width=1280 height=720 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-stair-landing.webp)
+  <figcaption>Stair landing</figcaption>
+</figure>
+
+</div>
+
+</details>
+
 Sensor Streaming Demo
 
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" frameborder="0" allowfullscreen></iframe>

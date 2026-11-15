@@ -74,6 +74,37 @@ PCB 设计
 
 ![PCB](PCB.jpg){width=100%} 
 
+#### 现场部署
+
+<figure markdown="span">
+  [![LiftNode 部署团队在现场的合照](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 style="display:block;width:100%;max-width:640px;height:auto;margin:auto;" }](deployment/liftnode-deployment-team.webp)
+  <figcaption>LiftNode 部署团队现场合照。</figcaption>
+</figure>
+
+<details markdown="1">
+<summary>部署细节 · 点击展开，照片可放大</summary>
+
+<div class="grid" markdown style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.75rem;">
+
+<figure markdown="span" style="margin:0;">
+  [![楼梯上下两处的 LiftNode 节点](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-staircase-two-nodes.webp)
+  <figcaption>楼梯间双节点布置</figcaption>
+</figure>
+
+<figure markdown="span" style="margin:0;">
+  [![柱脚处的 LiftNode 外壳与天线](deployment/liftnode-column.webp){ loading=lazy width=1280 height=960 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-column.webp)
+  <figcaption>柱脚测点</figcaption>
+</figure>
+
+<figure markdown="span" style="margin:0;">
+  [![楼梯平台栏杆立柱旁的 LiftNode](deployment/liftnode-stair-landing.webp){ loading=lazy width=1280 height=720 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-stair-landing.webp)
+  <figcaption>楼梯平台测点</figcaption>
+</figure>
+
+</div>
+
+</details>
+
 传感器流式采样Demo
 
 <iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1Vm7Y6wEH2&autoplay=0" frameborder="0" allowfullscreen></iframe>
