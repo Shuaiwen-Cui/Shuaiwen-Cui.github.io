@@ -74,37 +74,6 @@ PCB 设计
 
 ![PCB](PCB.jpg){width=100%} 
 
-#### 现场部署
-
-<figure markdown="span">
-  [![LiftNode 部署团队在现场的合照](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 style="display:block;width:100%;max-width:640px;height:auto;margin:auto;" }](deployment/liftnode-deployment-team.webp)
-  <figcaption>LiftNode 部署团队现场合照。</figcaption>
-</figure>
-
-<details markdown="1">
-<summary>部署细节 · 点击展开，照片可放大</summary>
-
-<div class="grid" markdown style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.75rem;">
-
-<figure markdown="span" style="margin:0;">
-  [![楼梯上下两处的 LiftNode 节点](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-staircase-two-nodes.webp)
-  <figcaption>楼梯间双节点布置</figcaption>
-</figure>
-
-<figure markdown="span" style="margin:0;">
-  [![柱脚处的 LiftNode 外壳与天线](deployment/liftnode-column.webp){ loading=lazy width=1280 height=960 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-column.webp)
-  <figcaption>柱脚测点</figcaption>
-</figure>
-
-<figure markdown="span" style="margin:0;">
-  [![楼梯平台栏杆立柱旁的 LiftNode](deployment/liftnode-stair-landing.webp){ loading=lazy width=1280 height=720 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-stair-landing.webp)
-  <figcaption>楼梯平台测点</figcaption>
-</figure>
-
-</div>
-
-</details>
-
 传感器流式采样Demo
 
 <iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1Vm7Y6wEH2&autoplay=0" frameborder="0" allowfullscreen></iframe>
@@ -172,13 +141,13 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 </div>
 
-## __III 新兴的机器学习/人工智能驱动的典型结构健康监测应用__
+## __III 面向结构健康监测的机器学习与人工智能算法__
 
-应用从单节点决策，推进到多节点间规则驱动的协同，再到从数据中学习的协作。
+算法从单节点决策，推进到多节点间规则驱动的协同，再到从数据中学习的协作。
 
 ### __3.1 单节点智能__
 
-**- 基于边缘智能与数字孪生的智能自适应触发传感用于能源高效的无线结构健康监测**
+#### 基于边缘智能与数字孪生的智能自适应触发传感用于能源高效的无线结构健康监测
 
 🏷️ SHM分类：**测量**/系统识别/损伤检测/损伤定位/损伤量化
 
@@ -226,7 +195,7 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 </div>
 
-**- 微控制器节点上的板端模态识别与学习**
+#### 微控制器节点上的板端模态识别与学习
 
 🏷️ SHM分类：**测量**/**系统识别**/损伤检测/损伤定位/损伤量化
 
@@ -334,3 +303,33 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
     [:octicons-arrow-right-24: <a href="https://mp.weixin.qq.com/s/d7ucOQSB-XSaVzWxegbzBg?scene=1&click_id=524330546" target="_blank"> 公众号推送 </a>](#)
 
 </div>
+
+## __V 实地部署与工程应用__
+
+### __印度尼西亚 Flores__
+
+2026 年 11 月，两台 LiftNode 部署于 Flores 的 RSUD Aeramo 医院，用于支持余震的持续远程监测。
+
+<div class="grid cards deployment-gallery" markdown>
+
+-   [![RSUD Aeramo 医院现场的部署团队](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 }](deployment/liftnode-deployment-team.webp)
+
+    **部署团队合照**
+
+-   [![楼梯上下两处的 LiftNode 节点](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 }](deployment/liftnode-staircase-two-nodes.webp)
+
+    **楼梯间双节点布置**
+
+-   [![柱脚处的 LiftNode 外壳与天线](deployment/liftnode-column.webp){ .deployment-detail loading=lazy width=1280 height=960 }](deployment/liftnode-column.webp)
+
+    **柱脚测点**
+
+-   [![楼梯平台栏杆立柱旁的 LiftNode](deployment/liftnode-stair-landing.webp){ .deployment-detail loading=lazy width=1280 height=720 }](deployment/liftnode-stair-landing.webp)
+
+    **楼梯平台测点**
+
+</div>
+
+<p markdown="span" style="text-align:center;">
+  [:material-newspaper-variant-outline: NTU CEE 官方报道 · 2026-11-15（英文）](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
+</p>

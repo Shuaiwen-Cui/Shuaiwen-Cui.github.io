@@ -72,37 +72,6 @@ PCB Design
 
 ![PCB](PCB.jpg){width=100%}
 
-#### Field Deployment
-
-<figure markdown="span">
-  [![LiftNode deployment team pictured together on site](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 style="display:block;width:100%;max-width:640px;height:auto;margin:auto;" }](deployment/liftnode-deployment-team.webp)
-  <figcaption>The LiftNode deployment team on site.</figcaption>
-</figure>
-
-<details markdown="1">
-<summary>Deployment details · Expand and select a photo to enlarge</summary>
-
-<div class="grid" markdown style="grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0.75rem;">
-
-<figure markdown="span" style="margin:0;">
-  [![Two LiftNode nodes at the upper and lower ends of a staircase](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-staircase-two-nodes.webp)
-  <figcaption>Two-node staircase deployment</figcaption>
-</figure>
-
-<figure markdown="span" style="margin:0;">
-  [![LiftNode enclosure and antenna beside a column](deployment/liftnode-column.webp){ loading=lazy width=1280 height=960 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-column.webp)
-  <figcaption>Column location</figcaption>
-</figure>
-
-<figure markdown="span" style="margin:0;">
-  [![LiftNode beside a railing post on a stair landing](deployment/liftnode-stair-landing.webp){ loading=lazy width=1280 height=720 style="width:100%;height:220px;object-fit:contain;" }](deployment/liftnode-stair-landing.webp)
-  <figcaption>Stair landing</figcaption>
-</figure>
-
-</div>
-
-</details>
-
 Sensor Streaming Demo
 
 <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" frameborder="0" allowfullscreen></iframe>
@@ -170,13 +139,13 @@ On-Node System Identification (TinySysID)
 
 </div>
 
-## __III Emerging ML/AI Powered Typical Structural Health Monitoring Applications__
+## __III ML/AI-Powered Algorithms for Structural Health Monitoring__
 
-The applications progress from decisions on a single node, to rule-based cooperation across nodes, to coordination learned from data.
+The algorithms progress from decisions on a single node, to rule-based cooperation across nodes, to coordination learned from data.
 
 ### __3.1 Single-Node Intelligence__
 
-**- Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring**
+#### Smart Adaptive Trigger Sensing Powered by Edge Intelligence and Digital Twin for Energy-Efficient Wireless Structural Health Monitoring
 
 🏷️ SHM Category: **Measurement** / System Identification / Damage Detection / Damage Localization / Damage Evaluation
 
@@ -221,7 +190,7 @@ The applications progress from decisions on a single node, to rule-based coopera
 
 </div>
 
-**- On-Board Modal Identification and Learning on a Microcontroller Node**
+#### On-Board Modal Identification and Learning on a Microcontroller Node
 
 🏷️ SHM Category: **Measurement** / **System Identification** / Damage Detection / Damage Localization / Damage Evaluation
 
@@ -324,3 +293,33 @@ A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, succ
     [:octicons-arrow-right-24: <a href="https://doi.org/10.1109/TE.2026.3717462" target="_blank"> DOI </a>](#)
 
 </div>
+
+## __V Field Deployment and Engineering Applications__
+
+### __Flores, Indonesia__
+
+In November 2026, two LiftNodes were deployed at RSUD Aeramo hospital in Flores to support continuous, remote monitoring of aftershocks.
+
+<div class="grid cards deployment-gallery" markdown>
+
+-   [![Deployment team on site at RSUD Aeramo hospital](deployment/liftnode-deployment-team.webp){ loading=lazy width=1600 height=1200 }](deployment/liftnode-deployment-team.webp)
+
+    **Deployment team**
+
+-   [![Two LiftNode nodes at the upper and lower ends of a staircase](deployment/liftnode-staircase-two-nodes.webp){ loading=lazy width=1080 height=1920 }](deployment/liftnode-staircase-two-nodes.webp)
+
+    **Two-node staircase deployment**
+
+-   [![LiftNode enclosure and antenna beside a column](deployment/liftnode-column.webp){ .deployment-detail loading=lazy width=1280 height=960 }](deployment/liftnode-column.webp)
+
+    **Column location**
+
+-   [![LiftNode beside a railing post on a stair landing](deployment/liftnode-stair-landing.webp){ .deployment-detail loading=lazy width=1280 height=720 }](deployment/liftnode-stair-landing.webp)
+
+    **Stair landing**
+
+</div>
+
+<p markdown="span" style="text-align:center;">
+  [:material-newspaper-variant-outline: NTU CEE News · 15 Nov 2026](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
+</p>

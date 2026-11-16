@@ -1,0 +1,34 @@
+.md-typeset .deployment-gallery {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.md-typeset .deployment-gallery > ul > li > p:first-child {
+  margin: 0;
+}
+
+.md-typeset .deployment-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: var(--md-code-bg-color);
+  border-radius: 0.2rem;
+}
+
+.md-typeset .deployment-gallery img.deployment-detail {
+  object-fit: cover;
+  object-position: center;
+}
+
+.md-typeset .deployment-gallery > ul > li > p:last-child {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .md-typeset .deployment-gallery {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
