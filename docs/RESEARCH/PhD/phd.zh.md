@@ -330,6 +330,11 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 </div>
 
+<figure markdown="span">
+  [![Flores 楼梯双测点候选模态振型动画](deployment/flores-staircase-mode-shapes.gif){ loading=lazy width=1340 height=420 style="width:100%;height:auto;" }](deployment/flores-staircase-mode-shapes.gif)
+  <figcaption>楼梯双测点模态动画 · 候选振型</figcaption>
+</figure>
+
 <p markdown="span" style="text-align:center;">
   [:material-newspaper-variant-outline: NTU CEE 官方报道 · 2026-11-15（英文）](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
 </p>

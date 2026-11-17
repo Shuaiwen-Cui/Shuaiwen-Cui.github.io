@@ -320,6 +320,11 @@ In November 2026, two LiftNodes were deployed at RSUD Aeramo hospital in Flores 
 
 </div>
 
+<figure markdown="span">
+  [![Candidate staircase mode shapes from the two measured points in Flores](deployment/flores-staircase-mode-shapes.gif){ loading=lazy width=1340 height=420 style="width:100%;height:auto;" }](deployment/flores-staircase-mode-shapes.gif)
+  <figcaption>Staircase survey · Two-point candidate mode-shape animation</figcaption>
+</figure>
+
 <p markdown="span" style="text-align:center;">
   [:material-newspaper-variant-outline: NTU CEE News · 15 Nov 2026](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
 </p>
