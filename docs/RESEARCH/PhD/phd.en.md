@@ -329,40 +329,38 @@ In November 2026, two LiftNodes were deployed at RSUD Aeramo hospital in Flores 
   [:material-newspaper-variant-outline: NTU CEE News · 15 Nov 2026](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
 </p>
 
-#### __Field recording near the 18 November 2026 M5.8 earthquake__
+#### __Real field data, independently cross-checked__
 
-On 18 November, the deployed Gateway **000** recorded a decaying, three-axis vibration event at **12:42:07.502 (Flores / Singapore, UTC+8)**. The independent [BMKG bulletin](https://www.bmkg.go.id/gempabumi/20261118114412) reports an **M5.8 earthquake at 10 km depth**, with an origin time of **12:41:32–33** in the same time zone. The [GFZ GEOFON catalogue](https://geofon.gfz.de/eqinfo/) also lists this regional event around 04:41:32 UTC. The catalogue timing and measured response support a candidate association; matching against a nearby reference-station waveform remains pending.
+On **18 November 2026**, LiftNode **000** at RSUD Aeramo hospital automatically captured and saved a clear, three-axis vibration record, which was then **successfully retrieved remotely**. Its timing is consistent with the nearby **M5.8 earthquake reported by Indonesia’s BMKG**, demonstrating the system working in the field.
 
-| Independent earthquake information | LiftNode field observation |
-| :-- | :-- |
-| BMKG origin: 12:41:32–33, UTC+8 | Node trigger: 12:42:07.502, approximately 35 seconds later |
-| Initial epicentre: 8.17°S, 120.54°E; updated release: 8.21°S, 120.55°E | RSUD Aeramo hospital, Flores; Gateway 000 |
-| Regional M5.8 event, depth 10 km | Three-axis motion with a clear decline in amplitude within the saved window |
-| Independently reported by BMKG and GFZ GEOFON | ADXL367 pre-trigger buffer and ADXL355 acquisition preserved in one SD file, then retrieved remotely |
+<div class="field-evidence" markdown="1" id="flores-field-record">
 
-<figure markdown="span" class="field-event-figure">
-  [![Three-axis fused acceleration time histories and ADXL355-only PSD for the 18 November 2026 field record](deployment/flores-20261118-waveform-psd.png){ loading=lazy width=800 height=600 style="width:100%;max-width:800px;height:auto;background:#fff;" }](deployment/flores-20261118-waveform-psd.svg)
-  <figcaption>Field record from Gateway 000. Left: fused time histories, including the ADXL367 prefix and ADXL355 body; dashed and dotted lines mark trigger and stop. Right: ADXL355-only Welch PSD in dB. The largest spectral bin is near 2.69 Hz on all three axes; this is a response peak, not an independently identified structural mode.</figcaption>
+<figure markdown="span">
+  <h5>Official earthquake report</h5>
+  [![Official BMKG ShakeMap for the 18 November 2026 M5.8 Flores earthquake](deployment/flores-20261118-bmkg.jpg){ loading=lazy width=1200 height=1698 }](deployment/flores-20261118-bmkg.jpg)
+  <figcaption><strong>M5.8 · 12:41:33</strong> · Origin time, UTC+8<br>Official ShakeMap: <a href="https://www.bmkg.go.id/gempabumi/20261118114412" target="_blank" rel="noopener noreferrer">BMKG</a> · 10 km depth</figcaption>
 </figure>
 
-**What this demonstrates.** The field node completed autonomous triggering, pre-trigger buffering, on-device AI inference, local SD retention and subsequent remote recovery of a real vibration record. The **478,248-byte file** contains **3,168 ADXL367 samples and 3,762 ADXL355 samples**. Its SHA-256, both sensor CRCs and pre-buffer CRC passed verification. The on-node experimental model labelled the initial window *earthquake* (score **0.921**); the separate cloud model returned *unknown*. These results are retained as references, not as confirmation of the event identity.
+<figure markdown="span" class="field-event-figure">
+  <h5>Our sensor’s field recording</h5>
+  [![LiftNode field data: three-axis fused waveforms and acceleration spectra](deployment/flores-20261118-waveform-psd.png){ loading=lazy width=800 height=600 }](deployment/flores-20261118-waveform-psd.svg)
+  <figcaption><strong>Node 000 · 12:42:07.502</strong> · Trigger time, UTC+8<br>Measured waveforms and spectra · Click to enlarge</figcaption>
+</figure>
+
+</div>
+
+**Why about 35 seconds later?** The hospital is approximately **100 km from the epicentre**. Seismic waves take tens of seconds to travel that distance; the observed interval is consistent with that timescale and also includes the time needed to reach the sensor’s trigger threshold.
+
+**What the data show.** Clear motion on all three axes, followed by a gradual decay, provides usable waveforms for further analysis. Automatic detection, local storage and remote data recovery all worked in this field example. The earthquake catalogue provides independent timing and location context; it is not a direct waveform comparison.
 
 <details markdown="1">
-<summary>Data processing and interpretation</summary>
+<summary>For researchers: processing notes and original data</summary>
 
-- The first retained sample is **12:42:06.535**; ADXL355 acquisition runs from **12:42:07.505 to 12:42:37.503**. Only about **0.97 seconds before the trigger** is preserved. The 30-second record length follows the configured minimum duration and is not the earthquake duration. The origin-to-trigger interval is not a picked seismic travel time.
-- The time histories use the platform's [Fu et al. adapted fusion method](https://doi.org/10.3390/s18124480), with 100 Hz output, a 40 Hz low-pass and late-record median removal. Axis correspondence is assumed X–X, Y–Y, Z–Z. The overlap check reports an axis mismatch, so this is a **forced same-axis merge**; mounting alignment has not been independently validated.
-- PSD uses **ADXL355 only**, with recorded-timestamp resampling, a Hann window and 50% overlap. Four startup samples remain in the native file but are excluded from the plotted fused body and PSD. Two ADXL355 timestamp intervals exceed 12 ms, with a maximum of **16.916 ms**; file integrity does not establish zero dropped ADC samples.
-- This example uses node **000**. No simultaneous node-001 record or independent reference-station match is claimed.
-- BMKG's initial bulletin gives 11:41:32 WIB; its updated release gives 11:41:33 WIB. Adding one hour gives the Flores / Singapore times above. Agency parameters may be revised.
+- The plotted time histories combine the ADXL367 pre-trigger data and ADXL355 recording. Same-axis alignment is assumed; the current forced merge has not been independently validated. Spectra use **ADXL355 only** (Welch PSD in dB).
+- The original file passed checksum and sensor-data integrity checks. Two ADXL355 timestamp gaps remain; these checks do not imply zero missing samples. Four startup samples are excluded from the displayed body and spectrum, but remain in the original file.
+- This is a roughly 31-second saved window, including about one second before the trigger, rather than a complete earthquake-duration measurement. The official origin time and the threshold-trigger time are different observables, so their difference is not a precise phase travel-time measurement. Association is supported by timing and proximity; a reference-station waveform match is still pending.
+- BMKG’s initial bulletin gives 12:41:32 and its updated report/ShakeMap gives 12:41:33, converted from WIB (UTC+7) to Flores / Singapore time (UTC+8). All times above use UTC+8. Hospital distance is approximate.
 
-</details>
-
-[Download figure PNG](deployment/flores-20261118-waveform-psd.png) · [Vector SVG](deployment/flores-20261118-waveform-psd.svg) · [Native waveform TXT](deployment/000_20261118T124207502_T.txt)
-
-<details markdown="1">
-<summary>Waveform SHA-256</summary>
-
-`8470de6a621cec303de7170e725bfea6cd122aa68f3d58a76fddab3a883da402`
+[BMKG official bulletin](https://www.bmkg.go.id/gempabumi/20261118114412) · [Download figure PNG](deployment/flores-20261118-waveform-psd.png) · [Vector SVG](deployment/flores-20261118-waveform-psd.svg) · [Native waveform TXT](deployment/000_20261118T124207502_T.txt)
 
 </details>

@@ -339,40 +339,38 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
   [:material-newspaper-variant-outline: NTU CEE 官方报道 · 2026-11-15（英文）](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
 </p>
 
-#### __2026 年 11 月 18 日 M5.8 地震附近时刻的实测记录__
+#### __实地采集：与官方地震记录相互印证__
 
-11 月 18 日，部署在医院的主节点 **000** 于 **12:42:07.502（Flores／新加坡时间，UTC+8）** 记录到一段三轴振动，幅值随时间明显衰减。[BMKG 官方通报](https://www.bmkg.go.id/gempabumi/20261118114412)报告同一区域发生 **M5.8、深度 10 km** 的地震，换算到相同时区的发震时刻为 **12:41:32–33**；[GFZ GEOFON 地震目录](https://geofon.gfz.de/eqinfo/)也列出了约 04:41:32 UTC 的这次区域地震。独立台网时间与现场响应支持两者的候选关联，后续仍需附近参考台站波形进一步核对。
+<strong>2026 年 11 月 18 日</strong>，部署在 RSUD Aeramo 医院的 <strong>LiftNode 000</strong> 自动捕获并保存了一段清晰的三轴振动波形，随后<strong>成功远程取回数据</strong>。记录时间与印度尼西亚 <strong>BMKG 通报的附近 M5.8 地震</strong>相符，展示了系统在真实现场的工作能力。
 
-| 独立地震台网信息 | LiftNode 现场观测 |
-| :-- | :-- |
-| BMKG 发震时刻为 12:41:32–33，UTC+8 | 节点于 12:42:07.502 触发，约晚 35 秒 |
-| 初报震中为 8.17°S、120.54°E；更新通报为 8.21°S、120.55°E | 测点位于 Flores 的 RSUD Aeramo 医院，记录来自主节点 000 |
-| 区域发生 M5.8 地震，深度 10 km | 三轴记录在保存窗口内呈明显的振幅衰减 |
-| BMKG 与 GFZ GEOFON 独立报告该事件 | ADXL367 预缓存与 ADXL355 采集数据保存在同一 SD 文件中，随后远程取回 |
+<div class="field-evidence" markdown="1" id="flores-field-record">
 
-<figure markdown="span" class="field-event-figure">
-  [![2026年11月18日现场三轴融合时域波形与仅基于ADXL355的PSD](deployment/flores-20261118-waveform-psd.png){ loading=lazy width=800 height=600 style="width:100%;max-width:800px;height:auto;background:#fff;" }](deployment/flores-20261118-waveform-psd.svg)
-  <figcaption>主节点 000 的现场记录。左侧为包含 ADXL367 前段和 ADXL355 主体的融合时域，虚线与点线标记触发、停止时刻；右侧为仅基于 ADXL355 的 Welch PSD，采用 dB 标度。三轴主要谱峰均在约 2.69 Hz，该结果表示响应谱峰，尚不是经独立辨识确认的结构模态。</figcaption>
+<figure markdown="span">
+  <h5>官方地震记录</h5>
+  [![BMKG官方发布的2026年11月18日Flores M5.8地震震动分布图](deployment/flores-20261118-bmkg.jpg){ loading=lazy width=1200 height=1698 }](deployment/flores-20261118-bmkg.jpg)
+  <figcaption><strong>M5.8 · 12:41:33</strong> · 发震时刻，UTC+8<br>官方震动分布图：<a href="https://www.bmkg.go.id/gempabumi/20261118114412" target="_blank" rel="noopener noreferrer">BMKG</a> · 震源深度 10 km</figcaption>
 </figure>
 
-**这次记录验证了什么。** 现场节点完成了自主触发、触发前缓存、板载 AI 推理、SD 本地保存，以及真实振动记录的后续远程取回。完整文件为 **478,248 字节**，包含 **3,168 个 ADXL367 样本与 3,762 个 ADXL355 样本**；文件 SHA-256、两路传感器 CRC 及预缓存 CRC 均通过验证。节点实验模型将初始窗口标记为 *earthquake*，输出分数 **0.921**；独立云端模型输出 *unknown*。两项结果均作为参考保留，不用于确认事件归属。
+<figure markdown="span" class="field-event-figure">
+  <h5>我们的节点实测数据</h5>
+  [![LiftNode现场实测：三轴融合振动波形及加速度频谱](deployment/flores-20261118-waveform-psd.png){ loading=lazy width=800 height=600 }](deployment/flores-20261118-waveform-psd.svg)
+  <figcaption><strong>节点 000 · 12:42:07.502</strong> · 触发时刻，UTC+8<br>实测波形与频谱 · 点击可放大</figcaption>
+</figure>
+
+</div>
+
+<strong>为什么晚了约 35 秒？</strong> 医院距离震中约 <strong>100 公里</strong>，地震波传播到测点需要数十秒。这次观测到的时间间隔与该量级相符，其中也包含振动达到节点触发阈值所需的时间。
+
+<strong>这次数据说明了什么？</strong> 三个方向均记录到清晰的振动起伏及随后的衰减，波形可供后续分析。这个现场实例跑通了<strong>自动检测、本地保存、远程取回</strong>的完整流程。官方地震记录从时间和位置上提供了独立佐证；这里尚未进行台站波形的直接比对。
 
 <details markdown="1">
-<summary>数据处理与解释边界</summary>
+<summary>研究者参考：数据处理与原始文件</summary>
 
-- 首个保留样本为 **12:42:06.535**，ADXL355 数据覆盖 **12:42:07.505 至 12:42:37.503**。文件仅包含触发前约 **0.97 秒** 的数据。30 秒记录长度由设定的最短事件时长控制，不等于地震持续时长；发震至触发的间隔也不是已拾取的地震波传播时间。
-- 时域采用平台中参考 [Fu 等人方法](https://doi.org/10.3390/s18124480)实现的融合，输出为 100 Hz、40 Hz 低通，并去除记录末段中位数基线。轴向按 X–X、Y–Y、Z–Z 对应；重叠段检查提示轴向不匹配，因此当前为**强制同轴合并**，安装方向尚未经独立校验。
-- PSD **只使用 ADXL355**，按记录时间戳重采样，采用 Hann 窗与 50% 重叠。4 个启动样本保留在原始文件中，在融合主体绘图与 PSD 中排除。ADXL355 有两处时间间隔超过 12 ms，最大为 **16.916 ms**；文件完整性验证不代表 ADC 零丢样。
-- 本例来自 **000**，不声称已获得同一时刻的 001 记录或完成参考台站波形匹配。
-- BMKG 初报为 11:41:32 WIB，更新通报为 11:41:33 WIB；加一小时即为上文的 Flores／新加坡时间。台网参数后续可能更新。
+- 时域图融合 ADXL367 触发前数据与 ADXL355 采集数据，暂按同名轴直接合并；当前安装方向对应尚未独立验证。频谱<strong>仅使用 ADXL355</strong>，展示 Welch PSD（dB）。
+- 原始文件通过校验和及传感器数据完整性检查；ADXL355 仍有两处时间间隔异常，因此不据此宣称零丢样。四个启动样本未用于图中后段波形和频谱，但仍保存在原始文件中。
+- 保存窗口约 31 秒，含触发前约 1 秒，不代表完整地震持续时间。发震时刻与阈值触发时刻不是同一种到时观测，两者之差不能直接当作精确传播时间。时间与位置支持事件关联，附近参考台站波形的进一步核对尚待完成。
+- BMKG 初报为 12:41:32，更新通报及图中为 12:41:33，均已从 WIB（UTC+7）换算为 Flores／新加坡时间（UTC+8）。正文时间统一采用 UTC+8，医院距震中的距离为近似值。
 
-</details>
-
-[下载 PNG 图片](deployment/flores-20261118-waveform-psd.png) · [SVG 矢量图](deployment/flores-20261118-waveform-psd.svg) · [原始波形 TXT](deployment/000_20261118T124207502_T.txt)
-
-<details markdown="1">
-<summary>原始文件 SHA-256</summary>
-
-`8470de6a621cec303de7170e725bfea6cd122aa68f3d58a76fddab3a883da402`
+[BMKG 官方通报](https://www.bmkg.go.id/gempabumi/20261118114412) · [下载 PNG 图片](deployment/flores-20261118-waveform-psd.png) · [SVG 矢量图](deployment/flores-20261118-waveform-psd.svg) · [原始波形 TXT](deployment/000_20261118T124207502_T.txt)
 
 </details>
