@@ -353,6 +353,8 @@ On **18 November 2026**, LiftNode **000** at RSUD Aeramo hospital automatically 
 
 **What the data show.** Clear motion on all three axes, followed by a gradual decay, provides usable waveforms for further analysis. Automatic detection, local storage and remote data recovery all worked in this field example. The earthquake catalogue provides independent timing and location context; it is not a direct waveform comparison.
 
+**Edge AI, beyond the lab.** A small neural network runs directly on the sensor to assess the recorded vibration, even without an internet connection. For this event, the on-node model returned **“Earthquake” with a model score of 92.1%**. For me, this deployment marks the first time my research in edge computing and intelligence has moved from papers and laboratory experiments into real-world earthquake monitoring. The experimental AI result is saved alongside the waveform for review; **it never decides whether the data are kept**.
+
 <details markdown="1">
 <summary>For researchers: processing notes and original data</summary>
 
