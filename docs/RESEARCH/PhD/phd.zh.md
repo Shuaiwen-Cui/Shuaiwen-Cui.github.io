@@ -335,9 +335,9 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
   <figcaption>楼梯双测点模态动画 · 候选振型</figcaption>
 </figure>
 
-<p markdown="span" style="text-align:center;">
-  [:fontawesome-brands-weixin: 震后建筑监测与无人机巡检（微信公众号）](https://mp.weixin.qq.com/s/XOJi_UTy37Iyz1eL0dx9wg?scene=1&click_id=44321977){ .md-button }
-  [:material-newspaper-variant-outline: NTU CEE 官方报道 · 2026-11-15（英文）](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
+<p class="deployment-reports" markdown="span">
+  [微信公众号报道](https://mp.weixin.qq.com/s/XOJi_UTy37Iyz1eL0dx9wg?scene=1&click_id=44321977){ .md-button }
+  [NTU 英文报道](https://www.ntu.edu.sg/cee/news/ntu-cee-researchers-conduct-field-deployment-in-flores--indonesia){ .md-button }
 </p>
 
 #### __实地采集：与官方地震记录相互印证__

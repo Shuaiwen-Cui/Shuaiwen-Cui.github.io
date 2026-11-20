@@ -33,6 +33,18 @@
   }
 }
 
+.md-typeset .deployment-reports {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 8rem));
+  justify-content: center;
+  gap: .6rem;
+}
+
+.md-typeset .deployment-reports .md-button {
+  padding-inline: .3rem;
+  text-align: center;
+}
+
 /* Field example: an official source beside the measured evidence. */
 .md-typeset .field-evidence {
   display: grid;
