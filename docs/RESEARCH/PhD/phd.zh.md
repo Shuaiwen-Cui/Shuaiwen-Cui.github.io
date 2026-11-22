@@ -68,23 +68,35 @@
 
 ![AIoTNode-Extension](Extension-Board.png){width=100%} -->
 
-节点设计
+<div class="media-row" markdown>
 
-![Node-Design](Node-Overview.png){width=100%}
+<figure markdown="span" style="--ar:1.903">
+  [![LiftNode 外壳设计渲染图](Node-Overview.png){ loading=lazy width=4348 height=2285 }](Node-Overview.png)
+  <figcaption>节点设计</figcaption>
+</figure>
 
-![WSN](WSN.jpg){width=100%}
+<figure markdown="span" style="--ar:1.333">
+  [![组装完成的多台 LiftNode 节点](WSN.jpg){ loading=lazy width=5712 height=4284 }](WSN.jpg)
+  <figcaption>组装完成的节点</figcaption>
+</figure>
 
-PCB 设计
+</div>
 
-![PCB](PCB.jpg){width=100%} 
+<figure markdown="span">
+  [![LiftNode 主控板与传感器扩展板](PCB.jpg){ loading=lazy width=3914 height=1789 }](PCB.jpg)
+  <figcaption>PCB 设计 · 主控板（左）与传感器扩展板（右）</figcaption>
+</figure>
 
-传感器流式采样Demo
-
-<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1Vm7Y6wEH2&autoplay=0" frameborder="0" allowfullscreen></iframe>
-
-传感器同步Demo
-
-<iframe width="800" height="450" src="//player.bilibili.com/player.html?bvid=BV1q75i6qE8r&autoplay=0" frameborder="0" allowfullscreen></iframe>
+<div class="media-row">
+<figure style="--ar:1">
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1Vm7Y6wEH2&autoplay=0" title="传感器流式采样 Demo" loading="lazy" allowfullscreen></iframe>
+  <figcaption>传感器流式采样 Demo</figcaption>
+</figure>
+<figure style="--ar:1">
+  <iframe src="//player.bilibili.com/player.html?bvid=BV1q75i6qE8r&autoplay=0" title="传感器同步 Demo" loading="lazy" allowfullscreen></iframe>
+  <figcaption>传感器同步 Demo</figcaption>
+</figure>
+</div>
 
 ### __1.2 云平台__
 

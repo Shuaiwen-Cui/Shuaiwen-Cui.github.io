@@ -66,23 +66,35 @@ Extension Board
 
 ![AIoTNode-Extension](Extension-Board.png){width=100%} -->
 
-Node Design
+<div class="media-row" markdown>
 
-![Node-Design](Node-Overview.png){width=100%}
+<figure markdown="span" style="--ar:1.903">
+  [![LiftNode enclosure design render](Node-Overview.png){ loading=lazy width=4348 height=2285 }](Node-Overview.png)
+  <figcaption>Node design</figcaption>
+</figure>
 
-![WSN](WSN.jpg){width=100%}
+<figure markdown="span" style="--ar:1.333">
+  [![A group of assembled LiftNode nodes](WSN.jpg){ loading=lazy width=5712 height=4284 }](WSN.jpg)
+  <figcaption>Assembled nodes</figcaption>
+</figure>
 
-PCB Design
+</div>
 
-![PCB](PCB.jpg){width=100%}
+<figure markdown="span">
+  [![LiftNode main board and sensor extension board](PCB.jpg){ loading=lazy width=3914 height=1789 }](PCB.jpg)
+  <figcaption>PCB design · main board (left) and sensor extension board (right)</figcaption>
+</figure>
 
-Sensor Streaming Demo
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" frameborder="0" allowfullscreen></iframe>
-
-Sensor Synchronization Demo
-
-<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/IdZ6cGDO1go" frameborder="0" allowfullscreen></iframe>
+<div class="media-row">
+<figure style="--ar:1">
+  <iframe src="https://www.youtube-nocookie.com/embed/f1rnn7kyeOM" title="Sensor Streaming Demo" loading="lazy" allowfullscreen></iframe>
+  <figcaption>Sensor streaming demo</figcaption>
+</figure>
+<figure style="--ar:1">
+  <iframe src="https://www.youtube-nocookie.com/embed/IdZ6cGDO1go" title="Sensor Synchronization Demo" loading="lazy" allowfullscreen></iframe>
+  <figcaption>Sensor synchronization demo</figcaption>
+</figure>
+</div>
 
 ### __1.2 Cloud Platform__
 

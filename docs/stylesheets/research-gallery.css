@@ -45,6 +45,45 @@
   text-align: center;
 }
 
+/* Two media side by side at equal height: set --ar (width / height) on each figure. */
+.md-typeset .media-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 1rem 0 1.25rem;
+}
+.md-typeset .media-row > figure {
+  flex: var(--ar, 1) 1 0;
+  min-width: 0;
+  width: auto;
+  margin: 0;
+  align-items: stretch;
+}
+.md-typeset .media-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .2rem;
+}
+.md-typeset .media-row iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: .2rem;
+}
+.md-typeset .media-row figcaption {
+  max-width: none;
+  margin: .5rem 0 0;
+  font-size: .7rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .md-typeset .media-row { flex-direction: column; }
+  .md-typeset .media-row > figure { flex: none; width: 100%; }
+}
+
 /* Field example: an official source beside the measured evidence. */
 .md-typeset .field-evidence {
   display: grid;
