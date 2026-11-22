@@ -54,6 +54,10 @@
 
 </div>
 
+<div class="liftnode-hero"><video autoplay loop muted playsinline preload="metadata" aria-label="LiftNode 机械装配爆炸动画" poster="../../../../RESEARCH/PhD/LIFTNODE-EXPLODED-zh.jpg" style="display:block;width:100%;aspect-ratio:16/9;border-radius:12px;background:#0b0e14;box-shadow:0 12px 32px rgba(0,0,0,.25)"><source src="../../../../RESEARCH/PhD/LIFTNODE-EXPLODED-zh.mp4" type="video/mp4"></video></div>
+
+*LiftNode 机械装配爆炸动画：盖板升起 → 四面侧壁展开 → 主控板、传感器扩展板、BMS 与电池组逐层分离 · <a href="http://www.cuishuaiwen.com:8100/HARDWARE-ESP/MECHANICAL/mechanical/" target="_blank">可交互 3D 模型</a>*
+
 <!-- <iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/O2b3-Bjhhws" frameborder="0" allowfullscreen></iframe> -->
 
 <!-- 主控板
