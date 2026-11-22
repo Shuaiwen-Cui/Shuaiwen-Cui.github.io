@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mkdocs",
+      "runtimeExecutable": "mkdocs",
+      "runtimeArgs": ["serve", "--dev-addr", "127.0.0.1:8791"],
+      "port": 8791,
+      "autoPort": false
+    }
+  ]
+}
