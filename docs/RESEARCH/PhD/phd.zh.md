@@ -289,7 +289,19 @@ TinySHM 是运行在 MCU 上的中间件，位于板级驱动和 SHM 应用之�
 
 设计并开发了一个基于 Arduino UNO R4 WIFI 的简单无线智能传感器网络节点，成功应用于香港理工大学举办的 APESS2025 暑期学校的结构健康监测教学中。
 
-![](apess2025.jpg)
+<div class="media-row" markdown>
+
+<figure markdown="span" style="--ar:1.334">
+  [![APESS2025 暑期学校](apess2025.jpg){ loading=lazy width=1706 height=1279 }](apess2025.jpg)
+  <figcaption>APESS2025 暑期学校</figcaption>
+</figure>
+
+<figure markdown="span" style="--ar:0.438">
+  [![多层框架模型各层安装的 ArduinoNode](arduinonode-frame-model.webp){ loading=lazy width=411 height=938 }](arduinonode-frame-model.webp)
+  <figcaption>框架模型测试</figcaption>
+</figure>
+
+</div>
 
 <div class="grid cards" markdown>
 

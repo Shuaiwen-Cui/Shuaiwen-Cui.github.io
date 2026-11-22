@@ -281,7 +281,19 @@ State trajectories on three validation systems (visualization only)
 
 A simple WSN node developed for SHM teaching, based on Arduino UNO R4 WIFI, successfully used in the APESS2025 Summer School held at The Hong Kong Polytechnic University.
 
-![](apess2025.jpg)
+<div class="media-row" markdown>
+
+<figure markdown="span" style="--ar:1.334">
+  [![APESS2025 Summer School](apess2025.jpg){ loading=lazy width=1706 height=1279 }](apess2025.jpg)
+  <figcaption>APESS2025 Summer School</figcaption>
+</figure>
+
+<figure markdown="span" style="--ar:0.438">
+  [![ArduinoNodes mounted on each floor of a multi-storey frame model](arduinonode-frame-model.webp){ loading=lazy width=411 height=938 }](arduinonode-frame-model.webp)
+  <figcaption>Frame model test</figcaption>
+</figure>
+
+</div>
 
 <div class="grid cards" markdown>
 
