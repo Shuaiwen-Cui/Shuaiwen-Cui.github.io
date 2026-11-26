@@ -80,6 +80,7 @@ comments: false
 
 **面向高效边缘计算与智能的软硬件基础设施和算法研究与开发（以结构健康监测为应用）**
 
+![面向结构健康监测的边缘智能平台架构](./static/images/PLATFORM-ARCH.png){: loading="lazy"}
 
 (1) AIoT 系统前端硬件与软件开发：
 
@@ -90,6 +91,8 @@ comments: false
 - 嵌入式软件驱动开发
 
 - 实时操作系统FreeRTOS应用开发
+
+![用于结构健康监测的 LiftNode 无线传感器节点](./static/images/liftnode-banner.png){: loading="lazy"}
 
 <div class="grid cards" markdown>
 
@@ -175,9 +178,11 @@ comments: false
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
+- Zhang, Q., Yu, X., **Cui, S.**, & Fu, Y. (2027). Cognitive emulation for cross-domain anomaly diagnosis: A collaborative multi-LLM framework with few-shot generalization. Advanced Engineering Informatics, 77, 105407. [https://doi.org/10.1016/j.aei.2026.105407](https://doi.org/10.1016/j.aei.2026.105407){:target="_blank"}
+
 - Yu, X., Fu, Y., Yu, X., & **Cui, S.** (2026). Deep Learning-Enabled Data Synchronization for Non-Integer Time Lags in Wireless Structural Health Monitoring. IEEE Internet of Things Journal, 1–1. [https://doi.org/10.1109/JIOT.2026.3664904](https://doi.org/10.1109/JIOT.2026.3664904){:target="_blank"}
 
-- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2025). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring. 2025;0(0). [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
+- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2026). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring, 25(6), 3862–3881. [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
 
 - Yu, X., **Cui, S.**, Fu, Y.*, & Zhang, Q. (2026). Decentralized system-centric sensor fault diagnosis and recovery using edge computing for wireless structural health monitoring systems. Measurement, Volume 261, 2026, 119994. [https://doi.org/10.1016/j.measurement.2025.119994](https://doi.org/10.1016/j.measurement.2025.119994){:target="_blank"}
 
@@ -187,7 +192,7 @@ comments: false
 
 **其他**
 
-- Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Underground Space. (Under Review)
+- Xu, J., **Cui, S.\***, Cai, W., Zhang, J., Zhu, M., & Cai, E. (2026). Stratigraphic Modelling and Probabilistic Parameter Estimation from Sparse Borehole Data via Bayesian Inference and LightGBM. Georisk. (Under Review)
 
 - **Cui, S.**, Tan, Y.*, & Lu, Y. (2020). Algorithm for generation of 3D polyhedrons for simulation of rock particles by DEM and its application to tunneling in boulder-soil matrix. Tunnelling and Underground Space Technology, 106, 103588. [https://doi.org/10.1016/j.tust.2020.103588](https://doi.org/10.1016/j.tust.2020.103588){:target="_blank"}
 

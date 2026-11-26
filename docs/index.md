@@ -83,6 +83,8 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 **Infrastructure and Algorithms Research and Development for Efficient Computation & Intelligence at the Edge (Structural Health Monitoring as the application)**
 
+![Architecture of the edge intelligence platform for structural health monitoring](./static/images/PLATFORM-ARCH.png){: loading="lazy"}
+
 (1) AIoT System Frontend Hardware & Software Development
 
 - Embedded System Architecture Design
@@ -92,6 +94,8 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 - Embedded Software Driver Development
 
 - Real-Time Operating System FreeRTOS Application Development
+
+![LiftNode wireless sensor node for structural health monitoring](./static/images/liftnode-banner.png){: loading="lazy"}
 
 <div class="grid cards" markdown>
 
@@ -174,9 +178,11 @@ Embedded System Hardware and Software Development ｜ Edge Computing and Intelli
 
 - **Cui, S.**, Hoang, T., Mechitov, K., Fu, Y.*, & Spencer Jr, B. F. (2025). Adaptive edge intelligence for rapid structural condition assessment using a wireless smart sensor network. Engineering Structures, 326, 119520. [https://doi.org/10.1016/j.engstruct.2024.119520](https://doi.org/10.1016/j.engstruct.2024.119520){:target="_blank"}
 
+- Zhang, Q., Yu, X., **Cui, S.**, & Fu, Y. (2027). Cognitive emulation for cross-domain anomaly diagnosis: A collaborative multi-LLM framework with few-shot generalization. Advanced Engineering Informatics, 77, 105407. [https://doi.org/10.1016/j.aei.2026.105407](https://doi.org/10.1016/j.aei.2026.105407){:target="_blank"}
+
 - Yu, X., Fu, Y., Yu, X., & **Cui, S.** (2026). Deep Learning-Enabled Data Synchronization for Non-Integer Time Lags in Wireless Structural Health Monitoring. IEEE Internet of Things Journal, 1–1. [https://doi.org/10.1109/JIOT.2026.3664904](https://doi.org/10.1109/JIOT.2026.3664904){:target="_blank"}
 
-- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2025). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring. 2025;0(0). [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
+- Yu, X., Zhao, Y., **Cui, S.**, He, X., Fu, Y., & Yang, Q. (2026). Efficient edge intelligence for onboard data anomaly classification in wireless structural health monitoring using knowledge distillation on low-cost IoT nodes. Structural Health Monitoring, 25(6), 3862–3881. [https://doi.org/10.1177/14759217251349533](https://doi.org/10.1177/14759217251349533){:target="_blank"}
 
 - Yu, X., **Cui, S.**, Fu, Y.*, & Zhang, Q. (2026). Decentralized system-centric sensor fault diagnosis and recovery using edge computing for wireless structural health monitoring systems. Measurement, Volume 261, 2026, 119994. [https://doi.org/10.1016/j.measurement.2025.119994](https://doi.org/10.1016/j.measurement.2025.119994){:target="_blank"}
 
